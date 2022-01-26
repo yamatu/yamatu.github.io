@@ -1,29 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>GCP修改账号密码</title>
-    <url>/2022/01/26/gcp/</url>
-    <content><![CDATA[<ol>
-<li><p>使用命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
-<p>编辑配置文件，按一下i即可进入编辑模式</p>
-</li>
-<li><p>找到PermitRootLogin并修改参数值为yes,如果前面有#删除掉</p>
-</li>
-<li><p>找到PasswordAuthentication同样是修改参数值为yes,如果前面有#也删除掉</p>
-</li>
-<li><p>接着按Esc键，再输入:wq后回车保存退出</p>
-</li>
-<li><p>重启SSH服务<br>使用</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
-<p>或者</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
-<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
-</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
     <title>静态hexoblog搭建教程</title>
     <url>/2022/01/26/blogdajian/</url>
     <content><![CDATA[<h2 id="需要工具"><a href="#需要工具" class="headerlink" title="需要工具"></a>需要工具</h2><ol>
@@ -58,6 +35,29 @@
 【注意区分】你博客根目录的 _config.yml 文件，和主题根目录的 _config.yml 文件！<h1 id="HEXO常用代码"><a href="#HEXO常用代码" class="headerlink" title="HEXO常用代码"></a>HEXO常用代码</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure></li>
 </ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>GCP修改账号密码</title>
+    <url>/2022/01/26/gcp/</url>
+    <content><![CDATA[<ol>
+<li><p>使用命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+<p>编辑配置文件，按一下i即可进入编辑模式</p>
+</li>
+<li><p>找到PermitRootLogin并修改参数值为yes,如果前面有#删除掉</p>
+</li>
+<li><p>找到PasswordAuthentication同样是修改参数值为yes,如果前面有#也删除掉</p>
+</li>
+<li><p>接着按Esc键，再输入:wq后回车保存退出</p>
+</li>
+<li><p>重启SSH服务<br>使用</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
+<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
+</li>
+</ol>
 ]]></content>
   </entry>
 </search>
