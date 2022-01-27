@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>GCP修改账号密码</title>
+    <url>/2022/01/26/gcp/</url>
+    <content><![CDATA[<ol>
+<li><p>使用命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+<p>编辑配置文件，按一下i即可进入编辑模式</p>
+</li>
+<li><p>找到PermitRootLogin并修改参数值为yes,如果前面有#删除掉</p>
+</li>
+<li><p>找到PasswordAuthentication同样是修改参数值为yes,如果前面有#也删除掉</p>
+</li>
+<li><p>接着按Esc键，再输入:wq后回车保存退出</p>
+</li>
+<li><p>重启SSH服务<br>使用</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
+<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
+</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
     <title>静态hexoblog搭建教程</title>
     <url>/2022/01/26/blogdajian/</url>
     <content><![CDATA[<h2 id="需要工具"><a href="#需要工具" class="headerlink" title="需要工具"></a>需要工具</h2><ol>
@@ -49,29 +72,6 @@
 <li>在创建对应仓库的<code>Create room</code><br><img src="https://s2.loli.net/2022/01/26/9uvdhRtboxaGpFP.png" alt="abfht.png"></li>
 <li>修改<code>主题配置文件</code><br><img src="https://s2.loli.net/2022/01/26/midyk3GAousK5gx.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
 <h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://s2.loli.net/2022/01/26/GmZnc1623zLbONf.png" alt="jjjjr.png"><br><img src="https://s2.loli.net/2022/01/26/GbtQzj4Rmehq8wI.png" alt="ffe123.png"></li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>GCP修改账号密码</title>
-    <url>/2022/01/26/gcp/</url>
-    <content><![CDATA[<ol>
-<li><p>使用命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
-<p>编辑配置文件，按一下i即可进入编辑模式</p>
-</li>
-<li><p>找到PermitRootLogin并修改参数值为yes,如果前面有#删除掉</p>
-</li>
-<li><p>找到PasswordAuthentication同样是修改参数值为yes,如果前面有#也删除掉</p>
-</li>
-<li><p>接着按Esc键，再输入:wq后回车保存退出</p>
-</li>
-<li><p>重启SSH服务<br>使用</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
-<p>或者</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
-<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
-</li>
 </ol>
 ]]></content>
   </entry>
