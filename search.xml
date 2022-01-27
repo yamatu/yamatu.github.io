@@ -1,48 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>GCP修改账号密码</title>
-    <url>/2022/01/26/gcp/</url>
-    <content><![CDATA[<ol>
-<li><p>使用命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
-<p>编辑配置文件，按一下<code>i</code>即可进入编辑模式</p>
-</li>
-<li><p>找到<code>PermitRootLogin</code>并修改参数值为<code>yes</code>,如果前面有<code>#</code>删除掉</p>
-</li>
-<li><p>找到<code>PasswordAuthentication</code>同样是修改参数值为<code>yes</code>,如果前面有<code>#</code>也删除掉</p>
-</li>
-<li><p>接着按<code>Esc</code>键，再输入<code>:wq</code>后回车保存退出</p>
-</li>
-<li><p>重启SSH服务<br>使用</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
-<p>或者</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
-<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>GCP</category>
-      </categories>
-      <tags>
-        <tag>GCP</tag>
-        <tag>密码</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>这是开头测试</title>
-    <url>/2022/01/27/af/</url>
-    <content><![CDATA[<p>这里是语法结构</p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>我的世界服务器</title>
     <url>/2022/01/27/mcvps/</url>
     <content><![CDATA[<h1 id="我的世界服务器"><a href="#我的世界服务器" class="headerlink" title="我的世界服务器"></a>我的世界服务器</h1><blockquote>
@@ -108,6 +66,28 @@
       </tags>
   </entry>
   <entry>
+    <title>butterfly-giter聊天室</title>
+    <url>/2022/01/26/pinglun/</url>
+    <content><![CDATA[<h2 id="Gitter-注册"><a href="#Gitter-注册" class="headerlink" title="Gitter 注册"></a>Gitter 注册</h2><p>先去 Gitter 注册一个账号，可以直接使用 GitHub 登录</p>
+<p><a href="https://gitter.im/" title="点这个">https://gitter.im/</a></p>
+<p>然后先创建一个 <code>Community</code> 社区，再创建一个 Room 聊天室（创建聊天室时 community 选择刚创建的即可）</p>
+<p>比如我创建了一个<code>community</code>叫<code>ednovas</code>, 然后创建了一个叫 ChatRoom 的聊天室。这个要记住，下一步用到。<br><img src="https://s2.loli.net/2022/01/26/7CiazbUjGSrpsRA.png" alt="sadf.png"></p>
+<ol>
+<li>然后创建相应的<code>Create community</code><br><img src="https://s2.loli.net/2022/01/26/jMmWi9aCdclNuTG.png" alt="bffgr.png"></li>
+<li>在创建对应仓库的<code>Create room</code><br><img src="https://s2.loli.net/2022/01/26/9uvdhRtboxaGpFP.png" alt="abfht.png"></li>
+<li>修改<code>主题配置文件</code><br><img src="https://s2.loli.net/2022/01/26/midyk3GAousK5gx.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
+<h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://s2.loli.net/2022/01/26/GmZnc1623zLbONf.png" alt="jjjjr.png"><br><img src="https://s2.loli.net/2022/01/26/GbtQzj4Rmehq8wI.png" alt="ffe123.png"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>评论</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo常用语法</title>
     <url>/2022/01/27/yufa/</url>
     <content><![CDATA[<h1 id="一、Markdown基础语法"><a href="#一、Markdown基础语法" class="headerlink" title="一、Markdown基础语法"></a>一、Markdown基础语法</h1><h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
@@ -130,25 +110,33 @@
       </tags>
   </entry>
   <entry>
-    <title>butterfly-giter聊天室</title>
-    <url>/2022/01/26/pinglun/</url>
-    <content><![CDATA[<h2 id="Gitter-注册"><a href="#Gitter-注册" class="headerlink" title="Gitter 注册"></a>Gitter 注册</h2><p>先去 Gitter 注册一个账号，可以直接使用 GitHub 登录</p>
-<p><a href="https://gitter.im/" title="点这个">https://gitter.im/</a></p>
-<p>然后先创建一个 <code>Community</code> 社区，再创建一个 Room 聊天室（创建聊天室时 community 选择刚创建的即可）</p>
-<p>比如我创建了一个<code>community</code>叫<code>ednovas</code>, 然后创建了一个叫 ChatRoom 的聊天室。这个要记住，下一步用到。<br><img src="https://s2.loli.net/2022/01/26/7CiazbUjGSrpsRA.png" alt="sadf.png"></p>
-<ol>
-<li>然后创建相应的<code>Create community</code><br><img src="https://s2.loli.net/2022/01/26/jMmWi9aCdclNuTG.png" alt="bffgr.png"></li>
-<li>在创建对应仓库的<code>Create room</code><br><img src="https://s2.loli.net/2022/01/26/9uvdhRtboxaGpFP.png" alt="abfht.png"></li>
-<li>修改<code>主题配置文件</code><br><img src="https://s2.loli.net/2022/01/26/midyk3GAousK5gx.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
-<h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://s2.loli.net/2022/01/26/GmZnc1623zLbONf.png" alt="jjjjr.png"><br><img src="https://s2.loli.net/2022/01/26/GbtQzj4Rmehq8wI.png" alt="ffe123.png"></li>
+    <title>GCP修改账号密码</title>
+    <url>/2022/01/26/gcp/</url>
+    <content><![CDATA[<ol>
+<li><p>使用命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+<p>编辑配置文件，按一下<code>i</code>即可进入编辑模式</p>
+</li>
+<li><p>找到<code>PermitRootLogin</code>并修改参数值为<code>yes</code>,如果前面有<code>#</code>删除掉</p>
+</li>
+<li><p>找到<code>PasswordAuthentication</code>同样是修改参数值为<code>yes</code>,如果前面有<code>#</code>也删除掉</p>
+</li>
+<li><p>接着按<code>Esc</code>键，再输入<code>:wq</code>后回车保存退出</p>
+</li>
+<li><p>重启SSH服务<br>使用</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
+<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
+</li>
 </ol>
 ]]></content>
       <categories>
-        <category>hexo</category>
+        <category>GCP</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
-        <tag>评论</tag>
+        <tag>GCP</tag>
+        <tag>密码</tag>
       </tags>
   </entry>
 </search>
