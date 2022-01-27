@@ -1,51 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>静态hexoblog搭建教程</title>
-    <url>/2022/01/26/blogdajian/</url>
-    <content><![CDATA[<h2 id="需要工具"><a href="#需要工具" class="headerlink" title="需要工具"></a>需要工具</h2><ol>
-<li><a href="http://nodejs.cn/download/" title="node.js原站">Node.js</a>,这是原站的</li>
-<li><a href="https://npm.taobao.org/mirrors/node/" title="node.js阿里云镜像站">Node.js</a>,镜像站</li>
-<li><a href="https://code.visualstudio.com/Download/" title="编译">visualsudio</a>,编译软件<h2 id="要用到的框架或平台："><a href="#要用到的框架或平台：" class="headerlink" title="要用到的框架或平台："></a>要用到的框架或平台：</h2></li>
-<li><a href="https://hexo.io/zh-cn/" title="hexo">hexo</a>,hexo框架</li>
-<li><a href="https://gitee.com/" title="gitee">gitee</a>,gitee部署<h1 id="安装说明"><a href="#安装说明" class="headerlink" title="安装说明"></a>安装说明</h1>node.js和Typora就不说了，这个灰常简单。</li>
-</ol>
-<p>至于Git，它安装的时候选项挺多的，而且还都是洋文，看不懂的话就全部选 next 就行了。你要是非得搞明白它每个选项的意思，emmmm那建议你们自己去搜吧，网上一搜一大把。我反正是不知道每项的意思，我也不想知道~~~/手动狗头。</p>
-<p>VsCode安装好之后默认是英文界面，可以在插件市场里搜索chinese，然后安装之后重启软件，就是中文版了。<br><img src="https://s2.loli.net/2022/01/26/8zwQnUuBY4j1MZd.png" alt="fff.png"></p>
-<h2 id="检验是否成功安装"><a href="#检验是否成功安装" class="headerlink" title="检验是否成功安装"></a>检验是否成功安装</h2><ul>
-<li>node.js 的检查<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure></li>
-<li>npm的检查<br>NPM是随同NodeJS一起安装的包管理工具，能解决NodeJS代码部署上的很多问题<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure></li>
-<li>Git 的检查<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
-以上有显示版本号，则说明安装成功<h1 id="HEXO的安装"><a href="#HEXO的安装" class="headerlink" title="HEXO的安装"></a>HEXO的安装</h1></li>
-</ul>
-<ol>
-<li>安装之前可以先设置一下淘宝镜像加速器<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></li>
-<li>全局安装框架<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure></li>
-<li>1创建你的博客目录<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init 你博客的文件夹名字</span><br></pre></td></tr></table></figure></li>
-<li>2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd 你博客的文件夹名字</span><br></pre></td></tr></table></figure></li>
-<li>复制文件到你博客的目录<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure></li>
-<li>安装Hexo部署插件<br>请在你博客的目录下启动cmd，再执行以下代码<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<h1 id="GIT的配置"><a href="#GIT的配置" class="headerlink" title="GIT的配置"></a>GIT的配置</h1>用 Win + R 打开运行，输入 cmd 并进入cmd</li>
-</ol>
-<ul>
-<li>设置用户名称<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;用户名&quot;</span><br></pre></td></tr></table></figure></li>
-<li>设置用户邮箱<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.email &quot;用户邮箱&quot;</span><br></pre></td></tr></table></figure></li>
-<li>生成密钥<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;用户邮箱&quot;</span><br></pre></td></tr></table></figure>
-以上代码执行之后，会让你设置密码，推荐全都不要设置，直接连按三次回车键。<h1 id="博客-CONFIG-YML-文件的配置"><a href="#博客-CONFIG-YML-文件的配置" class="headerlink" title="博客 _CONFIG.YML 文件的配置"></a>博客 _CONFIG.YML 文件的配置</h1>打开你博客根目录的 _config.yml 文件，将一下信息添加到里面去。<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://gitee.com/hcllmsx/hcllmsx.git    #替换成你自己仓库的HTTP URL地址</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-【注意区分】你博客根目录的 _config.yml 文件，和主题根目录的 _config.yml 文件！<h1 id="HEXO常用代码"><a href="#HEXO常用代码" class="headerlink" title="HEXO常用代码"></a>HEXO常用代码</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>hexo搭建</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>butterfly</tag>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>GCP修改账号密码</title>
     <url>/2022/01/26/gcp/</url>
     <content><![CDATA[<ol>
@@ -93,30 +48,8 @@
         <category>hexo</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
         <tag>评论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的世界服务器</title>
-    <url>/2022/01/27/mcvps/</url>
-    <content><![CDATA[<h1 id="我的世界服务器"><a href="#我的世界服务器" class="headerlink" title="我的世界服务器"></a>我的世界服务器</h1><blockquote>
-<p>寒假专用服务器</p>
-<blockquote>
-<p>本服务器并不会常开<br><img src="https://s2.loli.net/2022/01/27/igXHA4Sh3vejc59.png" alt="fa.png"></p>
-<blockquote>
-<p>希望大家可以来玩</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h2 id="以下是服务器地址"><a href="#以下是服务器地址" class="headerlink" title="以下是服务器地址"></a>以下是服务器地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>MC服务器</category>
-        <category>vps</category>
-      </categories>
-      <tags>
-        <tag>vps</tag>
-        <tag>服务器</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -139,6 +72,71 @@
       </categories>
       <tags>
         <tag>hexo语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的世界服务器</title>
+    <url>/2022/01/27/mcvps/</url>
+    <content><![CDATA[<h1 id="我的世界服务器"><a href="#我的世界服务器" class="headerlink" title="我的世界服务器"></a>我的世界服务器</h1><blockquote>
+<p>寒假专用服务器</p>
+<blockquote>
+<p>本服务器并不会常开<br><img src="https://s2.loli.net/2022/01/27/igXHA4Sh3vejc59.png" alt="fa.png"></p>
+<blockquote>
+<p>希望大家可以来玩</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="以下是服务器地址"><a href="#以下是服务器地址" class="headerlink" title="以下是服务器地址"></a>以下是服务器地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>mc服</category>
+      </categories>
+      <tags>
+        <tag>生存服</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>静态hexoblog搭建教程</title>
+    <url>/2022/01/26/blogdajian/</url>
+    <content><![CDATA[<h2 id="需要工具"><a href="#需要工具" class="headerlink" title="需要工具"></a>需要工具</h2><ol>
+<li><a href="http://nodejs.cn/download/" title="node.js原站">Node.js</a>,这是原站的</li>
+<li><a href="https://npm.taobao.org/mirrors/node/" title="node.js阿里云镜像站">Node.js</a>,镜像站</li>
+<li><a href="https://code.visualstudio.com/Download/" title="编译">visualsudio</a>,编译软件<h2 id="要用到的框架或平台："><a href="#要用到的框架或平台：" class="headerlink" title="要用到的框架或平台："></a>要用到的框架或平台：</h2></li>
+<li><a href="https://hexo.io/zh-cn/" title="hexo">hexo</a>,hexo框架</li>
+<li><a href="https://gitee.com/" title="gitee">gitee</a>,gitee部署<h1 id="安装说明"><a href="#安装说明" class="headerlink" title="安装说明"></a>安装说明</h1>node.js和Typora就不说了，这个灰常简单。</li>
+</ol>
+<p>至于Git，它安装的时候选项挺多的，而且还都是洋文，看不懂的话就全部选 next 就行了。你要是非得搞明白它每个选项的意思，emmmm那建议你们自己去搜吧，网上一搜一大把。我反正是不知道每项的意思，我也不想知道~~~/手动狗头。</p>
+<p>VsCode安装好之后默认是英文界面，可以在插件市场里搜索chinese，然后安装之后重启软件，就是中文版了。<br><img src="https://s2.loli.net/2022/01/26/8zwQnUuBY4j1MZd.png" alt="fff.png"></p>
+<h2 id="检验是否成功安装"><a href="#检验是否成功安装" class="headerlink" title="检验是否成功安装"></a>检验是否成功安装</h2><ul>
+<li>node.js 的检查<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure></li>
+<li>npm的检查<br>NPM是随同NodeJS一起安装的包管理工具，能解决NodeJS代码部署上的很多问题<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure></li>
+<li>Git 的检查<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
+以上有显示版本号，则说明安装成功<h1 id="HEXO的安装"><a href="#HEXO的安装" class="headerlink" title="HEXO的安装"></a>HEXO的安装</h1></li>
+</ul>
+<ol>
+<li>安装之前可以先设置一下淘宝镜像加速器<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></li>
+<li>全局安装框架<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure></li>
+<li>1创建你的博客目录<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init 你博客的文件夹名字</span><br></pre></td></tr></table></figure></li>
+<li>2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd 你博客的文件夹名字</span><br></pre></td></tr></table></figure></li>
+<li>复制文件到你博客的目录<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure></li>
+<li>安装Hexo部署插件<br>请在你博客的目录下启动cmd，再执行以下代码<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h1 id="GIT的配置"><a href="#GIT的配置" class="headerlink" title="GIT的配置"></a>GIT的配置</h1>用 Win + R 打开运行，输入 cmd 并进入cmd</li>
+</ol>
+<ul>
+<li>设置用户名称<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;用户名&quot;</span><br></pre></td></tr></table></figure></li>
+<li>设置用户邮箱<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.email &quot;用户邮箱&quot;</span><br></pre></td></tr></table></figure></li>
+<li>生成密钥<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;用户邮箱&quot;</span><br></pre></td></tr></table></figure>
+以上代码执行之后，会让你设置密码，推荐全都不要设置，直接连按三次回车键。<h1 id="博客-CONFIG-YML-文件的配置"><a href="#博客-CONFIG-YML-文件的配置" class="headerlink" title="博客 _CONFIG.YML 文件的配置"></a>博客 _CONFIG.YML 文件的配置</h1>打开你博客根目录的 _config.yml 文件，将一下信息添加到里面去。<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://gitee.com/hcllmsx/hcllmsx.git    #替换成你自己仓库的HTTP URL地址</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+【注意区分】你博客根目录的 _config.yml 文件，和主题根目录的 _config.yml 文件！<h1 id="HEXO常用代码"><a href="#HEXO常用代码" class="headerlink" title="HEXO常用代码"></a>HEXO常用代码</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>hexo搭建</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>butterfly</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
 </search>
