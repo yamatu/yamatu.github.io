@@ -46,36 +46,6 @@
       </tags>
   </entry>
   <entry>
-    <title>GCP修改账号密码</title>
-    <url>/2022/01/26/gcp/</url>
-    <content><![CDATA[<ol>
-<li><p>使用命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
-<p>编辑配置文件，按一下i即可进入编辑模式</p>
-</li>
-<li><p>找到PermitRootLogin并修改参数值为yes,如果前面有#删除掉</p>
-</li>
-<li><p>找到PasswordAuthentication同样是修改参数值为yes,如果前面有#也删除掉</p>
-</li>
-<li><p>接着按Esc键，再输入:wq后回车保存退出</p>
-</li>
-<li><p>重启SSH服务<br>使用</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
-<p>或者</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
-<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>GCP</category>
-      </categories>
-      <tags>
-        <tag>GCP</tag>
-        <tag>密码</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>butterfly-giter聊天室</title>
     <url>/2022/01/26/pinglun/</url>
     <content><![CDATA[<h2 id="Gitter-注册"><a href="#Gitter-注册" class="headerlink" title="Gitter 注册"></a>Gitter 注册</h2><p>先去 Gitter 注册一个账号，可以直接使用 GitHub 登录</p>
@@ -117,6 +87,36 @@
       </categories>
       <tags>
         <tag>hexo语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GCP修改账号密码</title>
+    <url>/2022/01/26/gcp/</url>
+    <content><![CDATA[<ol>
+<li><p>使用命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+<p>编辑配置文件，按一下i即可进入编辑模式</p>
+</li>
+<li><p>找到PermitRootLogin并修改参数值为yes,如果前面有#删除掉</p>
+</li>
+<li><p>找到PasswordAuthentication同样是修改参数值为yes,如果前面有#也删除掉</p>
+</li>
+<li><p>接着按Esc键，再输入:wq后回车保存退出</p>
+</li>
+<li><p>重启SSH服务<br>使用</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
+<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>GCP</category>
+      </categories>
+      <tags>
+        <tag>GCP</tag>
+        <tag>密码</tag>
       </tags>
   </entry>
 </search>
