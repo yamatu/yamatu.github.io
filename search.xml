@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>GCP修改账号密码</title>
-    <url>/2022/01/26/gcp/</url>
-    <content><![CDATA[<ol>
-<li><p>使用命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
-<p>编辑配置文件，按一下<code>i</code>即可进入编辑模式</p>
-</li>
-<li><p>找到<code>PermitRootLogin</code>并修改参数值为<code>yes</code>,如果前面有<code>#</code>删除掉</p>
-</li>
-<li><p>找到<code>PasswordAuthentication</code>同样是修改参数值为<code>yes</code>,如果前面有<code>#</code>也删除掉</p>
-</li>
-<li><p>接着按<code>Esc</code>键，再输入<code>:wq</code>后回车保存退出</p>
-</li>
-<li><p>重启SSH服务<br>使用</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
-<p>或者</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
-<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>GCP</category>
-      </categories>
-      <tags>
-        <tag>GCP</tag>
-        <tag>密码</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>静态hexoblog搭建教程</title>
     <url>/2022/01/26/blogdajian/</url>
     <content><![CDATA[<h2 id="需要工具"><a href="#需要工具" class="headerlink" title="需要工具"></a>需要工具</h2><ol>
@@ -76,13 +46,63 @@
       </tags>
   </entry>
   <entry>
+    <title>GCP修改账号密码</title>
+    <url>/2022/01/26/gcp/</url>
+    <content><![CDATA[<ol>
+<li><p>使用命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+<p>编辑配置文件，按一下<code>i</code>即可进入编辑模式</p>
+</li>
+<li><p>找到<code>PermitRootLogin</code>并修改参数值为<code>yes</code>,如果前面有<code>#</code>删除掉</p>
+</li>
+<li><p>找到<code>PasswordAuthentication</code>同样是修改参数值为<code>yes</code>,如果前面有<code>#</code>也删除掉</p>
+</li>
+<li><p>接着按<code>Esc</code>键，再输入<code>:wq</code>后回车保存退出</p>
+</li>
+<li><p>重启SSH服务<br>使用</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
+<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>GCP</category>
+      </categories>
+      <tags>
+        <tag>GCP</tag>
+        <tag>密码</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>BattleBit Remastered Playtest</title>
     <url>/2022/01/28/game/</url>
     <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://s2.loli.net/2022/01/28/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://s2.loli.net/2022/01/28/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
 <h2 id="体验心得"><a href="#体验心得" class="headerlink" title="体验心得"></a>体验心得</h2><p>距离开放正式服还有点时间，目前可以开自建房玩。<br>我体验了下来，射击手感很好。(和其他测评玩家一样吊打2042)</p>
 ]]></content>
       <tags>
-        <tag>steam</tag>
+        <tag>-steam</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的世界服务器</title>
+    <url>/2022/01/27/mcvps/</url>
+    <content><![CDATA[<h1 id="我的世界服务器"><a href="#我的世界服务器" class="headerlink" title="我的世界服务器"></a>我的世界服务器</h1><blockquote>
+<p>寒假专用服务器</p>
+<blockquote>
+<p>本服务器并不会常开<br><img src="https://s2.loli.net/2022/01/27/igXHA4Sh3vejc59.png" alt="fa.png"></p>
+<blockquote>
+<p>希望大家可以来玩</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="以下是服务器地址"><a href="#以下是服务器地址" class="headerlink" title="以下是服务器地址"></a>以下是服务器地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>mc服</category>
+      </categories>
+      <tags>
+        <tag>生存服</tag>
       </tags>
   </entry>
   <entry>
@@ -105,26 +125,6 @@
       <tags>
         <tag>hexo</tag>
         <tag>评论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的世界服务器</title>
-    <url>/2022/01/27/mcvps/</url>
-    <content><![CDATA[<h1 id="我的世界服务器"><a href="#我的世界服务器" class="headerlink" title="我的世界服务器"></a>我的世界服务器</h1><blockquote>
-<p>寒假专用服务器</p>
-<blockquote>
-<p>本服务器并不会常开<br><img src="https://s2.loli.net/2022/01/27/igXHA4Sh3vejc59.png" alt="fa.png"></p>
-<blockquote>
-<p>希望大家可以来玩</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h2 id="以下是服务器地址"><a href="#以下是服务器地址" class="headerlink" title="以下是服务器地址"></a>以下是服务器地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>mc服</category>
-      </categories>
-      <tags>
-        <tag>生存服</tag>
       </tags>
   </entry>
   <entry>
