@@ -16,16 +16,6 @@
       </tags>
   </entry>
   <entry>
-    <title>公告</title>
-    <url>/2022/03/14/gonggao/</url>
-    <content><![CDATA[<h1 id="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"><a href="#这里会记录一些日常琐事，放假mc服务器会开启提供游玩。" class="headerlink" title="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"></a>这里会记录一些日常琐事，放假mc服务器会开启提供游玩。</h1><p>服务器配置<br>E3 1230 4h12g 采用ddns动态解析<br>路由器是openwrt系统<br>平时为了节约手机耗电用的是远程连接服务器，包括网盘下载东西也是。<br>总体来说还是很方便的。<br>MC服务器地址</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>
-<h2 id="2022-3-16"><a href="#2022-3-16" class="headerlink" title="2022-3-16"></a>2022-3-16</h2><p>晚上玩死亡细胞，三细胞还是非常难打。靠着我的回档大法，终究还是没有打过。：（<br>目前正在解决国内vps无法对接GitHub的问题。</p>
-<h2 id="2022-3-15"><a href="#2022-3-15" class="headerlink" title="2022-3-15"></a>2022-3-15</h2><p>学校的规章制度更加严格了上课我们后门不能关，甚至还有老师轮流查。<br>目前想法是整个我们班日语网站，奈何网络不是很好，只好在学校打消这个念头。</p>
-<h2 id="2022-3-14"><a href="#2022-3-14" class="headerlink" title="2022-3-14"></a>2022-3-14</h2><p>今天是个新的一个星期，因为本人是住在学校的。所以blog会随缘更新。<br>下次放假时间从14号到清明节那天，时间还是很长的。期间还有考试，要好好复习了。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>静态hexoblog搭建教程</title>
     <url>/2022/01/26/blogdajian/</url>
     <content><![CDATA[<h2 id="需要工具"><a href="#需要工具" class="headerlink" title="需要工具"></a>需要工具</h2><ol>
@@ -81,17 +71,28 @@
       </tags>
   </entry>
   <entry>
-    <title>旅行日志</title>
-    <url>/2022/02/04/lvxing/</url>
-    <content><![CDATA[<div class="fj-gallery"><p><img src="https://s2.loli.net/2022/02/04/42lMtvT93Vk1PDh.png"><br><img src="https://s2.loli.net/2022/02/04/flAimT6dLvjSbPO.png"><br><img src="https://s2.loli.net/2022/02/04/qaYoQOxzlNucKEJ.png"><br><img src="https://s2.loli.net/2022/02/04/of5Yd3K8xQpChS2.png"></p>
-          </div>]]></content>
-      <categories>
-        <category>旅行</category>
-      </categories>
-      <tags>
-        <tag>play</tag>
-        <tag>旅行</tag>
-      </tags>
+    <title>公告</title>
+    <url>/2022/03/14/gonggao/</url>
+    <content><![CDATA[<h1 id="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"><a href="#这里会记录一些日常琐事，放假mc服务器会开启提供游玩。" class="headerlink" title="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"></a>这里会记录一些日常琐事，放假mc服务器会开启提供游玩。</h1><p>服务器配置<br>E3 1230 4h12g 采用ddns动态解析<br>路由器是openwrt系统<br>平时为了节约手机耗电用的是远程连接服务器，包括网盘下载东西也是。<br>总体来说还是很方便的。<br>MC服务器地址</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>
+<h2 id="2022-3-16"><a href="#2022-3-16" class="headerlink" title="2022-3-16"></a>2022-3-16</h2><p>晚上玩死亡细胞，三细胞还是非常难打。靠着我的回档大法，终究还是没有打过。：（<br>目前正在解决国内vps无法对接GitHub的问题。</p>
+<h2 id="2022-3-15"><a href="#2022-3-15" class="headerlink" title="2022-3-15"></a>2022-3-15</h2><p>学校的规章制度更加严格了上课我们后门不能关，甚至还有老师轮流查。<br>目前想法是整个我们班日语网站，奈何网络不是很好，只好在学校打消这个念头。</p>
+<h2 id="2022-3-14"><a href="#2022-3-14" class="headerlink" title="2022-3-14"></a>2022-3-14</h2><p>今天是个新的一个星期，因为本人是住在学校的。所以blog会随缘更新。<br>下次放假时间从14号到清明节那天，时间还是很长的。期间还有考试，要好好复习了。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>hexo blog文件移植到其他电脑</title>
+    <url>/2022/03/16/hexoyizhi/</url>
+    <content><![CDATA[<h1 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先把你的blog文件下载下来存在你觉得不错的网盘上</p>
+<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>然后将网盘文件下载下来<br>放到新的设备上</p>
+<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>在设备上安装</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
+<p>安装hexo框架<br>node.js检查</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
+<p>安装git后</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;用户邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<p>生成密钥<br>ssh文件打开后导出公钥<br>并且上传到gitee的密钥管理上面去。<br>然后就完成了</p>
+]]></content>
   </entry>
   <entry>
     <title>GCP修改账号密码</title>
@@ -124,18 +125,37 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo blog文件移植到其他电脑</title>
-    <url>/2022/03/16/hexoyizhi/</url>
-    <content><![CDATA[<h1 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先把你的blog文件下载下来存在你觉得不错的网盘上</p>
-<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>然后将网盘文件下载下来<br>放到新的设备上</p>
-<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>在设备上安装</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
-<p>安装hexo框架<br>node.js检查</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
-<p>安装git后</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;用户邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-<p>生成密钥<br>ssh文件打开后导出公钥<br>并且上传到gitee的密钥管理上面去。<br>然后就完成了</p>
-]]></content>
+    <title>旅行日志</title>
+    <url>/2022/02/04/lvxing/</url>
+    <content><![CDATA[<div class="fj-gallery"><p><img src="https://s2.loli.net/2022/02/04/42lMtvT93Vk1PDh.png"><br><img src="https://s2.loli.net/2022/02/04/flAimT6dLvjSbPO.png"><br><img src="https://s2.loli.net/2022/02/04/qaYoQOxzlNucKEJ.png"><br><img src="https://s2.loli.net/2022/02/04/of5Yd3K8xQpChS2.png"></p>
+          </div>]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>play</tag>
+        <tag>旅行</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MC1.18.1原版生存服</title>
+    <url>/2022/01/27/mcvps/</url>
+    <content><![CDATA[<h1 id="我的世界服务器"><a href="#我的世界服务器" class="headerlink" title="我的世界服务器"></a>我的世界服务器</h1><blockquote>
+<p>寒假专用服务器</p>
+<blockquote>
+<p>本服务器将连开几个月，之后也会备份的。（没有正版验证，希望大家来玩。）<br><img src="https://s2.loli.net/2022/01/27/igXHA4Sh3vejc59.png" alt="fa.png"></p>
+<blockquote>
+<p>希望大家可以来玩</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="版本1-18-1"><a href="#版本1-18-1" class="headerlink" title="版本1.18.1"></a>版本<code>1.18.1</code></h2><h2 id="以下是服务器地址"><a href="#以下是服务器地址" class="headerlink" title="以下是服务器地址"></a>以下是服务器地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>mc服</category>
+      </categories>
+      <tags>
+        <tag>生存服</tag>
+      </tags>
   </entry>
   <entry>
     <title>butterfly-giter聊天室</title>
@@ -157,26 +177,6 @@
       <tags>
         <tag>hexo</tag>
         <tag>评论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MC1.18.1原版生存服</title>
-    <url>/2022/01/27/mcvps/</url>
-    <content><![CDATA[<h1 id="我的世界服务器"><a href="#我的世界服务器" class="headerlink" title="我的世界服务器"></a>我的世界服务器</h1><blockquote>
-<p>寒假专用服务器</p>
-<blockquote>
-<p>本服务器将连开几个月，之后也会备份的。（没有正版验证，希望大家来玩。）<br><img src="https://s2.loli.net/2022/01/27/igXHA4Sh3vejc59.png" alt="fa.png"></p>
-<blockquote>
-<p>希望大家可以来玩</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h2 id="版本1-18-1"><a href="#版本1-18-1" class="headerlink" title="版本1.18.1"></a>版本<code>1.18.1</code></h2><h2 id="以下是服务器地址"><a href="#以下是服务器地址" class="headerlink" title="以下是服务器地址"></a>以下是服务器地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>mc服</category>
-      </categories>
-      <tags>
-        <tag>生存服</tag>
       </tags>
   </entry>
   <entry>
