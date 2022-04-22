@@ -71,6 +71,34 @@
       </tags>
   </entry>
   <entry>
+    <title>公告</title>
+    <url>/2022/03/14/gonggao/</url>
+    <content><![CDATA[<h1 id="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"><a href="#这里会记录一些日常琐事，放假mc服务器会开启提供游玩。" class="headerlink" title="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"></a>这里会记录一些日常琐事，放假mc服务器会开启提供游玩。</h1><p>服务器配置<br>E3 1230 4h12g 采用ddns动态解析<br>路由器是openwrt系统<br>平时为了节约手机耗电用的是远程连接服务器，包括网盘下载东西也是。<br>总体来说还是很方便的。</p>
+<h2 id="2022-4-22"><a href="#2022-4-22" class="headerlink" title="2022-4-22"></a>2022-4-22</h2><p>今天来更新下blog，没啥说的。照常今天星期五，微机考试考完了，这里非常感谢感谢孙哥。</p>
+<h2 id="2022-4-5"><a href="#2022-4-5" class="headerlink" title="2022-4-5"></a>2022-4-5</h2><p>短暂的假期，就要结束了。<br>马上又要期中了，学校我来了！(这个星期与世隔绝)</p>
+<h2 id="2022-3-25事件1"><a href="#2022-3-25事件1" class="headerlink" title="2022-3-25事件1"></a>2022-3-25事件1</h2><p>今天学校微机课尝试用学校电脑玩云游。但是并没有成功，目前原因尚不知道。</p>
+<h2 id="steam流式传输无法连接猜测原因"><a href="#steam流式传输无法连接猜测原因" class="headerlink" title="steam流式传输无法连接猜测原因"></a>steam流式传输无法连接猜测原因</h2><p>可能学校电脑连接的是一个总服务器的原因。steam连接在湖北区域是要开魔法才能连接的上的，游戏主机在相隔几九千多公里的江苏。开了魔法之后，一直有区域时间相差9s的延迟无法解决。这就涉及到我刚刚说的，学校电脑是连接的一台总服务器又关了。<br>修改配对延迟后，可能有几秒钟的时间会被强制跳回原服务器时间。我就卡这么几秒钟时间登陆上steam。<br>steam流式传输可能就是因为这9s的延迟无法连接的原因。</p>
+<h2 id="2022-3-25事件2"><a href="#2022-3-25事件2" class="headerlink" title="2022-3-25事件2"></a>2022-3-25事件2</h2><p>五细胞通关了，不过是同学代打的。  在自定义模式下通关了隐藏boss喝药家。 </p>
+<h2 id="2022-3-16"><a href="#2022-3-16" class="headerlink" title="2022-3-16"></a>2022-3-16</h2><p>晚上玩死亡细胞，三细胞还是非常难打。靠着我的回档大法，终究还是没有打过。：（<br>目前正在解决国内vps无法对接GitHub的问题。</p>
+<h2 id="2022-3-15"><a href="#2022-3-15" class="headerlink" title="2022-3-15"></a>2022-3-15</h2><p>学校的规章制度更加严格了上课我们后门不能关，甚至还有老师轮流查。<br>目前想法是整个我们班日语网站，奈何网络不是很好，只好在学校打消这个念头。</p>
+<h2 id="2022-3-14"><a href="#2022-3-14" class="headerlink" title="2022-3-14"></a>2022-3-14</h2><p>今天是个新的一个星期，因为本人是住在学校的。所以blog会随缘更新。<br>下次放假时间从14号到清明节那天，时间还是很长的。期间还有考试，要好好复习了。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>hexo blog文件移植到其他电脑</title>
+    <url>/2022/03/16/hexoyizhi/</url>
+    <content><![CDATA[<h1 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先把你的blog文件下载下来存在你觉得不错的网盘上</p>
+<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>然后将网盘文件下载下来<br>放到新的设备上</p>
+<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>在设备上安装</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
+<p>安装hexo框架<br>node.js检查</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
+<p>安装git后</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;用户邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<p>生成密钥<br>ssh文件打开后导出公钥<br>并且上传到gitee的密钥管理上面去。<br>然后就完成了</p>
+]]></content>
+  </entry>
+  <entry>
     <title>GCP修改账号密码</title>
     <url>/2022/01/26/gcp/</url>
     <content><![CDATA[<ol>
@@ -101,33 +129,6 @@
       </tags>
   </entry>
   <entry>
-    <title>公告</title>
-    <url>/2022/03/14/gonggao/</url>
-    <content><![CDATA[<h1 id="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"><a href="#这里会记录一些日常琐事，放假mc服务器会开启提供游玩。" class="headerlink" title="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"></a>这里会记录一些日常琐事，放假mc服务器会开启提供游玩。</h1><p>服务器配置<br>E3 1230 4h12g 采用ddns动态解析<br>路由器是openwrt系统<br>平时为了节约手机耗电用的是远程连接服务器，包括网盘下载东西也是。<br>总体来说还是很方便的。</p>
-<h2 id="2022-4-5"><a href="#2022-4-5" class="headerlink" title="2022-4-5"></a>2022-4-5</h2><p>短暂的假期，就要结束了。<br>马上又要期中了，学校我来了！(这个星期与世隔绝)</p>
-<h2 id="2022-3-25事件1"><a href="#2022-3-25事件1" class="headerlink" title="2022-3-25事件1"></a>2022-3-25事件1</h2><p>今天学校微机课尝试用学校电脑玩云游。但是并没有成功，目前原因尚不知道。</p>
-<h2 id="steam流式传输无法连接猜测原因"><a href="#steam流式传输无法连接猜测原因" class="headerlink" title="steam流式传输无法连接猜测原因"></a>steam流式传输无法连接猜测原因</h2><p>可能学校电脑连接的是一个总服务器的原因。steam连接在湖北区域是要开魔法才能连接的上的，游戏主机在相隔几九千多公里的江苏。开了魔法之后，一直有区域时间相差9s的延迟无法解决。这就涉及到我刚刚说的，学校电脑是连接的一台总服务器又关了。<br>修改配对延迟后，可能有几秒钟的时间会被强制跳回原服务器时间。我就卡这么几秒钟时间登陆上steam。<br>steam流式传输可能就是因为这9s的延迟无法连接的原因。</p>
-<h2 id="2022-3-25事件2"><a href="#2022-3-25事件2" class="headerlink" title="2022-3-25事件2"></a>2022-3-25事件2</h2><p>五细胞通关了，不过是同学代打的。  在自定义模式下通关了隐藏boss喝药家。 </p>
-<h2 id="2022-3-16"><a href="#2022-3-16" class="headerlink" title="2022-3-16"></a>2022-3-16</h2><p>晚上玩死亡细胞，三细胞还是非常难打。靠着我的回档大法，终究还是没有打过。：（<br>目前正在解决国内vps无法对接GitHub的问题。</p>
-<h2 id="2022-3-15"><a href="#2022-3-15" class="headerlink" title="2022-3-15"></a>2022-3-15</h2><p>学校的规章制度更加严格了上课我们后门不能关，甚至还有老师轮流查。<br>目前想法是整个我们班日语网站，奈何网络不是很好，只好在学校打消这个念头。</p>
-<h2 id="2022-3-14"><a href="#2022-3-14" class="headerlink" title="2022-3-14"></a>2022-3-14</h2><p>今天是个新的一个星期，因为本人是住在学校的。所以blog会随缘更新。<br>下次放假时间从14号到清明节那天，时间还是很长的。期间还有考试，要好好复习了。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>hexo blog文件移植到其他电脑</title>
-    <url>/2022/03/16/hexoyizhi/</url>
-    <content><![CDATA[<h1 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先把你的blog文件下载下来存在你觉得不错的网盘上</p>
-<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>然后将网盘文件下载下来<br>放到新的设备上</p>
-<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>在设备上安装</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
-<p>安装hexo框架<br>node.js检查</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
-<p>安装git后</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;用户邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-<p>生成密钥<br>ssh文件打开后导出公钥<br>并且上传到gitee的密钥管理上面去。<br>然后就完成了</p>
-]]></content>
-  </entry>
-  <entry>
     <title>旅行日志</title>
     <url>/2022/02/04/lvxing/</url>
     <content><![CDATA[<div class="fj-gallery"><p><img src="https://s2.loli.net/2022/02/04/42lMtvT93Vk1PDh.png"><br><img src="https://s2.loli.net/2022/02/04/flAimT6dLvjSbPO.png"><br><img src="https://s2.loli.net/2022/02/04/qaYoQOxzlNucKEJ.png"><br><img src="https://s2.loli.net/2022/02/04/of5Yd3K8xQpChS2.png"></p>
@@ -138,19 +139,6 @@
       <tags>
         <tag>play</tag>
         <tag>旅行</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Minecraft红石向生存服(1.16.5)</title>
-    <url>/2022/01/27/mcvps/</url>
-    <content><![CDATA[<p><a href="https://www.fansmc.com/xuanchuan/1284/5809"><img src="https://www.fansmc.com/banner/1284/default/FFFFFF/FFFFFF/medium" /></a></p>
-<h1 id="服务器介绍"><a href="#服务器介绍" class="headerlink" title="服务器介绍"></a>服务器介绍</h1><h2 id="本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。"><a href="#本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。" class="headerlink" title="本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:421953860 虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。 "></a>本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:<code>421953860</code> 虽然本服务器没有开启白名单，但是还是希望你能加入该群。<code>没有正版验证，欢迎你的到来。</code> <img src="https://s2.loli.net/2022/04/05/5p3b6Maz1SodZCs.png" alt="SLD_G6DA_TSH74IYQ_S9_T.png"></h2><h3 id="在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了-你在本服务器的存档都会定时备份下来"><a href="#在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了-你在本服务器的存档都会定时备份下来" class="headerlink" title="在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了(你在本服务器的存档都会定时备份下来)"></a>在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了(你在本服务器的存档都会定时备份下来)</h3><h3 id="现阶段我们缺少会建筑的大佬，-o-￣▽￣-o你懂我意思的。（还不快进来！！！说的就是你！！！）"><a href="#现阶段我们缺少会建筑的大佬，-o-￣▽￣-o你懂我意思的。（还不快进来！！！说的就是你！！！）" class="headerlink" title="现阶段我们缺少会建筑的大佬，~ o(￣▽￣)o你懂我意思的。（还不快进来！！！说的就是你！！！）"></a>现阶段我们缺少会建筑的大佬，~ o(<em>￣▽￣</em>)o你懂我意思的。（还不快进来！！！说的就是你！！！）</h3><p>出生点场景，以及正在设计的红石电子钟。<br><img src="https://s2.loli.net/2022/04/05/4d9IrUo6SkuCle5.png" alt="_D8B2DJO5E___3X3M2OJ@~R.png"><br>刷怪塔（上空加树场）<br><img src="https://s2.loli.net/2022/04/05/hYvujX849FNaESI.png" alt="B192_~~O_SWX_K_B76P7XFK.png"><br>猪人塔<br><img src="https://s2.loli.net/2022/04/05/oOLwpAUXa4K5TfF.png" alt="X9XWVSN___7@PWFQ6FF7_K.png"><br>女巫塔</p>
-<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><h2 id="还有更多的景观没有展示出来"><a href="#还有更多的景观没有展示出来" class="headerlink" title="还有更多的景观没有展示出来"></a>还有更多的景观没有展示出来</h2><h2 id="版本1-16-5"><a href="#版本1-16-5" class="headerlink" title="版本1.16.5"></a>版本<code>1.16.5</code></h2><h2 id="以下是服务器地址"><a href="#以下是服务器地址" class="headerlink" title="以下是服务器地址"></a>以下是服务器地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>mc服</category>
-      </categories>
-      <tags>
-        <tag>生存服</tag>
       </tags>
   </entry>
   <entry>
@@ -173,6 +161,19 @@
       <tags>
         <tag>hexo</tag>
         <tag>评论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Minecraft红石向生存服(1.16.5)</title>
+    <url>/2022/01/27/mcvps/</url>
+    <content><![CDATA[<p><a href="https://www.fansmc.com/xuanchuan/1284/5809"><img src="https://www.fansmc.com/banner/1284/default/FFFFFF/FFFFFF/medium" /></a></p>
+<h1 id="服务器介绍"><a href="#服务器介绍" class="headerlink" title="服务器介绍"></a>服务器介绍</h1><h2 id="本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。"><a href="#本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。" class="headerlink" title="本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:421953860 虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。 "></a>本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:<code>421953860</code> 虽然本服务器没有开启白名单，但是还是希望你能加入该群。<code>没有正版验证，欢迎你的到来。</code> <img src="https://s2.loli.net/2022/04/05/5p3b6Maz1SodZCs.png" alt="SLD_G6DA_TSH74IYQ_S9_T.png"></h2><h3 id="在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了-你在本服务器的存档都会定时备份下来"><a href="#在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了-你在本服务器的存档都会定时备份下来" class="headerlink" title="在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了(你在本服务器的存档都会定时备份下来)"></a>在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了(你在本服务器的存档都会定时备份下来)</h3><h3 id="现阶段我们缺少会建筑的大佬，-o-￣▽￣-o你懂我意思的。（还不快进来！！！说的就是你！！！）"><a href="#现阶段我们缺少会建筑的大佬，-o-￣▽￣-o你懂我意思的。（还不快进来！！！说的就是你！！！）" class="headerlink" title="现阶段我们缺少会建筑的大佬，~ o(￣▽￣)o你懂我意思的。（还不快进来！！！说的就是你！！！）"></a>现阶段我们缺少会建筑的大佬，~ o(<em>￣▽￣</em>)o你懂我意思的。（还不快进来！！！说的就是你！！！）</h3><p>出生点场景，以及正在设计的红石电子钟。<br><img src="https://s2.loli.net/2022/04/05/4d9IrUo6SkuCle5.png" alt="_D8B2DJO5E___3X3M2OJ@~R.png"><br>刷怪塔（上空加树场）<br><img src="https://s2.loli.net/2022/04/05/hYvujX849FNaESI.png" alt="B192_~~O_SWX_K_B76P7XFK.png"><br>猪人塔<br><img src="https://s2.loli.net/2022/04/05/oOLwpAUXa4K5TfF.png" alt="X9XWVSN___7@PWFQ6FF7_K.png"><br>女巫塔</p>
+<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><h2 id="还有更多的景观没有展示出来"><a href="#还有更多的景观没有展示出来" class="headerlink" title="还有更多的景观没有展示出来"></a>还有更多的景观没有展示出来</h2><h2 id="版本1-16-5"><a href="#版本1-16-5" class="headerlink" title="版本1.16.5"></a>版本<code>1.16.5</code></h2><h2 id="以下是服务器地址"><a href="#以下是服务器地址" class="headerlink" title="以下是服务器地址"></a>以下是服务器地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>mc服</category>
+      </categories>
+      <tags>
+        <tag>生存服</tag>
       </tags>
   </entry>
   <entry>
