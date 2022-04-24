@@ -61,7 +61,7 @@
       </tags>
   </entry>
   <entry>
-    <title>GCP修改账号密码</title>
+    <title>Google云修改账号密码</title>
     <url>/2022/01/26/gcp/</url>
     <content><![CDATA[<ol>
 <li><p>使用命令</p>
@@ -83,11 +83,11 @@
 </ol>
 ]]></content>
       <categories>
-        <category>GCP</category>
+        <category>GC</category>
       </categories>
       <tags>
-        <tag>GCP</tag>
         <tag>密码</tag>
+        <tag>GC</tag>
       </tags>
   </entry>
   <entry>
@@ -104,6 +104,7 @@
     <title>公告</title>
     <url>/2022/03/14/gonggao/</url>
     <content><![CDATA[<h1 id="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"><a href="#这里会记录一些日常琐事，放假mc服务器会开启提供游玩。" class="headerlink" title="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"></a>这里会记录一些日常琐事，放假mc服务器会开启提供游玩。</h1><p>服务器配置<br>E3 1230 4h12g 采用ddns动态解析<br>路由器是openwrt系统<br>平时为了节约手机耗电用的是远程连接服务器，包括网盘下载东西也是。<br>总体来说还是很方便的。</p>
+<h2 id="2022-4-24"><a href="#2022-4-24" class="headerlink" title="2022-4-24"></a>2022-4-24</h2><p>今天上午上完第一节课实在是撑不下去了，我发烧了。<br>由于学校非常重视学生发烧啥的，我被直接叫回了家。<br>目前状况稳定，食欲也还不错。等核酸检测报告出来就可以返校了。</p>
 <h2 id="2022-4-22"><a href="#2022-4-22" class="headerlink" title="2022-4-22"></a>2022-4-22</h2><p>今天来更新下blog，没啥说的。照常今天星期五，微机考试考完了，这里非常感谢感谢孙哥。</p>
 <h2 id="2022-4-5"><a href="#2022-4-5" class="headerlink" title="2022-4-5"></a>2022-4-5</h2><p>短暂的假期，就要结束了。<br>马上又要期中了，学校我来了！(这个星期与世隔绝)</p>
 <h2 id="2022-3-25事件1"><a href="#2022-3-25事件1" class="headerlink" title="2022-3-25事件1"></a>2022-3-25事件1</h2><p>今天学校微机课尝试用学校电脑玩云游。但是并没有成功，目前原因尚不知道。</p>
@@ -208,6 +209,36 @@
       </categories>
       <tags>
         <tag>hexo语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GCP修改账号密码</title>
+    <url>/2022/01/26/Google/</url>
+    <content><![CDATA[<ol>
+<li><p>使用命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+<p>编辑配置文件，按一下<code>i</code>即可进入编辑模式</p>
+</li>
+<li><p>找到<code>PermitRootLogin</code>并修改参数值为<code>yes</code>,如果前面有<code>#</code>删除掉</p>
+</li>
+<li><p>找到<code>PasswordAuthentication</code>同样是修改参数值为<code>yes</code>,如果前面有<code>#</code>也删除掉</p>
+</li>
+<li><p>接着按<code>Esc</code>键，再输入<code>:wq</code>后回车保存退出</p>
+</li>
+<li><p>重启SSH服务<br>使用</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
+<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>GCP</category>
+      </categories>
+      <tags>
+        <tag>GCP</tag>
+        <tag>密码</tag>
       </tags>
   </entry>
 </search>
