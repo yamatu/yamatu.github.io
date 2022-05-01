@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Google云修改账号密码</title>
-    <url>/2022/01/26/Google/</url>
-    <content><![CDATA[<ol>
-<li><p>使用命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
-<p>编辑配置文件，按一下<code>i</code>即可进入编辑模式</p>
-</li>
-<li><p>找到<code>PermitRootLogin</code>并修改参数值为<code>yes</code>,如果前面有<code>#</code>删除掉</p>
-</li>
-<li><p>找到<code>PasswordAuthentication</code>同样是修改参数值为<code>yes</code>,如果前面有<code>#</code>也删除掉</p>
-</li>
-<li><p>接着按<code>Esc</code>键，再输入<code>:wq</code>后回车保存退出</p>
-</li>
-<li><p>重启SSH服务<br>使用</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
-<p>或者</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
-<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
-</li>
-</ol>
+    <title>BattleBit Remastered Playtest</title>
+    <url>/2022/01/28/game/</url>
+    <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://s2.loli.net/2022/01/28/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://s2.loli.net/2022/01/28/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
+<h2 id="体验心得"><a href="#体验心得" class="headerlink" title="体验心得"></a>体验心得</h2><p>距离开放正式服还有点时间，目前可以开自建房玩。<br>我体验了下来，射击手感很好。(和其他测评玩家一样吊打2042)</p>
 ]]></content>
-      <categories>
-        <category>GC</category>
-      </categories>
       <tags>
-        <tag>GC</tag>
-        <tag>密码</tag>
+        <tag>steam</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>公告</title>
+    <url>/2022/03/14/gonggao/</url>
+    <content><![CDATA[<h1 id="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"><a href="#这里会记录一些日常琐事，放假mc服务器会开启提供游玩。" class="headerlink" title="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"></a>这里会记录一些日常琐事，放假mc服务器会开启提供游玩。</h1><p>服务器配置<br>E3 1230 4h12g 采用ddns动态解析<br>路由器是openwrt系统<br>平时为了节约手机耗电用的是远程连接服务器，包括网盘下载东西也是。<br>总体来说还是很方便的。</p>
+<h2 id="2022-4-30"><a href="#2022-4-30" class="headerlink" title="2022-4-30"></a>2022-4-30</h2><p>今天整了个GitHub的blog具体没怎么搞好。</p>
+<h2 id="2022-4-24"><a href="#2022-4-24" class="headerlink" title="2022-4-24"></a>2022-4-24</h2><p>今天上午上完第一节课实在是撑不下去了，我发烧了。<br>由于学校非常重视学生发烧啥的，我被直接叫回了家。<br>目前状况稳定，食欲也还不错。等核酸检测报告出来就可以返校了。</p>
+<h2 id="2022-4-22"><a href="#2022-4-22" class="headerlink" title="2022-4-22"></a>2022-4-22</h2><p>今天来更新下blog，没啥说的。照常今天星期五，微机考试考完了，这里非常感谢感谢孙哥。</p>
+<h2 id="2022-4-5"><a href="#2022-4-5" class="headerlink" title="2022-4-5"></a>2022-4-5</h2><p>短暂的假期，就要结束了。<br>马上又要期中了，学校我来了！(这个星期与世隔绝)</p>
+<h2 id="2022-3-25事件1"><a href="#2022-3-25事件1" class="headerlink" title="2022-3-25事件1"></a>2022-3-25事件1</h2><p>今天学校微机课尝试用学校电脑玩云游。但是并没有成功，目前原因尚不知道。</p>
+<h2 id="steam流式传输无法连接猜测原因"><a href="#steam流式传输无法连接猜测原因" class="headerlink" title="steam流式传输无法连接猜测原因"></a>steam流式传输无法连接猜测原因</h2><p>可能学校电脑连接的是一个总服务器的原因。steam连接在湖北区域是要开魔法才能连接的上的，游戏主机在相隔几九千多公里的江苏。开了魔法之后，一直有区域时间相差9s的延迟无法解决。这就涉及到我刚刚说的，学校电脑是连接的一台总服务器又关了。<br>修改配对延迟后，可能有几秒钟的时间会被强制跳回原服务器时间。我就卡这么几秒钟时间登陆上steam。<br>steam流式传输可能就是因为这9s的延迟无法连接的原因。</p>
+<h2 id="2022-3-25事件2"><a href="#2022-3-25事件2" class="headerlink" title="2022-3-25事件2"></a>2022-3-25事件2</h2><p>五细胞通关了，不过是同学代打的。  在自定义模式下通关了隐藏boss喝药家。 </p>
+<h2 id="2022-3-16"><a href="#2022-3-16" class="headerlink" title="2022-3-16"></a>2022-3-16</h2><p>晚上玩死亡细胞，三细胞还是非常难打。靠着我的回档大法，终究还是没有打过。：（<br>目前正在解决国内vps无法对接GitHub的问题。</p>
+<h2 id="2022-3-15"><a href="#2022-3-15" class="headerlink" title="2022-3-15"></a>2022-3-15</h2><p>学校的规章制度更加严格了上课我们后门不能关，甚至还有老师轮流查。<br>目前想法是整个我们班日语网站，奈何网络不是很好，只好在学校打消这个念头。</p>
+<h2 id="2022-3-14"><a href="#2022-3-14" class="headerlink" title="2022-3-14"></a>2022-3-14</h2><p>今天是个新的一个星期，因为本人是住在学校的。所以blog会随缘更新。<br>下次放假时间从14号到清明节那天，时间还是很长的。期间还有考试，要好好复习了。</p>
+]]></content>
   </entry>
   <entry>
     <title>静态hexoblog搭建教程</title>
@@ -76,6 +72,19 @@
       </tags>
   </entry>
   <entry>
+    <title>旅行日志</title>
+    <url>/2022/02/04/lvxing/</url>
+    <content><![CDATA[<div class="fj-gallery"><p><img src="https://s2.loli.net/2022/02/04/42lMtvT93Vk1PDh.png"><br><img src="https://s2.loli.net/2022/02/04/flAimT6dLvjSbPO.png"><br><img src="https://s2.loli.net/2022/02/04/qaYoQOxzlNucKEJ.png"><br><img src="https://s2.loli.net/2022/02/04/of5Yd3K8xQpChS2.png"></p>
+          </div>]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>play</tag>
+        <tag>旅行</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>除夕快乐！！</title>
     <url>/2022/01/31/chuxi/</url>
     <content><![CDATA[<h1 id="祝大家"><a href="#祝大家" class="headerlink" title="祝大家"></a>祝大家</h1><blockquote>
@@ -91,42 +100,64 @@
       </tags>
   </entry>
   <entry>
-    <title>公告</title>
-    <url>/2022/03/14/gonggao/</url>
-    <content><![CDATA[<h1 id="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"><a href="#这里会记录一些日常琐事，放假mc服务器会开启提供游玩。" class="headerlink" title="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"></a>这里会记录一些日常琐事，放假mc服务器会开启提供游玩。</h1><p>服务器配置<br>E3 1230 4h12g 采用ddns动态解析<br>路由器是openwrt系统<br>平时为了节约手机耗电用的是远程连接服务器，包括网盘下载东西也是。<br>总体来说还是很方便的。</p>
-<h2 id="2022-4-30"><a href="#2022-4-30" class="headerlink" title="2022-4-30"></a>2022-4-30</h2><p>今天整了个GitHub的blog具体没怎么搞好。</p>
-<h2 id="2022-4-24"><a href="#2022-4-24" class="headerlink" title="2022-4-24"></a>2022-4-24</h2><p>今天上午上完第一节课实在是撑不下去了，我发烧了。<br>由于学校非常重视学生发烧啥的，我被直接叫回了家。<br>目前状况稳定，食欲也还不错。等核酸检测报告出来就可以返校了。</p>
-<h2 id="2022-4-22"><a href="#2022-4-22" class="headerlink" title="2022-4-22"></a>2022-4-22</h2><p>今天来更新下blog，没啥说的。照常今天星期五，微机考试考完了，这里非常感谢感谢孙哥。</p>
-<h2 id="2022-4-5"><a href="#2022-4-5" class="headerlink" title="2022-4-5"></a>2022-4-5</h2><p>短暂的假期，就要结束了。<br>马上又要期中了，学校我来了！(这个星期与世隔绝)</p>
-<h2 id="2022-3-25事件1"><a href="#2022-3-25事件1" class="headerlink" title="2022-3-25事件1"></a>2022-3-25事件1</h2><p>今天学校微机课尝试用学校电脑玩云游。但是并没有成功，目前原因尚不知道。</p>
-<h2 id="steam流式传输无法连接猜测原因"><a href="#steam流式传输无法连接猜测原因" class="headerlink" title="steam流式传输无法连接猜测原因"></a>steam流式传输无法连接猜测原因</h2><p>可能学校电脑连接的是一个总服务器的原因。steam连接在湖北区域是要开魔法才能连接的上的，游戏主机在相隔几九千多公里的江苏。开了魔法之后，一直有区域时间相差9s的延迟无法解决。这就涉及到我刚刚说的，学校电脑是连接的一台总服务器又关了。<br>修改配对延迟后，可能有几秒钟的时间会被强制跳回原服务器时间。我就卡这么几秒钟时间登陆上steam。<br>steam流式传输可能就是因为这9s的延迟无法连接的原因。</p>
-<h2 id="2022-3-25事件2"><a href="#2022-3-25事件2" class="headerlink" title="2022-3-25事件2"></a>2022-3-25事件2</h2><p>五细胞通关了，不过是同学代打的。  在自定义模式下通关了隐藏boss喝药家。 </p>
-<h2 id="2022-3-16"><a href="#2022-3-16" class="headerlink" title="2022-3-16"></a>2022-3-16</h2><p>晚上玩死亡细胞，三细胞还是非常难打。靠着我的回档大法，终究还是没有打过。：（<br>目前正在解决国内vps无法对接GitHub的问题。</p>
-<h2 id="2022-3-15"><a href="#2022-3-15" class="headerlink" title="2022-3-15"></a>2022-3-15</h2><p>学校的规章制度更加严格了上课我们后门不能关，甚至还有老师轮流查。<br>目前想法是整个我们班日语网站，奈何网络不是很好，只好在学校打消这个念头。</p>
-<h2 id="2022-3-14"><a href="#2022-3-14" class="headerlink" title="2022-3-14"></a>2022-3-14</h2><p>今天是个新的一个星期，因为本人是住在学校的。所以blog会随缘更新。<br>下次放假时间从14号到清明节那天，时间还是很长的。期间还有考试，要好好复习了。</p>
+    <title>Google云修改账号密码</title>
+    <url>/2022/01/26/Google/</url>
+    <content><![CDATA[<ol>
+<li><p>使用命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+<p>编辑配置文件，按一下<code>i</code>即可进入编辑模式</p>
+</li>
+<li><p>找到<code>PermitRootLogin</code>并修改参数值为<code>yes</code>,如果前面有<code>#</code>删除掉</p>
+</li>
+<li><p>找到<code>PasswordAuthentication</code>同样是修改参数值为<code>yes</code>,如果前面有<code>#</code>也删除掉</p>
+</li>
+<li><p>接着按<code>Esc</code>键，再输入<code>:wq</code>后回车保存退出</p>
+</li>
+<li><p>重启SSH服务<br>使用</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
+<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
+</li>
+</ol>
 ]]></content>
-  </entry>
-  <entry>
-    <title>BattleBit Remastered Playtest</title>
-    <url>/2022/01/28/game/</url>
-    <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://s2.loli.net/2022/01/28/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://s2.loli.net/2022/01/28/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
-<h2 id="体验心得"><a href="#体验心得" class="headerlink" title="体验心得"></a>体验心得</h2><p>距离开放正式服还有点时间，目前可以开自建房玩。<br>我体验了下来，射击手感很好。(和其他测评玩家一样吊打2042)</p>
-]]></content>
+      <categories>
+        <category>GC</category>
+      </categories>
       <tags>
-        <tag>steam</tag>
+        <tag>GC</tag>
+        <tag>密码</tag>
       </tags>
   </entry>
   <entry>
-    <title>旅行日志</title>
-    <url>/2022/02/04/lvxing/</url>
-    <content><![CDATA[<div class="fj-gallery"><p><img src="https://s2.loli.net/2022/02/04/42lMtvT93Vk1PDh.png"><br><img src="https://s2.loli.net/2022/02/04/flAimT6dLvjSbPO.png"><br><img src="https://s2.loli.net/2022/02/04/qaYoQOxzlNucKEJ.png"><br><img src="https://s2.loli.net/2022/02/04/of5Yd3K8xQpChS2.png"></p>
-          </div>]]></content>
+    <title>原神私服搭建教程</title>
+    <url>/2022/05/01/yuanshen/</url>
+    <content><![CDATA[<h1 id="原神私服搭建（成果演示）"><a href="#原神私服搭建（成果演示）" class="headerlink" title="原神私服搭建（成果演示）"></a>原神私服搭建（成果演示）</h1><p><img src="https://s2.loli.net/2022/05/01/mKMbQYEZtp4aC21.png" alt="123123.png"></p>
+<h2 id="步骤一"><a href="#步骤一" class="headerlink" title="步骤一"></a>步骤一</h2><p><a href="http://nbnb.yamatu.xyz:5212/s/XDfx" target="_blank">JAVA8下载注意这里是老版本jdk1.8.0_202</a>:<br>密码：6666<br><a href="http://nbnb.yamatu.xyz:5212/s/0Ds7" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><a href="https://blog.csdn.net/sun_junkai/article/details/85635039/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.pc_relevant_default&spm=1001.2101.3001.4242.1&utm_relevant_index=3" target="_blank">配置环境变量</a>:</p>
+<blockquote>
+<blockquote>
+<p>注意这里配置环境变量时候要删除以前版本和与其冲突的jre</p>
+</blockquote>
+</blockquote>
+<h2 id="步骤二"><a href="#步骤二" class="headerlink" title="步骤二"></a>步骤二</h2><p>部分详细操作在压缩包中，请自行体会。</p>
+]]></content>
       <categories>
-        <category>旅行</category>
+        <category>原神</category>
       </categories>
       <tags>
-        <tag>play</tag>
-        <tag>旅行</tag>
+        <tag>原神</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>原神CD翻录</title>
+    <url>/2022/02/06/yuansheng/</url>
+    <content><![CDATA[<p><a href="http://nbnb.yamatu.xyz:5212/s/G6Ug">http://nbnb.yamatu.xyz:5212/s/G6Ug</a><br>密码：6666<br><img src="https://s2.loli.net/2022/02/06/1dN9M8ahreBfbOA.jpg" alt="gggg.png"><br><img src="https://s2.loli.net/2022/02/06/jQ2noSAFVeW8vRO.jpg" alt="gggg2.png"><br><img src="https://s2.loli.net/2022/02/06/WkUPCYMzl3DHELN.jpg" alt="gggg3.png"></p>
+]]></content>
+      <categories>
+        <category>原神</category>
+      </categories>
+      <tags>
+        <tag>原神</tag>
       </tags>
   </entry>
   <entry>
@@ -141,20 +172,6 @@
       <tags>
         <tag>生存服</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>hexo blog文件移植到其他电脑</title>
-    <url>/2022/03/16/hexoyizhi/</url>
-    <content><![CDATA[<h1 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先把你的blog文件下载下来存在你觉得不错的网盘上</p>
-<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>然后将网盘文件下载下来<br>放到新的设备上</p>
-<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>在设备上安装</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
-<p>安装hexo框架<br>node.js检查</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
-<p>安装git后</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;用户邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-<p>生成密钥<br>ssh文件打开后导出公钥<br>并且上传到gitee的密钥管理上面去。<br>然后就完成了</p>
-]]></content>
   </entry>
   <entry>
     <title>butterfly-giter聊天室</title>
@@ -176,18 +193,6 @@
       <tags>
         <tag>hexo</tag>
         <tag>评论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>原神CD翻录</title>
-    <url>/2022/02/06/yuansheng/</url>
-    <content><![CDATA[<p><a href="http://nbnb.yamatu.xyz:5212/s/G6Ug">http://nbnb.yamatu.xyz:5212/s/G6Ug</a><br>密码：6666<br><img src="https://s2.loli.net/2022/02/06/1dN9M8ahreBfbOA.jpg" alt="gggg.png"><br><img src="https://s2.loli.net/2022/02/06/jQ2noSAFVeW8vRO.jpg" alt="gggg2.png"><br><img src="https://s2.loli.net/2022/02/06/WkUPCYMzl3DHELN.jpg" alt="gggg3.png"></p>
-]]></content>
-      <categories>
-        <category>原神</category>
-      </categories>
-      <tags>
-        <tag>原神</tag>
       </tags>
   </entry>
   <entry>
@@ -213,22 +218,17 @@
       </tags>
   </entry>
   <entry>
-    <title>原神私服搭建教程</title>
-    <url>/2022/05/01/yuanshen/</url>
-    <content><![CDATA[<h1 id="原神私服搭建（成果演示）"><a href="#原神私服搭建（成果演示）" class="headerlink" title="原神私服搭建（成果演示）"></a>原神私服搭建（成果演示）</h1><p><img src="https://s2.loli.net/2022/05/01/mKMbQYEZtp4aC21.png" alt="123123.png"></p>
-<h2 id="步骤一"><a href="#步骤一" class="headerlink" title="步骤一"></a>步骤一</h2><p><a href="http://nbnb.yamatu.xyz:5212/s/XDfx" target="_blank">JAVA8下载注意这里是老版本jdk1.8.0_202</a>:<br>密码：6666<br><a href="http://nbnb.yamatu.xyz:5212/s/0Ds7" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><a href="https://blog.csdn.net/sun_junkai/article/details/85635039/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.pc_relevant_default&spm=1001.2101.3001.4242.1&utm_relevant_index=3" target="_blank">配置环境变量</a>:</p>
-<blockquote>
-<blockquote>
-<p>注意这里配置环境变量时候要删除以前版本和与其冲突的jre</p>
-</blockquote>
-</blockquote>
-<h2 id="步骤二"><a href="#步骤二" class="headerlink" title="步骤二"></a>步骤二</h2><p>部分详细操作在压缩包中，请自行体会。</p>
+    <title>hexo blog文件移植到其他电脑</title>
+    <url>/2022/03/16/hexoyizhi/</url>
+    <content><![CDATA[<h1 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先把你的blog文件下载下来存在你觉得不错的网盘上</p>
+<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>然后将网盘文件下载下来<br>放到新的设备上</p>
+<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>在设备上安装</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
+<p>安装hexo框架<br>node.js检查</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
+<p>安装git后</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;用户邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<p>生成密钥<br>ssh文件打开后导出公钥<br>并且上传到gitee的密钥管理上面去。<br>然后就完成了</p>
 ]]></content>
-      <categories>
-        <category>原神</category>
-      </categories>
-      <tags>
-        <tag>原神</tag>
-      </tags>
   </entry>
 </search>
