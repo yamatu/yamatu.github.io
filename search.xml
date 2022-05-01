@@ -56,7 +56,7 @@
 <li><a href="https://gitee.com/" title="gitee">gitee</a>,gitee部署<h1 id="安装说明"><a href="#安装说明" class="headerlink" title="安装说明"></a>安装说明</h1>node.js和Typora就不说了，这个灰常简单。</li>
 </ol>
 <p>至于Git，它安装的时候选项挺多的，而且还都是洋文，看不懂的话就全部选 next 就行了。你要是非得搞明白它每个选项的意思，emmmm那建议你们自己去搜吧，网上一搜一大把。我反正是不知道每项的意思，我也不想知道~~~/手动狗头。</p>
-<p>VsCode安装好之后默认是英文界面，可以在插件市场里搜索chinese，然后安装之后重启软件，就是中文版了。<br><img src="https://s2.loli.net/2022/01/26/8zwQnUuBY4j1MZd.png" alt="fff.png"></p>
+<p>VsCode安装好之后默认是英文界面，可以在插件市场里搜索chinese，然后安装之后重启软件，就是中文版了。<br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/8zwQnUuBY4j1MZd.png" alt="fff.png"></p>
 <h2 id="检验是否成功安装"><a href="#检验是否成功安装" class="headerlink" title="检验是否成功安装"></a>检验是否成功安装</h2><ul>
 <li>node.js 的检查<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure></li>
 <li>npm的检查<br>NPM是随同NodeJS一起安装的包管理工具，能解决NodeJS代码部署上的很多问题<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure></li>
@@ -93,7 +93,7 @@
   <entry>
     <title>BattleBit Remastered Playtest</title>
     <url>/2022/01/28/game/</url>
-    <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://s2.loli.net/2022/01/28/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://s2.loli.net/2022/01/28/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
+    <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
 <h2 id="体验心得"><a href="#体验心得" class="headerlink" title="体验心得"></a>体验心得</h2><p>距离开放正式服还有点时间，目前可以开自建房玩。<br>我体验了下来，射击手感很好。(和其他测评玩家一样吊打2042)</p>
 ]]></content>
       <tags>
@@ -133,7 +133,7 @@
   <entry>
     <title>旅行日志</title>
     <url>/2022/02/04/lvxing/</url>
-    <content><![CDATA[<div class="fj-gallery"><p><img src="https://s2.loli.net/2022/02/04/42lMtvT93Vk1PDh.png"><br><img src="https://s2.loli.net/2022/02/04/flAimT6dLvjSbPO.png"><br><img src="https://s2.loli.net/2022/02/04/qaYoQOxzlNucKEJ.png"><br><img src="https://s2.loli.net/2022/02/04/of5Yd3K8xQpChS2.png"></p>
+    <content><![CDATA[<div class="fj-gallery"><p><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/42lMtvT93Vk1PDh.png"><br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/flAimT6dLvjSbPO.png"><br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/of5Yd3K8xQpChS2.png"><br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/qaYoQOxzlNucKEJ.png"></p>
           </div>]]></content>
       <categories>
         <category>旅行</category>
@@ -162,12 +162,12 @@
     <content><![CDATA[<h2 id="Gitter-注册"><a href="#Gitter-注册" class="headerlink" title="Gitter 注册"></a>Gitter 注册</h2><p>先去 Gitter 注册一个账号，可以直接使用 GitHub 登录</p>
 <p><a href="https://gitter.im/" title="点这个">https://gitter.im/</a></p>
 <p>然后先创建一个 <code>Community</code> 社区，再创建一个 Room 聊天室（创建聊天室时 community 选择刚创建的即可）</p>
-<p>比如我创建了一个<code>community</code>叫<code>ednovas</code>, 然后创建了一个叫 ChatRoom 的聊天室。这个要记住，下一步用到。<br><img src="https://s2.loli.net/2022/01/26/7CiazbUjGSrpsRA.png" alt="sadf.png"></p>
+<p>比如我创建了一个<code>community</code>叫<code>ednovas</code>, 然后创建了一个叫 ChatRoom 的聊天室。这个要记住，下一步用到。<br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/7CiazbUjGSrpsRA.png" alt="sadf.png"></p>
 <ol>
-<li>然后创建相应的<code>Create community</code><br><img src="https://s2.loli.net/2022/01/26/jMmWi9aCdclNuTG.png" alt="bffgr.png"></li>
-<li>在创建对应仓库的<code>Create room</code><br><img src="https://s2.loli.net/2022/01/26/9uvdhRtboxaGpFP.png" alt="abfht.png"></li>
-<li>修改<code>主题配置文件</code><br><img src="https://s2.loli.net/2022/01/26/midyk3GAousK5gx.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
-<h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://s2.loli.net/2022/01/26/GmZnc1623zLbONf.png" alt="jjjjr.png"><br><img src="https://s2.loli.net/2022/01/26/GbtQzj4Rmehq8wI.png" alt="ffe123.png"></li>
+<li>然后创建相应的<code>Create community</code><br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/jMmWi9aCdclNuTG.png" alt="bffgr.png"></li>
+<li>在创建对应仓库的<code>Create room</code><br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/9uvdhRtboxaGpFP.png" alt="abfht.png"></li>
+<li>修改<code>主题配置文件</code><br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/midyk3GAousK5gx.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
+<h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/GmZnc1623zLbONf.png" alt="jjjjr.png"><br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/GbtQzj4Rmehq8wI.png" alt="ffe123.png"></li>
 </ol>
 ]]></content>
       <categories>
@@ -200,7 +200,7 @@
   <entry>
     <title>原神CD翻录</title>
     <url>/2022/02/06/yuansheng/</url>
-    <content><![CDATA[<p><a href="http://nbnb.yamatu.xyz:5212/s/G6Ug" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><img src="https://s2.loli.net/2022/02/06/1dN9M8ahreBfbOA.jpg" alt="gggg.png"><br><img src="https://s2.loli.net/2022/02/06/jQ2noSAFVeW8vRO.jpg" alt="gggg2.png"><br><img src="https://s2.loli.net/2022/02/06/WkUPCYMzl3DHELN.jpg" alt="gggg3.png"></p>
+    <content><![CDATA[<p><a href="http://nbnb.yamatu.xyz:5212/s/G6Ug" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/1dN9M8ahreBfbOA.jpg" alt="gggg.png"><br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/WkUPCYMzl3DHELN.jpg" alt="gggg2.png"><br><img src="https://yamatu-1302001007.cos.ap-shanghai.myqcloud.com/jQ2noSAFVeW8vRO.jpg" alt="gggg3.png"></p>
 ]]></content>
       <categories>
         <category>原神</category>
