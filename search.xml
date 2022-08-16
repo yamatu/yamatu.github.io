@@ -86,21 +86,6 @@
       </tags>
   </entry>
   <entry>
-    <title>除夕快乐！！</title>
-    <url>/2022/01/31/chuxi/</url>
-    <content><![CDATA[<h1 id="祝大家"><a href="#祝大家" class="headerlink" title="祝大家"></a>祝大家</h1><blockquote>
-<p>1、岁岁长欢愉，年年皆胜意。除夕快乐!<br>2、祝福好友，新年快乐，吉祥如意，幸福圆满。<br>3、除夕礼物初定版本已经到了!不够再定!各位除夕快乐!<br>4、除夕的祝福太多怕你看不到我的祝福，提前祝你除夕快乐。<br>5、除夕除夕除旧岁，祝你大富又大贵!除夕除夕除疲劳，祝你身体棒嗷嗷!除夕除夕除压力，祝你事业好运气!除夕除夕除烦恼，祝你心情天天好!除夕快乐!<br>6、往后的日子是崭新的，谁也别回头看了。除夕快乐!7、年年有我，岁岁有我。<br>8、对回不去的时光说再见，新的一年请你快乐一点。<br>9、想扔的东西扔了，想断的关系断了，新的一年，别再犹豫。10、除夕快乐，招财进你。<br>11、如果所有人都祝你新年快乐，那我便祝你遍历山河，仍然觉得人间值得。12、万物更新旧疾当愈，往事清零爱恨随意。<br>13、还在上班，还要加班!明天真的要过年了吗?14、春节，一想到加班，就兴奋的睡不着觉。<br>15、新的一年，不要万事胜意，万事如意就好。除夕快乐!</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>节日</category>
-      </categories>
-      <tags>
-        <tag>除夕快乐</tag>
-        <tag>节日</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>公告</title>
     <url>/2022/03/14/gonggao/</url>
     <content><![CDATA[<h1 id="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"><a href="#这里会记录一些日常琐事，放假mc服务器会开启提供游玩。" class="headerlink" title="这里会记录一些日常琐事，放假mc服务器会开启提供游玩。"></a>这里会记录一些日常琐事，放假mc服务器会开启提供游玩。</h1><p>服务器配置<br>E3 1230 4h12g 采用ddns动态解析<br>路由器是openwrt系统<br>平时为了节约手机耗电用的是远程连接服务器，包括网盘下载东西也是。<br>总体来说还是很方便的。</p>
@@ -117,18 +102,31 @@
 ]]></content>
   </entry>
   <entry>
-    <title>hexo blog文件移植到其他电脑</title>
-    <url>/2022/03/16/hexoyizhi/</url>
-    <content><![CDATA[<h1 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先把你的blog文件下载下来存在你觉得不错的网盘上</p>
-<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>然后将网盘文件下载下来<br>放到新的设备上</p>
-<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>在设备上安装</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
-<p>安装hexo框架<br>node.js检查</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
-<p>安装git后</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;用户邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-<p>生成密钥<br>ssh文件打开后导出公钥<br>并且上传到gitee的密钥管理上面去。<br>然后就完成了</p>
+    <title>Minecraft红石向服(1.19.1)</title>
+    <url>/2022/01/27/mc1.19/</url>
+    <content><![CDATA[<h1 id="服务器介绍"><a href="#服务器介绍" class="headerlink" title="服务器介绍"></a>服务器介绍</h1><h2 id="本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。"><a href="#本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。" class="headerlink" title="本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:421953860 虽然本服务器没有开启白名单，但是还是希望你能加入该群。"></a>本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:<code>421953860</code> 虽然本服务器没有开启白名单，但是还是希望你能加入该群。</h2><p><a href="https://sm.ms/image/2knqpPOAVQtr96I" target="_blank"><img src="https://s2.loli.net/2022/08/16/2knqpPOAVQtr96I.png" ></a><br>出生点附件<br><a href="https://sm.ms/image/WIbZacGXjgzvwPt" target="_blank"><img src="https://s2.loli.net/2022/08/16/WIbZacGXjgzvwPt.png" ></a><br>yamatu的家<br><a href="https://sm.ms/image/R95NhgTaroCZxeu" target="_blank"><img src="https://s2.loli.net/2022/08/16/R95NhgTaroCZxeu.png" ></a><br>刷铁机<br><a href="https://sm.ms/image/UVM59Di36bJajwC" target="_blank"><img src="https://s2.loli.net/2022/08/16/UVM59Di36bJajwC.png" ></a><br>刷石机<br><a href="https://sm.ms/image/TQy4a35pv6efiOI" target="_blank"><img src="https://s2.loli.net/2022/08/16/TQy4a35pv6efiOI.png" ></a><br>山洞仓库<br><a href="https://sm.ms/image/dYTOnpuZc42Fo5h" target="_blank"><img src="https://s2.loli.net/2022/08/16/dYTOnpuZc42Fo5h.png" ></a><br>农场<br>服务器地址：</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>mc服</category>
+      </categories>
+      <tags>
+        <tag>生存服</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>除夕快乐！！</title>
+    <url>/2022/01/31/chuxi/</url>
+    <content><![CDATA[<h1 id="祝大家"><a href="#祝大家" class="headerlink" title="祝大家"></a>祝大家</h1><blockquote>
+<p>1、岁岁长欢愉，年年皆胜意。除夕快乐!<br>2、祝福好友，新年快乐，吉祥如意，幸福圆满。<br>3、除夕礼物初定版本已经到了!不够再定!各位除夕快乐!<br>4、除夕的祝福太多怕你看不到我的祝福，提前祝你除夕快乐。<br>5、除夕除夕除旧岁，祝你大富又大贵!除夕除夕除疲劳，祝你身体棒嗷嗷!除夕除夕除压力，祝你事业好运气!除夕除夕除烦恼，祝你心情天天好!除夕快乐!<br>6、往后的日子是崭新的，谁也别回头看了。除夕快乐!7、年年有我，岁岁有我。<br>8、对回不去的时光说再见，新的一年请你快乐一点。<br>9、想扔的东西扔了，想断的关系断了，新的一年，别再犹豫。10、除夕快乐，招财进你。<br>11、如果所有人都祝你新年快乐，那我便祝你遍历山河，仍然觉得人间值得。12、万物更新旧疾当愈，往事清零爱恨随意。<br>13、还在上班，还要加班!明天真的要过年了吗?14、春节，一想到加班，就兴奋的睡不着觉。<br>15、新的一年，不要万事胜意，万事如意就好。除夕快乐!</p>
+</blockquote>
 ]]></content>
+      <categories>
+        <category>节日</category>
+      </categories>
+      <tags>
+        <tag>除夕快乐</tag>
+        <tag>节日</tag>
+      </tags>
   </entry>
   <entry>
     <title>旅行日志</title>
@@ -144,7 +142,21 @@
       </tags>
   </entry>
   <entry>
-    <title>Minecraft红石向生存服(1.16.5)</title>
+    <title>hexo blog文件移植到其他电脑</title>
+    <url>/2022/03/16/hexoyizhi/</url>
+    <content><![CDATA[<h1 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先把你的blog文件下载下来存在你觉得不错的网盘上</p>
+<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>然后将网盘文件下载下来<br>放到新的设备上</p>
+<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>在设备上安装</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
+<p>安装hexo框架<br>node.js检查</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
+<p>安装git后</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;用户邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<p>生成密钥<br>ssh文件打开后导出公钥<br>并且上传到gitee的密钥管理上面去。<br>然后就完成了</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Minecraft红石向生存服(1.16.5已停止该存档)</title>
     <url>/2022/01/27/mcvps/</url>
     <content><![CDATA[<p><a href="https://www.fansmc.com/xuanchuan/1284/5809"><img src="https://www.fansmc.com/banner/1284/default/FFFFFF/FFFFFF/medium" /></a></p>
 <h1 id="服务器介绍"><a href="#服务器介绍" class="headerlink" title="服务器介绍"></a>服务器介绍</h1><h2 id="本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。"><a href="#本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。" class="headerlink" title="本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:421953860 虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。 "></a>本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:<code>421953860</code> 虽然本服务器没有开启白名单，但是还是希望你能加入该群。<code>没有正版验证，欢迎你的到来。</code> <img src="https://s2.loli.net/2022/04/05/5p3b6Maz1SodZCs.png" alt="SLD_G6DA_TSH74IYQ_S9_T.png"></h2><h3 id="在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了-你在本服务器的存档都会定时备份下来"><a href="#在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了-你在本服务器的存档都会定时备份下来" class="headerlink" title="在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了(你在本服务器的存档都会定时备份下来)"></a>在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了(你在本服务器的存档都会定时备份下来)</h3><h3 id="现阶段我们缺少会建筑的大佬，-o-￣▽￣-o你懂我意思的。（还不快进来！！！说的就是你！！！）"><a href="#现阶段我们缺少会建筑的大佬，-o-￣▽￣-o你懂我意思的。（还不快进来！！！说的就是你！！！）" class="headerlink" title="现阶段我们缺少会建筑的大佬，~ o(￣▽￣)o你懂我意思的。（还不快进来！！！说的就是你！！！）"></a>现阶段我们缺少会建筑的大佬，~ o(<em>￣▽￣</em>)o你懂我意思的。（还不快进来！！！说的就是你！！！）</h3><p>出生点场景，以及正在设计的红石电子钟。<br><img src="https://s2.loli.net/2022/04/05/ZKbRmvH7iVqft2C.png" alt="_D8B2E___3X3M2OJ@~R.png"><br><img src="https://s2.loli.net/2022/04/05/4d9IrUo6SkuCle5.png" alt="_D8B2DJO5E.png"><br><img src="https://s2.loli.net/2022/04/05/JfP2KVyGowabgYT.png" alt="_D8B2DJO5E_.png"><br>刷怪塔（上空加树场）<br><img src="https://s2.loli.net/2022/04/05/hYvujX849FNaESI.png" alt="B192_~~O_SWX_K_B76P7XFK.png"><br>猪人塔<br><img src="https://s2.loli.net/2022/04/05/oOLwpAUXa4K5TfF.png" alt="X9XWVSN___7@PWFQ6FF7_K.png"><br>女巫塔</p>
@@ -179,40 +191,6 @@
       </tags>
   </entry>
   <entry>
-    <title>原神私服搭建教程(深渊版丢弃过期)</title>
-    <url>/2022/05/01/yuanshen/</url>
-    <content><![CDATA[<h1 id="原神私服搭建（成果演示）"><a href="#原神私服搭建（成果演示）" class="headerlink" title="原神私服搭建（成果演示）"></a>原神私服搭建（成果演示）</h1><p><img src="https://s2.loli.net/2022/05/01/mKMbQYEZtp4aC21.png" alt="123123.png"><br><img src="https://s2.loli.net/2022/08/02/snGTy4L2YtOSgDm.png" alt="2342632414.png"></p>
-<h2 id="步骤一"><a href="#步骤一" class="headerlink" title="步骤一"></a>步骤一</h2><p><a href="http://nbnb.yamatu.xyz:5212/s/0Ds7" target="_blank">JAVA8下载注意这里是老版本jdk1.8.0_202</a>:<br>密码：6666<br><a href="http://nbnb.yamatu.xyz:5212/s/XDfx" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><a href="https://blog.csdn.net/sun_junkai/article/details/85635039/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.pc_relevant_default&spm=1001.2101.3001.4242.1&utm_relevant_index=3" target="_blank">配置环境变量</a>:</p>
-<blockquote>
-<blockquote>
-<p>注意这里配置环境变量时候要删除以前版本和与其冲突的jre</p>
-</blockquote>
-</blockquote>
-<h2 id="步骤二"><a href="#步骤二" class="headerlink" title="步骤二"></a>步骤二</h2><p>部分详细操作在压缩包中，请自行体会。</p>
-<h2 id="步骤三"><a href="#步骤三" class="headerlink" title="步骤三"></a>步骤三</h2><blockquote>
-<blockquote>
-<p>你需要做的是打开地址转发在地址转发中输入,运行说明文档里面有的文件，那行代码不全替换为下面的。Genshin EMU（最新服务端包含自动刷怪 修复卡池 修复部分副本）</p>
-</blockquote>
-</blockquote>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* Original script by NicknameGG, modified for Grasscutter by contributors. */</span></span><br><span class="line">import System;</span><br><span class="line">import System.Windows.Forms;</span><br><span class="line">import Fiddler;</span><br><span class="line">import System.Text.RegularExpressions;</span><br><span class="line">var list = [</span><br><span class="line">    <span class="string">&quot;https://api-os-takumi.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-api-os-static.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk-os.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://dispatchosglobal.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://osusadispatch.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://account.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://log-upload-os.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://dispatchcntest.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://devlog-upload.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://webstatic.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://log-upload.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://api-beta-sdk.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://api-beta-sdk-os.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://cnbeta01dispatch.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://dispatchcnglobal.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://cnbeta02dispatch.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://sdk-os-static.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://webstatic-sea.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://webstatic-sea.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk-os-static.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://sdk-os-static.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://api-account-os.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk-os.hoyoverse.com/&quot;</span> <span class="comment">// Line 24</span></span><br><span class="line">    ];</span><br><span class="line">class Handlers</span><br><span class="line">&#123;</span><br><span class="line">    static function OnBeforeRequest(oS: Session) &#123;</span><br><span class="line">        var active = true;</span><br><span class="line">        if(active) &#123;</span><br><span class="line">            if(oS.uriContains(<span class="attr">&quot;http://overseauspider.yuanshen.com:8181/log&quot;</span>))&#123;</span><br><span class="line">                oS.oRequest.FailSession(404, <span class="attr">&quot;Blocked&quot;</span>, <span class="attr">&quot;yourmom&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            for(var i = <span class="number">0</span>; i &lt; <span class="number">24</span> ;i++) &#123;</span><br><span class="line">                if(oS.uriContains(list[i])) &#123;</span><br><span class="line">                    oS.host = <span class="attr">&quot;localhost&quot;</span>; <span class="comment">// This can also be replaced with another IP address.</span></span><br><span class="line">                    break;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<p>替换好了后直接打开你这个文件下下的原神，<code>E:\Genshin Impact\Genshin Impact Game</code> 直接启动后就可以了<br>登录界面密码随便乱输入就行了</p>
-<h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><ol>
-<li>地址转发.bat保持开启状态</li>
-<li>启动服务.bat后如果出现报错八九不离十是java版本问题，治理建议直接翻一下报错代码。</li>
-<li>登录界面密码随便乱输入就行了</li>
-<li>地址转发.bat和启动服务.bat要保持开启状态</li>
-</ol>
-<h2 id="对好友使用代码"><a href="#对好友使用代码" class="headerlink" title="对好友使用代码"></a>对好友使用代码</h2><p>获取物品<br><code>/give uid 物品id 数量(这里uid也可以不要)</code><br>直接CTRL+F搜你要的物品</p>
-]]></content>
-      <categories>
-        <category>原神</category>
-      </categories>
-      <tags>
-        <tag>原神</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>原神CD翻录</title>
     <url>/2022/02/06/yuansheng/</url>
     <content><![CDATA[<p><a href="http://nbnb.yamatu.xyz:5212/s/G6Ug" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><img src="https://s2.loli.net/2022/02/06/jQ2noSAFVeW8vRO.jpg" alt="gggg.png"><br><img src="https://s2.loli.net/2022/02/06/1dN9M8ahreBfbOA.jpg" alt="gggg2.png"></p>
@@ -244,6 +222,40 @@
       </categories>
       <tags>
         <tag>hexo语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>原神私服搭建教程(深渊版丢弃过期)</title>
+    <url>/2022/05/01/yuanshen/</url>
+    <content><![CDATA[<h1 id="原神私服搭建（成果演示）"><a href="#原神私服搭建（成果演示）" class="headerlink" title="原神私服搭建（成果演示）"></a>原神私服搭建（成果演示）</h1><p><img src="https://s2.loli.net/2022/05/01/mKMbQYEZtp4aC21.png" alt="123123.png"><br><img src="https://s2.loli.net/2022/08/02/snGTy4L2YtOSgDm.png" alt="2342632414.png"></p>
+<h2 id="步骤一"><a href="#步骤一" class="headerlink" title="步骤一"></a>步骤一</h2><p><a href="http://nbnb.yamatu.xyz:5212/s/0Ds7" target="_blank">JAVA8下载注意这里是老版本jdk1.8.0_202</a>:<br>密码：6666<br><a href="http://nbnb.yamatu.xyz:5212/s/XDfx" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><a href="https://blog.csdn.net/sun_junkai/article/details/85635039/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.pc_relevant_default&spm=1001.2101.3001.4242.1&utm_relevant_index=3" target="_blank">配置环境变量</a>:</p>
+<blockquote>
+<blockquote>
+<p>注意这里配置环境变量时候要删除以前版本和与其冲突的jre</p>
+</blockquote>
+</blockquote>
+<h2 id="步骤二"><a href="#步骤二" class="headerlink" title="步骤二"></a>步骤二</h2><p>部分详细操作在压缩包中，请自行体会。</p>
+<h2 id="步骤三"><a href="#步骤三" class="headerlink" title="步骤三"></a>步骤三</h2><blockquote>
+<blockquote>
+<p>你需要做的是打开地址转发在地址转发中输入,运行说明文档里面有的文件，那行代码不全替换为下面的。Genshin EMU（最新服务端包含自动刷怪 修复卡池 修复部分副本）</p>
+</blockquote>
+</blockquote>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* Original script by NicknameGG, modified for Grasscutter by contributors. */</span></span><br><span class="line">import System;</span><br><span class="line">import System.Windows.Forms;</span><br><span class="line">import Fiddler;</span><br><span class="line">import System.Text.RegularExpressions;</span><br><span class="line">var list = [</span><br><span class="line">    <span class="string">&quot;https://api-os-takumi.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-api-os-static.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk-os.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://dispatchosglobal.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://osusadispatch.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://account.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://log-upload-os.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://dispatchcntest.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://devlog-upload.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://webstatic.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://log-upload.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://api-beta-sdk.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://api-beta-sdk-os.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://cnbeta01dispatch.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://dispatchcnglobal.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://cnbeta02dispatch.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://sdk-os-static.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://webstatic-sea.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://webstatic-sea.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk-os-static.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://sdk-os-static.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://api-account-os.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk-os.hoyoverse.com/&quot;</span> <span class="comment">// Line 24</span></span><br><span class="line">    ];</span><br><span class="line">class Handlers</span><br><span class="line">&#123;</span><br><span class="line">    static function OnBeforeRequest(oS: Session) &#123;</span><br><span class="line">        var active = true;</span><br><span class="line">        if(active) &#123;</span><br><span class="line">            if(oS.uriContains(<span class="attr">&quot;http://overseauspider.yuanshen.com:8181/log&quot;</span>))&#123;</span><br><span class="line">                oS.oRequest.FailSession(404, <span class="attr">&quot;Blocked&quot;</span>, <span class="attr">&quot;yourmom&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            for(var i = <span class="number">0</span>; i &lt; <span class="number">24</span> ;i++) &#123;</span><br><span class="line">                if(oS.uriContains(list[i])) &#123;</span><br><span class="line">                    oS.host = <span class="attr">&quot;localhost&quot;</span>; <span class="comment">// This can also be replaced with another IP address.</span></span><br><span class="line">                    break;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>替换好了后直接打开你这个文件下下的原神，<code>E:\Genshin Impact\Genshin Impact Game</code> 直接启动后就可以了<br>登录界面密码随便乱输入就行了</p>
+<h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><ol>
+<li>地址转发.bat保持开启状态</li>
+<li>启动服务.bat后如果出现报错八九不离十是java版本问题，治理建议直接翻一下报错代码。</li>
+<li>登录界面密码随便乱输入就行了</li>
+<li>地址转发.bat和启动服务.bat要保持开启状态</li>
+</ol>
+<h2 id="对好友使用代码"><a href="#对好友使用代码" class="headerlink" title="对好友使用代码"></a>对好友使用代码</h2><p>获取物品<br><code>/give uid 物品id 数量(这里uid也可以不要)</code><br>直接CTRL+F搜你要的物品</p>
+]]></content>
+      <categories>
+        <category>原神</category>
+      </categories>
+      <tags>
+        <tag>原神</tag>
       </tags>
   </entry>
 </search>
