@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>DDNS动态解析教学（openwrt教程</title>
-    <url>/2022/12/17/DNSdongtaijiexi/</url>
-    <content><![CDATA[<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p><img src="https://s2.loli.net/2022/12/17/QqjdnL4Vacv3MuF.png" alt="SO_QFY_YK@C199MH~LRK@Y6.png"></p>
-<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p><img src="https://s2.loli.net/2022/12/17/di1sTWnfC3ABeqm.png" alt="4__SC~T3_9HZH6_E@QPJ5_0.png"></p>
-<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>![<del>M@9_Q2A__UOF_</del>K8U5ME`E.png](<a href="https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png">https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png</a>)<br>选完直接保存即可，这里配合cloudflare使用的。其他的请自行研究。</p>
-]]></content>
-      <categories>
-        <category>DDNS</category>
-      </categories>
-      <tags>
-        <tag>DDNS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Google云修改账号密码</title>
     <url>/2022/01/26/Google/</url>
     <content><![CDATA[<ol>
@@ -45,14 +31,18 @@
       </tags>
   </entry>
   <entry>
-    <title>chatgpt网页版对接QQbot</title>
-    <url>/2023/04/23/chatgpt/</url>
-    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
-<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
-<ul>
-<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
-</ul>
+    <title>DDNS动态解析教学（openwrt教程</title>
+    <url>/2022/12/17/DNSdongtaijiexi/</url>
+    <content><![CDATA[<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p><img src="https://s2.loli.net/2022/12/17/QqjdnL4Vacv3MuF.png" alt="SO_QFY_YK@C199MH~LRK@Y6.png"></p>
+<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p><img src="https://s2.loli.net/2022/12/17/di1sTWnfC3ABeqm.png" alt="4__SC~T3_9HZH6_E@QPJ5_0.png"></p>
+<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>![<del>M@9_Q2A__UOF_</del>K8U5ME`E.png](<a href="https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png">https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png</a>)<br>选完直接保存即可，这里配合cloudflare使用的。其他的请自行研究。</p>
 ]]></content>
+      <categories>
+        <category>DDNS</category>
+      </categories>
+      <tags>
+        <tag>DDNS</tag>
+      </tags>
   </entry>
   <entry>
     <title>静态hexoblog搭建教程</title>
@@ -98,6 +88,16 @@
         <tag>butterfly</tag>
         <tag>blog</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>chatgpt网页版对接QQbot</title>
+    <url>/2023/04/23/chatgpt/</url>
+    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
+<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
+<ul>
+<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
+</ul>
+]]></content>
   </entry>
   <entry>
     <title>除夕快乐！！</title>
