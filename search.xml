@@ -90,16 +90,6 @@
       </tags>
   </entry>
   <entry>
-    <title>chatgpt网页版对接QQbot</title>
-    <url>/2023/04/23/chatgpt/</url>
-    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
-<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
-<ul>
-<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>除夕快乐！！</title>
     <url>/2022/01/31/chuxi/</url>
     <content><![CDATA[<h1 id="祝大家"><a href="#祝大家" class="headerlink" title="祝大家"></a>祝大家</h1><blockquote>
@@ -115,6 +105,16 @@
       </tags>
   </entry>
   <entry>
+    <title>chatgpt网页版对接QQbot</title>
+    <url>/2023/04/23/chatgpt/</url>
+    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
+<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
+<ul>
+<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>BattleBit Remastered Playtest</title>
     <url>/2022/01/28/game/</url>
     <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://s2.loli.net/2022/01/28/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://s2.loli.net/2022/01/28/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
@@ -122,6 +122,19 @@
 ]]></content>
       <tags>
         <tag>steam</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>旅行日志</title>
+    <url>/2022/02/04/lvxing/</url>
+    <content><![CDATA[<div class="fj-gallery"><p><img src="https://s2.loli.net/2022/02/04/qaYoQOxzlNucKEJ.png"><br><img src="https://s2.loli.net/2022/02/04/flAimT6dLvjSbPO.png"><br><img src="https://s2.loli.net/2022/02/04/42lMtvT93Vk1PDh.png"><br><img src="https://s2.loli.net/2022/02/04/of5Yd3K8xQpChS2.png"></p>
+          </div>]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>play</tag>
+        <tag>旅行</tag>
       </tags>
   </entry>
   <entry>
@@ -139,19 +152,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>旅行日志</title>
-    <url>/2022/02/04/lvxing/</url>
-    <content><![CDATA[<div class="fj-gallery"><p><img src="https://s2.loli.net/2022/02/04/qaYoQOxzlNucKEJ.png"><br><img src="https://s2.loli.net/2022/02/04/flAimT6dLvjSbPO.png"><br><img src="https://s2.loli.net/2022/02/04/42lMtvT93Vk1PDh.png"><br><img src="https://s2.loli.net/2022/02/04/of5Yd3K8xQpChS2.png"></p>
-          </div>]]></content>
-      <categories>
-        <category>旅行</category>
-      </categories>
-      <tags>
-        <tag>play</tag>
-        <tag>旅行</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Minecraft红石向服(1.19.1)</title>
     <url>/2022/01/27/mc1.19/</url>
     <content><![CDATA[<h1 id="服务器介绍"><a href="#服务器介绍" class="headerlink" title="服务器介绍"></a>服务器介绍</h1><h2 id="本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。"><a href="#本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。" class="headerlink" title="本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:421953860 虽然本服务器没有开启白名单，但是还是希望你能加入该群。"></a>本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:<code>421953860</code> 虽然本服务器没有开启白名单，但是还是希望你能加入该群。</h2><p><a href="https://sm.ms/image/2knqpPOAVQtr96I" target="_blank"><img src="https://s2.loli.net/2022/08/16/2knqpPOAVQtr96I.png" ></a><br>出生点附件<br><a href="https://sm.ms/image/WIbZacGXjgzvwPt" target="_blank"><img src="https://s2.loli.net/2022/08/16/WIbZacGXjgzvwPt.png" ></a><br>yamatu的家<br><a href="https://sm.ms/image/R95NhgTaroCZxeu" target="_blank"><img src="https://s2.loli.net/2022/08/16/R95NhgTaroCZxeu.png" ></a><br>刷铁机<br><a href="https://sm.ms/image/UVM59Di36bJajwC" target="_blank"><img src="https://s2.loli.net/2022/08/16/UVM59Di36bJajwC.png" ></a><br>刷石机<br><a href="https://sm.ms/image/TQy4a35pv6efiOI" target="_blank"><img src="https://s2.loli.net/2022/08/16/TQy4a35pv6efiOI.png" ></a><br>山洞仓库<br><a href="https://sm.ms/image/dYTOnpuZc42Fo5h" target="_blank"><img src="https://s2.loli.net/2022/08/16/dYTOnpuZc42Fo5h.png" ></a><br>农场<br>服务器地址：</p>
@@ -162,6 +162,45 @@
       <tags>
         <tag>生存服</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>咸鱼翻身计划</title>
+    <url>/2023/06/16/xianyujihua/</url>
+    <content><![CDATA[<h1 id="咸鱼翻身计划"><a href="#咸鱼翻身计划" class="headerlink" title="咸鱼翻身计划"></a>咸鱼翻身计划</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>高三读完，深知自己这么多年来困于学校，即对校外的世界不了解，也对自己的人生无规划，活脱脱的像一条咸鱼。</p>
+<p>这个暑假有将近三个月时间，是虚度这三个月，还是充分利用这三个月时间提升自己、拓展视野呢？我想后者还是好于前者。未来飘忽不定，前路茫茫未知。我需要知识武装自己，急需技能拥抱未来。</p>
+<p>于是，在借鉴逐日计划后，我和哥哥制定了咸鱼翻身计划。希望这项计划能将我们洗刷，让我们成长！</p>
+<p>2023年6月16日     高考已过，未来在即</p>
+<h2 id="计划内容"><a href="#计划内容" class="headerlink" title="计划内容"></a>计划内容</h2><ol>
+<li>剪辑</li>
+<li>表格</li>
+<li>拍摄</li>
+<li>健身<ul>
+<li>am 起床 <ul>
+<li>在家无氧</li>
+<li>6:30am 出去无氧</li>
+</ul>
+</li>
+<li>am 买菜回家</li>
+</ul>
+</li>
+<li>乐器<ul>
+<li>博：重拾吉他 </li>
+<li>炜：初见吉他</li>
+</ul>
+</li>
+<li>前端，网站</li>
+<li>车</li>
+<li>画图，设计<ul>
+<li>平面设计</li>
+<li>3D设计</li>
+</ul>
+</li>
+<li>适度游戏，练字人生<ul>
+<li>把字写的像人写的，把人能写出来的字写出来</li>
+</ul>
+</li>
+</ol>
+]]></content>
   </entry>
   <entry>
     <title>butterfly-giter聊天室</title>
@@ -199,61 +238,6 @@
       </tags>
   </entry>
   <entry>
-    <title>咸鱼翻身计划</title>
-    <url>/2023/06/16/xianyujihua/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="高三读完，深知自己这么多年来困于学校，即对校外的世界不了解，也对自己的人生无规划，活脱脱的像一条咸鱼。"><a href="#高三读完，深知自己这么多年来困于学校，即对校外的世界不了解，也对自己的人生无规划，活脱脱的像一条咸鱼。" class="headerlink" title="高三读完，深知自己这么多年来困于学校，即对校外的世界不了解，也对自己的人生无规划，活脱脱的像一条咸鱼。"></a>高三读完，深知自己这么多年来困于学校，即对校外的世界不了解，也对自己的人生无规划，活脱脱的像一条咸鱼。</h2><p>这个暑假有将近三个月时间，是虚度这三个月，还是充分利用这三个月时间提升自己、拓展视野呢？<br>我想后者还是好于前者。未来飘忽不定，前路茫茫未知。我需要知识武装自己，急需技能拥抱未来<br>于是，在借鉴逐日计划后，我和哥哥制定了咸鱼翻身计划<br>希望这项计划能将我们洗刷，让我们成长！<br>2023年6月16日     高考已过，未来在即</p>
-<h1 id="计划名字咸鱼翻身计划，为什么会有这样的计划呢？"><a href="#计划名字咸鱼翻身计划，为什么会有这样的计划呢？" class="headerlink" title="计划名字咸鱼翻身计划，为什么会有这样的计划呢？"></a>计划名字咸鱼翻身计划，为什么会有这样的计划呢？</h1><blockquote>
-<p>在经历高中三年的无聊读期后，觉得人生不止于此。现在又正是暑假暑假时间有 ‘’’ 三个月’’’ ，难道又要和以前一样堕落下去吗？永远都是只是在正在准备行动中？</p>
-</blockquote>
-<blockquote>
-<p>答案：不，我们不能这样。我和我弟早就在高中三年中谈论了不少的未来规划，我们不能就在当下让忘掉了我们的初心。于是我们收到某个up的启发制定了这一份计划。</p>
-</blockquote>
-<h1 id="咸鱼翻身计划"><a href="#咸鱼翻身计划" class="headerlink" title="咸鱼翻身计划"></a>咸鱼翻身计划</h1><ol>
-<li>剪辑</li>
-</ol>
-<ol start="2">
-<li>表格</li>
-</ol>
-<ol start="3">
-<li>拍摄</li>
-</ol>
-<ol start="4">
-<li><p>健身</p>
-</li>
-<li><p>am 起床<br>   在家无氧<br> 6 30.am 出去无氧</p>
-</li>
-<li><p>am 买菜回家</p>
-</li>
-<li><p>乐器<br>博：重拾吉他<br>炜：初见吉他</p>
-</li>
-</ol>
-<ol start="6">
-<li>前端，网站</li>
-</ol>
-<ol start="7">
-<li>车</li>
-</ol>
-<ol start="8">
-<li><p>画图，设计<br>平面设计<br>3D设计</p>
-</li>
-<li><p>适度游戏，练字人生<br>把字写的像人写的，把人能写出来的字写出来</p>
-</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>原神CD翻录</title>
-    <url>/2022/02/06/yuansheng/</url>
-    <content><![CDATA[<p><a href="http://nbnb.yamatu.xyz:5212/s/G6Ug" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><img src="https://s2.loli.net/2022/02/06/jQ2noSAFVeW8vRO.jpg" alt="gggg.png"><br><img src="https://s2.loli.net/2022/02/06/1dN9M8ahreBfbOA.jpg" alt="gggg2.png"></p>
-]]></content>
-      <categories>
-        <category>原神</category>
-      </categories>
-      <tags>
-        <tag>原神</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>疫情(结束了)</title>
     <url>/2022/12/01/yiq/</url>
     <content><![CDATA[<p>终于结束了，清晰认识病毒的可怕。</p>
@@ -285,6 +269,18 @@
 <li>地址转发.bat和启动服务.bat要保持开启状态</li>
 </ol>
 <h2 id="对好友使用代码"><a href="#对好友使用代码" class="headerlink" title="对好友使用代码"></a>对好友使用代码</h2><p>获取物品<br><code>/give uid 物品id 数量(这里uid也可以不要)</code><br>直接CTRL+F搜你要的物品</p>
+]]></content>
+      <categories>
+        <category>原神</category>
+      </categories>
+      <tags>
+        <tag>原神</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>原神CD翻录</title>
+    <url>/2022/02/06/yuansheng/</url>
+    <content><![CDATA[<p><a href="http://nbnb.yamatu.xyz:5212/s/G6Ug" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><img src="https://s2.loli.net/2022/02/06/jQ2noSAFVeW8vRO.jpg" alt="gggg.png"><br><img src="https://s2.loli.net/2022/02/06/1dN9M8ahreBfbOA.jpg" alt="gggg2.png"></p>
 ]]></content>
       <categories>
         <category>原神</category>
