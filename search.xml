@@ -45,6 +45,16 @@
       </tags>
   </entry>
   <entry>
+    <title>chatgpt网页版对接QQbot</title>
+    <url>/2023/04/23/chatgpt/</url>
+    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
+<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
+<ul>
+<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>静态hexoblog搭建教程</title>
     <url>/2022/01/26/blogdajian/</url>
     <content><![CDATA[<h2 id="需要工具"><a href="#需要工具" class="headerlink" title="需要工具"></a>需要工具</h2><ol>
@@ -105,16 +115,6 @@
       </tags>
   </entry>
   <entry>
-    <title>chatgpt网页版对接QQbot</title>
-    <url>/2023/04/23/chatgpt/</url>
-    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
-<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
-<ul>
-<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>BattleBit Remastered Playtest</title>
     <url>/2022/01/28/game/</url>
     <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://s2.loli.net/2022/01/28/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://s2.loli.net/2022/01/28/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
@@ -122,19 +122,6 @@
 ]]></content>
       <tags>
         <tag>steam</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>旅行日志</title>
-    <url>/2022/02/04/lvxing/</url>
-    <content><![CDATA[<div class="fj-gallery"><p><img src="https://s2.loli.net/2022/02/04/qaYoQOxzlNucKEJ.png"><br><img src="https://s2.loli.net/2022/02/04/flAimT6dLvjSbPO.png"><br><img src="https://s2.loli.net/2022/02/04/42lMtvT93Vk1PDh.png"><br><img src="https://s2.loli.net/2022/02/04/of5Yd3K8xQpChS2.png"></p>
-          </div>]]></content>
-      <categories>
-        <category>旅行</category>
-      </categories>
-      <tags>
-        <tag>play</tag>
-        <tag>旅行</tag>
       </tags>
   </entry>
   <entry>
@@ -152,6 +139,19 @@
 ]]></content>
   </entry>
   <entry>
+    <title>旅行日志</title>
+    <url>/2022/02/04/lvxing/</url>
+    <content><![CDATA[<div class="fj-gallery"><p><img src="https://s2.loli.net/2022/02/04/qaYoQOxzlNucKEJ.png"><br><img src="https://s2.loli.net/2022/02/04/flAimT6dLvjSbPO.png"><br><img src="https://s2.loli.net/2022/02/04/42lMtvT93Vk1PDh.png"><br><img src="https://s2.loli.net/2022/02/04/of5Yd3K8xQpChS2.png"></p>
+          </div>]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>play</tag>
+        <tag>旅行</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Minecraft红石向服(1.19.1)</title>
     <url>/2022/01/27/mc1.19/</url>
     <content><![CDATA[<h1 id="服务器介绍"><a href="#服务器介绍" class="headerlink" title="服务器介绍"></a>服务器介绍</h1><h2 id="本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。"><a href="#本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。" class="headerlink" title="本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:421953860 虽然本服务器没有开启白名单，但是还是希望你能加入该群。"></a>本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:<code>421953860</code> 虽然本服务器没有开启白名单，但是还是希望你能加入该群。</h2><p><a href="https://sm.ms/image/2knqpPOAVQtr96I" target="_blank"><img src="https://s2.loli.net/2022/08/16/2knqpPOAVQtr96I.png" ></a><br>出生点附件<br><a href="https://sm.ms/image/WIbZacGXjgzvwPt" target="_blank"><img src="https://s2.loli.net/2022/08/16/WIbZacGXjgzvwPt.png" ></a><br>yamatu的家<br><a href="https://sm.ms/image/R95NhgTaroCZxeu" target="_blank"><img src="https://s2.loli.net/2022/08/16/R95NhgTaroCZxeu.png" ></a><br>刷铁机<br><a href="https://sm.ms/image/UVM59Di36bJajwC" target="_blank"><img src="https://s2.loli.net/2022/08/16/UVM59Di36bJajwC.png" ></a><br>刷石机<br><a href="https://sm.ms/image/TQy4a35pv6efiOI" target="_blank"><img src="https://s2.loli.net/2022/08/16/TQy4a35pv6efiOI.png" ></a><br>山洞仓库<br><a href="https://sm.ms/image/dYTOnpuZc42Fo5h" target="_blank"><img src="https://s2.loli.net/2022/08/16/dYTOnpuZc42Fo5h.png" ></a><br>农场<br>服务器地址：</p>
@@ -161,6 +161,41 @@
       </categories>
       <tags>
         <tag>生存服</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Minecraft红石向生存服(1.16.5已停止该存档)</title>
+    <url>/2022/01/27/mcvps/</url>
+    <content><![CDATA[<p><a href="https://www.fansmc.com/xuanchuan/1284/5809"><img src="https://www.fansmc.com/banner/1284/default/FFFFFF/FFFFFF/medium" /></a></p>
+<h1 id="服务器介绍"><a href="#服务器介绍" class="headerlink" title="服务器介绍"></a>服务器介绍</h1><h2 id="本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。"><a href="#本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。" class="headerlink" title="本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:421953860 虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。 "></a>本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:<code>421953860</code> 虽然本服务器没有开启白名单，但是还是希望你能加入该群。<code>没有正版验证，欢迎你的到来。</code> <img src="https://s2.loli.net/2022/04/05/5p3b6Maz1SodZCs.png" alt="SLD_G6DA_TSH74IYQ_S9_T.png"></h2><h3 id="在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了-你在本服务器的存档都会定时备份下来"><a href="#在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了-你在本服务器的存档都会定时备份下来" class="headerlink" title="在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了(你在本服务器的存档都会定时备份下来)"></a>在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了(你在本服务器的存档都会定时备份下来)</h3><h3 id="现阶段我们缺少会建筑的大佬，-o-￣▽￣-o你懂我意思的。（还不快进来！！！说的就是你！！！）"><a href="#现阶段我们缺少会建筑的大佬，-o-￣▽￣-o你懂我意思的。（还不快进来！！！说的就是你！！！）" class="headerlink" title="现阶段我们缺少会建筑的大佬，~ o(￣▽￣)o你懂我意思的。（还不快进来！！！说的就是你！！！）"></a>现阶段我们缺少会建筑的大佬，~ o(<em>￣▽￣</em>)o你懂我意思的。（还不快进来！！！说的就是你！！！）</h3><p>出生点场景，以及正在设计的红石电子钟。<br><img src="https://s2.loli.net/2022/04/05/ZKbRmvH7iVqft2C.png" alt="_D8B2E___3X3M2OJ@~R.png"><br><img src="https://s2.loli.net/2022/04/05/4d9IrUo6SkuCle5.png" alt="_D8B2DJO5E.png"><br><img src="https://s2.loli.net/2022/04/05/JfP2KVyGowabgYT.png" alt="_D8B2DJO5E_.png"><br>刷怪塔（上空加树场）<br><img src="https://s2.loli.net/2022/04/05/hYvujX849FNaESI.png" alt="B192_~~O_SWX_K_B76P7XFK.png"><br>猪人塔<br><img src="https://s2.loli.net/2022/04/05/oOLwpAUXa4K5TfF.png" alt="X9XWVSN___7@PWFQ6FF7_K.png"><br>女巫塔</p>
+<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><h2 id="还有更多的景观没有展示出来"><a href="#还有更多的景观没有展示出来" class="headerlink" title="还有更多的景观没有展示出来"></a>还有更多的景观没有展示出来</h2><h2 id="版本1-16-5"><a href="#版本1-16-5" class="headerlink" title="版本1.16.5"></a>版本<code>1.16.5</code></h2><h2 id="以下是服务器地址"><a href="#以下是服务器地址" class="headerlink" title="以下是服务器地址"></a>以下是服务器地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>mc服</category>
+      </categories>
+      <tags>
+        <tag>生存服</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>butterfly-giter聊天室</title>
+    <url>/2022/01/26/pinglun/</url>
+    <content><![CDATA[<h2 id="Gitter-注册"><a href="#Gitter-注册" class="headerlink" title="Gitter 注册"></a>Gitter 注册</h2><p>先去 Gitter 注册一个账号，可以直接使用 GitHub 登录</p>
+<p><a href="https://gitter.im/" title="点这个">https://gitter.im/</a></p>
+<p>然后先创建一个 <code>Community</code> 社区，再创建一个 Room 聊天室（创建聊天室时 community 选择刚创建的即可）</p>
+<p>比如我创建了一个<code>community</code>叫<code>ednovas</code>, 然后创建了一个叫 ChatRoom 的聊天室。这个要记住，下一步用到。<br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="sadf.png"></p>
+<ol>
+<li>然后创建相应的<code>Create community</code><br><img src="https://s2.loli.net/2022/08/02/hZcALPrqNgzFjkp.png" alt="bffgr.png"></li>
+<li>在创建对应仓库的<code>Create room</code><br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="abfht.png"></li>
+<li>修改<code>主题配置文件</code><br><img src="https://s2.loli.net/2022/08/02/vXrCdIFjQ8G3oiM.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
+<h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://s2.loli.net/2022/08/02/ztLPRVZeNvjqXnD.png" alt="jjjjr.png"><br><img src="https://s2.loli.net/2022/08/02/b9aPuTFVU1jnYqB.png" alt="ffe123.png"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>评论</tag>
       </tags>
   </entry>
   <entry>
@@ -201,41 +236,6 @@
 </li>
 </ol>
 ]]></content>
-  </entry>
-  <entry>
-    <title>butterfly-giter聊天室</title>
-    <url>/2022/01/26/pinglun/</url>
-    <content><![CDATA[<h2 id="Gitter-注册"><a href="#Gitter-注册" class="headerlink" title="Gitter 注册"></a>Gitter 注册</h2><p>先去 Gitter 注册一个账号，可以直接使用 GitHub 登录</p>
-<p><a href="https://gitter.im/" title="点这个">https://gitter.im/</a></p>
-<p>然后先创建一个 <code>Community</code> 社区，再创建一个 Room 聊天室（创建聊天室时 community 选择刚创建的即可）</p>
-<p>比如我创建了一个<code>community</code>叫<code>ednovas</code>, 然后创建了一个叫 ChatRoom 的聊天室。这个要记住，下一步用到。<br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="sadf.png"></p>
-<ol>
-<li>然后创建相应的<code>Create community</code><br><img src="https://s2.loli.net/2022/08/02/hZcALPrqNgzFjkp.png" alt="bffgr.png"></li>
-<li>在创建对应仓库的<code>Create room</code><br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="abfht.png"></li>
-<li>修改<code>主题配置文件</code><br><img src="https://s2.loli.net/2022/08/02/vXrCdIFjQ8G3oiM.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
-<h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://s2.loli.net/2022/08/02/ztLPRVZeNvjqXnD.png" alt="jjjjr.png"><br><img src="https://s2.loli.net/2022/08/02/b9aPuTFVU1jnYqB.png" alt="ffe123.png"></li>
-</ol>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>评论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Minecraft红石向生存服(1.16.5已停止该存档)</title>
-    <url>/2022/01/27/mcvps/</url>
-    <content><![CDATA[<p><a href="https://www.fansmc.com/xuanchuan/1284/5809"><img src="https://www.fansmc.com/banner/1284/default/FFFFFF/FFFFFF/medium" /></a></p>
-<h1 id="服务器介绍"><a href="#服务器介绍" class="headerlink" title="服务器介绍"></a>服务器介绍</h1><h2 id="本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。"><a href="#本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。" class="headerlink" title="本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:421953860 虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。 "></a>本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:<code>421953860</code> 虽然本服务器没有开启白名单，但是还是希望你能加入该群。<code>没有正版验证，欢迎你的到来。</code> <img src="https://s2.loli.net/2022/04/05/5p3b6Maz1SodZCs.png" alt="SLD_G6DA_TSH74IYQ_S9_T.png"></h2><h3 id="在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了-你在本服务器的存档都会定时备份下来"><a href="#在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了-你在本服务器的存档都会定时备份下来" class="headerlink" title="在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了(你在本服务器的存档都会定时备份下来)"></a>在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了(你在本服务器的存档都会定时备份下来)</h3><h3 id="现阶段我们缺少会建筑的大佬，-o-￣▽￣-o你懂我意思的。（还不快进来！！！说的就是你！！！）"><a href="#现阶段我们缺少会建筑的大佬，-o-￣▽￣-o你懂我意思的。（还不快进来！！！说的就是你！！！）" class="headerlink" title="现阶段我们缺少会建筑的大佬，~ o(￣▽￣)o你懂我意思的。（还不快进来！！！说的就是你！！！）"></a>现阶段我们缺少会建筑的大佬，~ o(<em>￣▽￣</em>)o你懂我意思的。（还不快进来！！！说的就是你！！！）</h3><p>出生点场景，以及正在设计的红石电子钟。<br><img src="https://s2.loli.net/2022/04/05/ZKbRmvH7iVqft2C.png" alt="_D8B2E___3X3M2OJ@~R.png"><br><img src="https://s2.loli.net/2022/04/05/4d9IrUo6SkuCle5.png" alt="_D8B2DJO5E.png"><br><img src="https://s2.loli.net/2022/04/05/JfP2KVyGowabgYT.png" alt="_D8B2DJO5E_.png"><br>刷怪塔（上空加树场）<br><img src="https://s2.loli.net/2022/04/05/hYvujX849FNaESI.png" alt="B192_~~O_SWX_K_B76P7XFK.png"><br>猪人塔<br><img src="https://s2.loli.net/2022/04/05/oOLwpAUXa4K5TfF.png" alt="X9XWVSN___7@PWFQ6FF7_K.png"><br>女巫塔</p>
-<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><h2 id="还有更多的景观没有展示出来"><a href="#还有更多的景观没有展示出来" class="headerlink" title="还有更多的景观没有展示出来"></a>还有更多的景观没有展示出来</h2><h2 id="版本1-16-5"><a href="#版本1-16-5" class="headerlink" title="版本1.16.5"></a>版本<code>1.16.5</code></h2><h2 id="以下是服务器地址"><a href="#以下是服务器地址" class="headerlink" title="以下是服务器地址"></a>以下是服务器地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>mc服</category>
-      </categories>
-      <tags>
-        <tag>生存服</tag>
-      </tags>
   </entry>
   <entry>
     <title>疫情(结束了)</title>
