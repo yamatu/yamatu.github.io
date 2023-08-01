@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>DDNS动态解析教学（openwrt教程</title>
+    <url>/2022/12/17/DNSdongtaijiexi/</url>
+    <content><![CDATA[<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p><img src="https://s2.loli.net/2022/12/17/QqjdnL4Vacv3MuF.png" alt="SO_QFY_YK@C199MH~LRK@Y6.png"></p>
+<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p><img src="https://s2.loli.net/2022/12/17/di1sTWnfC3ABeqm.png" alt="4__SC~T3_9HZH6_E@QPJ5_0.png"></p>
+<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>![<del>M@9_Q2A__UOF_</del>K8U5ME`E.png](<a href="https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png">https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png</a>)<br>选完直接保存即可，这里配合cloudflare使用的。其他的请自行研究。</p>
+]]></content>
+      <categories>
+        <category>DDNS</category>
+      </categories>
+      <tags>
+        <tag>DDNS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Google云修改账号密码</title>
     <url>/2022/01/26/Google/</url>
     <content><![CDATA[<ol>
@@ -29,30 +43,6 @@
         <tag>GC</tag>
         <tag>密码</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>DDNS动态解析教学（openwrt教程</title>
-    <url>/2022/12/17/DNSdongtaijiexi/</url>
-    <content><![CDATA[<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p><img src="https://s2.loli.net/2022/12/17/QqjdnL4Vacv3MuF.png" alt="SO_QFY_YK@C199MH~LRK@Y6.png"></p>
-<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p><img src="https://s2.loli.net/2022/12/17/di1sTWnfC3ABeqm.png" alt="4__SC~T3_9HZH6_E@QPJ5_0.png"></p>
-<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>![<del>M@9_Q2A__UOF_</del>K8U5ME`E.png](<a href="https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png">https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png</a>)<br>选完直接保存即可，这里配合cloudflare使用的。其他的请自行研究。</p>
-]]></content>
-      <categories>
-        <category>DDNS</category>
-      </categories>
-      <tags>
-        <tag>DDNS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>chatgpt网页版对接QQbot</title>
-    <url>/2023/04/23/chatgpt/</url>
-    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
-<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
-<ul>
-<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
-</ul>
-]]></content>
   </entry>
   <entry>
     <title>静态hexoblog搭建教程</title>
@@ -100,6 +90,16 @@
       </tags>
   </entry>
   <entry>
+    <title>chatgpt网页版对接QQbot</title>
+    <url>/2023/04/23/chatgpt/</url>
+    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
+<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
+<ul>
+<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>除夕快乐！！</title>
     <url>/2022/01/31/chuxi/</url>
     <content><![CDATA[<h1 id="祝大家"><a href="#祝大家" class="headerlink" title="祝大家"></a>祝大家</h1><blockquote>
@@ -112,42 +112,6 @@
       <tags>
         <tag>除夕快乐</tag>
         <tag>节日</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Cookie逆向分析指南</title>
-    <url>/2023/08/01/claude1/</url>
-    <content><![CDATA[<p>好的,我给您写一篇Cookie逆向的教程:</p>
-<h1 id="Cookie逆向分析指南"><a href="#Cookie逆向分析指南" class="headerlink" title="Cookie逆向分析指南"></a>Cookie逆向分析指南</h1><p>Cookie是web应用中常用的身份认证和状态保持机制。通过逆向分析Cookie,我们可以了解web应用的认证流程和状态管理逻辑。</p>
-<h2 id="Cookie基础知识"><a href="#Cookie基础知识" class="headerlink" title="Cookie基础知识"></a>Cookie基础知识</h2><ul>
-<li>Cookie存储在客户端浏览器中</li>
-<li>由服务器设置,客户端发送给服务器端</li>
-<li>包含会话状态、认证token等信息</li>
-</ul>
-<h2 id="Cookie逆向分析步骤"><a href="#Cookie逆向分析步骤" class="headerlink" title="Cookie逆向分析步骤"></a>Cookie逆向分析步骤</h2><ol>
-<li>利用浏览器开发者工具查看站点Cookie</li>
-</ol>
-<p>在Network面板中查看站点请求,找到Cookie信息。</p>
-<ol start="2">
-<li>分析Cookie内容和格式</li>
-</ol>
-<p>Cookie通常由名称、值、过期时间等组成。需要分析每个字段的作用。</p>
-<ol start="3">
-<li>修改Cookie测试站点变化</li>
-</ol>
-<p>可以尝试修改Cookie的值,观察站点行为变化。例如修改认证token来测试认证流程。</p>
-<ol start="4">
-<li>重放Cookie到其他浏览器/设备</li>
-</ol>
-<p>将获取的Cookie复制到其他浏览器/设备,测试其可移植性。</p>
-<ol start="5">
-<li>尝试伪造Cookie</li>
-</ol>
-<p>根据分析,尝试构造伪造的Cookie来访问被保护资源。</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>通过逆向分析Cookie,我们可以找到站点认证、授权、状态管理的薄弱点,了解其内部机制,辅助开展渗透测试。</p>
-]]></content>
-      <tags>
-        <tag>claude</tag>
       </tags>
   </entry>
   <entry>
@@ -191,13 +155,39 @@
       </tags>
   </entry>
   <entry>
-    <title>BattleBit Remastered Playtest</title>
-    <url>/2022/01/28/game/</url>
-    <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://s2.loli.net/2022/01/28/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://s2.loli.net/2022/01/28/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
-<h2 id="体验心得"><a href="#体验心得" class="headerlink" title="体验心得"></a>体验心得</h2><p>距离开放正式服还有点时间，目前可以开自建房玩。<br>我体验了下来，射击手感很好。(和其他测评玩家一样吊打2042)</p>
+    <title>Cookie逆向分析指南</title>
+    <url>/2023/08/01/claude1/</url>
+    <content><![CDATA[<p>好的,我给您写一篇Cookie逆向的教程:</p>
+<h1 id="Cookie逆向分析指南"><a href="#Cookie逆向分析指南" class="headerlink" title="Cookie逆向分析指南"></a>Cookie逆向分析指南</h1><p>Cookie是web应用中常用的身份认证和状态保持机制。通过逆向分析Cookie,我们可以了解web应用的认证流程和状态管理逻辑。</p>
+<h2 id="Cookie基础知识"><a href="#Cookie基础知识" class="headerlink" title="Cookie基础知识"></a>Cookie基础知识</h2><ul>
+<li>Cookie存储在客户端浏览器中</li>
+<li>由服务器设置,客户端发送给服务器端</li>
+<li>包含会话状态、认证token等信息</li>
+</ul>
+<h2 id="Cookie逆向分析步骤"><a href="#Cookie逆向分析步骤" class="headerlink" title="Cookie逆向分析步骤"></a>Cookie逆向分析步骤</h2><ol>
+<li>利用浏览器开发者工具查看站点Cookie</li>
+</ol>
+<p>在Network面板中查看站点请求,找到Cookie信息。</p>
+<ol start="2">
+<li>分析Cookie内容和格式</li>
+</ol>
+<p>Cookie通常由名称、值、过期时间等组成。需要分析每个字段的作用。</p>
+<ol start="3">
+<li>修改Cookie测试站点变化</li>
+</ol>
+<p>可以尝试修改Cookie的值,观察站点行为变化。例如修改认证token来测试认证流程。</p>
+<ol start="4">
+<li>重放Cookie到其他浏览器/设备</li>
+</ol>
+<p>将获取的Cookie复制到其他浏览器/设备,测试其可移植性。</p>
+<ol start="5">
+<li>尝试伪造Cookie</li>
+</ol>
+<p>根据分析,尝试构造伪造的Cookie来访问被保护资源。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>通过逆向分析Cookie,我们可以找到站点认证、授权、状态管理的薄弱点,了解其内部机制,辅助开展渗透测试。</p>
 ]]></content>
       <tags>
-        <tag>steam</tag>
+        <tag>claude</tag>
       </tags>
   </entry>
   <entry>
@@ -313,6 +303,16 @@
       </tags>
   </entry>
   <entry>
+    <title>BattleBit Remastered Playtest</title>
+    <url>/2022/01/28/game/</url>
+    <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://s2.loli.net/2022/01/28/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://s2.loli.net/2022/01/28/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
+<h2 id="体验心得"><a href="#体验心得" class="headerlink" title="体验心得"></a>体验心得</h2><p>距离开放正式服还有点时间，目前可以开自建房玩。<br>我体验了下来，射击手感很好。(和其他测评玩家一样吊打2042)</p>
+]]></content>
+      <tags>
+        <tag>steam</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo blog文件移植到其他电脑</title>
     <url>/2022/03/16/hexoyizhi/</url>
     <content><![CDATA[<h1 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先把你的blog文件下载下来存在你觉得不错的网盘上</p>
@@ -387,12 +387,6 @@
       </tags>
   </entry>
   <entry>
-    <title>疫情(结束了)</title>
-    <url>/2022/12/01/yiq/</url>
-    <content><![CDATA[<p>终于结束了，清晰认识病毒的可怕。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>咸鱼翻身计划</title>
     <url>/2023/06/16/xianyujihua/</url>
     <content><![CDATA[<h1 id="咸鱼翻身计划"><a href="#咸鱼翻身计划" class="headerlink" title="咸鱼翻身计划"></a>咸鱼翻身计划</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>高三读完，深知自己这么多年来困于学校，即对校外的世界不了解，也对自己的人生无规划，活脱脱的像一条咸鱼。</p>
@@ -432,16 +426,10 @@
 ]]></content>
   </entry>
   <entry>
-    <title>原神CD翻录</title>
-    <url>/2022/02/06/yuansheng/</url>
-    <content><![CDATA[<p><a href="http://nbnb.yamatu.xyz:5212/s/G6Ug" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><img src="https://s2.loli.net/2022/02/06/jQ2noSAFVeW8vRO.jpg" alt="gggg.png"><br><img src="https://s2.loli.net/2022/02/06/1dN9M8ahreBfbOA.jpg" alt="gggg2.png"></p>
+    <title>疫情(结束了)</title>
+    <url>/2022/12/01/yiq/</url>
+    <content><![CDATA[<p>终于结束了，清晰认识病毒的可怕。</p>
 ]]></content>
-      <categories>
-        <category>原神</category>
-      </categories>
-      <tags>
-        <tag>原神</tag>
-      </tags>
   </entry>
   <entry>
     <title>原神私服搭建教程(深渊版丢弃过期)</title>
@@ -469,6 +457,18 @@
 <li>地址转发.bat和启动服务.bat要保持开启状态</li>
 </ol>
 <h2 id="对好友使用代码"><a href="#对好友使用代码" class="headerlink" title="对好友使用代码"></a>对好友使用代码</h2><p>获取物品<br><code>/give uid 物品id 数量(这里uid也可以不要)</code><br>直接CTRL+F搜你要的物品</p>
+]]></content>
+      <categories>
+        <category>原神</category>
+      </categories>
+      <tags>
+        <tag>原神</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>原神CD翻录</title>
+    <url>/2022/02/06/yuansheng/</url>
+    <content><![CDATA[<p><a href="http://nbnb.yamatu.xyz:5212/s/G6Ug" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><img src="https://s2.loli.net/2022/02/06/jQ2noSAFVeW8vRO.jpg" alt="gggg.png"><br><img src="https://s2.loli.net/2022/02/06/1dN9M8ahreBfbOA.jpg" alt="gggg2.png"></p>
 ]]></content>
       <categories>
         <category>原神</category>
