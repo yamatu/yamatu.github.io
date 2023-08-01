@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>DDNS动态解析教学（openwrt教程</title>
+    <url>/2022/12/17/DNSdongtaijiexi/</url>
+    <content><![CDATA[<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p><img src="https://s2.loli.net/2022/12/17/QqjdnL4Vacv3MuF.png" alt="SO_QFY_YK@C199MH~LRK@Y6.png"></p>
+<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p><img src="https://s2.loli.net/2022/12/17/di1sTWnfC3ABeqm.png" alt="4__SC~T3_9HZH6_E@QPJ5_0.png"></p>
+<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>![<del>M@9_Q2A__UOF_</del>K8U5ME`E.png](<a href="https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png">https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png</a>)<br>选完直接保存即可，这里配合cloudflare使用的。其他的请自行研究。</p>
+]]></content>
+      <categories>
+        <category>DDNS</category>
+      </categories>
+      <tags>
+        <tag>DDNS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Google云修改账号密码</title>
     <url>/2022/01/26/Google/</url>
     <content><![CDATA[<ol>
@@ -28,20 +42,6 @@
       <tags>
         <tag>GC</tag>
         <tag>密码</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>DDNS动态解析教学（openwrt教程</title>
-    <url>/2022/12/17/DNSdongtaijiexi/</url>
-    <content><![CDATA[<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p><img src="https://s2.loli.net/2022/12/17/QqjdnL4Vacv3MuF.png" alt="SO_QFY_YK@C199MH~LRK@Y6.png"></p>
-<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p><img src="https://s2.loli.net/2022/12/17/di1sTWnfC3ABeqm.png" alt="4__SC~T3_9HZH6_E@QPJ5_0.png"></p>
-<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>![<del>M@9_Q2A__UOF_</del>K8U5ME`E.png](<a href="https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png">https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png</a>)<br>选完直接保存即可，这里配合cloudflare使用的。其他的请自行研究。</p>
-]]></content>
-      <categories>
-        <category>DDNS</category>
-      </categories>
-      <tags>
-        <tag>DDNS</tag>
       </tags>
   </entry>
   <entry>
@@ -90,16 +90,6 @@
       </tags>
   </entry>
   <entry>
-    <title>chatgpt网页版对接QQbot</title>
-    <url>/2023/04/23/chatgpt/</url>
-    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
-<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
-<ul>
-<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>除夕快乐！！</title>
     <url>/2022/01/31/chuxi/</url>
     <content><![CDATA[<h1 id="祝大家"><a href="#祝大家" class="headerlink" title="祝大家"></a>祝大家</h1><blockquote>
@@ -112,6 +102,204 @@
       <tags>
         <tag>除夕快乐</tag>
         <tag>节日</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>chatgpt网页版对接QQbot</title>
+    <url>/2023/04/23/chatgpt/</url>
+    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
+<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
+<ul>
+<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>Cookie逆向分析指南</title>
+    <url>/2023/08/01/claude1/</url>
+    <content><![CDATA[<p>好的,我给您写一篇Cookie逆向的教程:</p>
+<h1 id="Cookie逆向分析指南"><a href="#Cookie逆向分析指南" class="headerlink" title="Cookie逆向分析指南"></a>Cookie逆向分析指南</h1><p>Cookie是web应用中常用的身份认证和状态保持机制。通过逆向分析Cookie,我们可以了解web应用的认证流程和状态管理逻辑。</p>
+<h2 id="Cookie基础知识"><a href="#Cookie基础知识" class="headerlink" title="Cookie基础知识"></a>Cookie基础知识</h2><ul>
+<li>Cookie存储在客户端浏览器中</li>
+<li>由服务器设置,客户端发送给服务器端</li>
+<li>包含会话状态、认证token等信息</li>
+</ul>
+<h2 id="Cookie逆向分析步骤"><a href="#Cookie逆向分析步骤" class="headerlink" title="Cookie逆向分析步骤"></a>Cookie逆向分析步骤</h2><ol>
+<li>利用浏览器开发者工具查看站点Cookie</li>
+</ol>
+<p>在Network面板中查看站点请求,找到Cookie信息。</p>
+<ol start="2">
+<li>分析Cookie内容和格式</li>
+</ol>
+<p>Cookie通常由名称、值、过期时间等组成。需要分析每个字段的作用。</p>
+<ol start="3">
+<li>修改Cookie测试站点变化</li>
+</ol>
+<p>可以尝试修改Cookie的值,观察站点行为变化。例如修改认证token来测试认证流程。</p>
+<ol start="4">
+<li>重放Cookie到其他浏览器/设备</li>
+</ol>
+<p>将获取的Cookie复制到其他浏览器/设备,测试其可移植性。</p>
+<ol start="5">
+<li>尝试伪造Cookie</li>
+</ol>
+<p>根据分析,尝试构造伪造的Cookie来访问被保护资源。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>通过逆向分析Cookie,我们可以找到站点认证、授权、状态管理的薄弱点,了解其内部机制,辅助开展渗透测试。</p>
+]]></content>
+      <tags>
+        <tag>claude</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Golang图文爬虫</title>
+    <url>/2023/08/01/claude2/</url>
+    <content><![CDATA[<h1 id="使用Go语言写一个简单的网页图文爬虫"><a href="#使用Go语言写一个简单的网页图文爬虫" class="headerlink" title="使用Go语言写一个简单的网页图文爬虫"></a>使用Go语言写一个简单的网页图文爬虫</h1><p>网页爬虫是从网页中抓取数据的程序,它可以用来收集网络信息。本文会介绍如何用Go语言编写一个简单的网页图文爬虫。</p>
+<h2 id="爬虫工作原理"><a href="#爬虫工作原理" class="headerlink" title="爬虫工作原理"></a>爬虫工作原理</h2><p>网页爬虫的基本工作流程是:</p>
+<ol>
+<li>指定需要爬取的网页URL</li>
+<li>发送HTTP请求获取网页内容</li>
+<li>分析网页内容,提取需要的数据</li>
+<li>存储提取到的数据</li>
+<li>生成爬取任务,继续爬取下一个网页</li>
+</ol>
+<p>经过持续循环,爬虫可以递归抓取网络上的各种信息。</p>
+<h2 id="Go语言实现"><a href="#Go语言实现" class="headerlink" title="Go语言实现"></a>Go语言实现</h2><p>Go语言实现爬虫的主要步骤包括:</p>
+<h3 id="导入相关库"><a href="#导入相关库" class="headerlink" title="导入相关库"></a>导入相关库</h3><figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> (</span><br><span class="line">  <span class="string">&quot;net/http&quot;</span></span><br><span class="line">  <span class="string">&quot;github.com/PuerkitoBio/goquery&quot;</span></span><br><span class="line">  <span class="string">&quot;regexp&quot;</span></span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>net/http提供发送HTTP请求的功能</li>
+<li>goquery用来解析HTML文档</li>
+<li>regexp用于编写正则表达式,提取数据</li>
+</ul>
+<h3 id="获取网页内容"><a href="#获取网页内容" class="headerlink" title="获取网页内容"></a>获取网页内容</h3><p>使用http.Get()函数发送HTTP请求获取网页内容。</p>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line">resp, err := http.Get(url)</span><br></pre></td></tr></table></figure>
+
+<h3 id="解析网页"><a href="#解析网页" class="headerlink" title="解析网页"></a>解析网页</h3><p>使用goquery解析获取到的HTML文档。</p>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line">doc, err := goquery.NewDocumentFromReader(resp.Body)</span><br></pre></td></tr></table></figure>
+
+<h3 id="数据提取"><a href="#数据提取" class="headerlink" title="数据提取"></a>数据提取</h3><p>使用Find方法结合正则表达式来提取文本和图片URL。</p>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line">textRe := regexp.MustCompile(<span class="string">`&lt;p&gt;(.*?)&lt;/p&gt;`</span>)</span><br><span class="line">imgRe := regexp.MustCompile(<span class="string">`&lt;img src=&quot;(.*?)&quot;`</span>)</span><br><span class="line"></span><br><span class="line">doc.Find(<span class="string">&quot;p&quot;</span>).Each(<span class="function"><span class="keyword">func</span><span class="params">(i <span class="keyword">int</span>, s *goquery.Selection)</span></span> &#123;</span><br><span class="line">  <span class="comment">//提取文本</span></span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">doc.Find(<span class="string">&quot;img&quot;</span>).Each(<span class="function"><span class="keyword">func</span><span class="params">(i <span class="keyword">int</span>, s *goquery.Selection)</span></span> &#123;</span><br><span class="line">  <span class="comment">//提取图片URL  </span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<h3 id="存储和后续处理"><a href="#存储和后续处理" class="headerlink" title="存储和后续处理"></a>存储和后续处理</h3><p>可以将提取到的数据存储下来,并生成后续的爬取任务。</p>
+<p>通过上述步骤,我们就可以用Go语言实现一个简单的网页爬虫用于抓取图文信息了。接下来可以继续优化和扩展其功能,构建更强大的爬虫系统。</p>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">  <span class="string">&quot;net/http&quot;</span></span><br><span class="line">  <span class="string">&quot;github.com/PuerkitoBio/goquery&quot;</span></span><br><span class="line">  <span class="string">&quot;regexp&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 指定要爬取的网页URL</span></span><br><span class="line">  url := <span class="string">&quot;http://www.targetwebpage.com&quot;</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">// 获取网页HTML</span></span><br><span class="line">  resp, err := http.Get(url)</span><br><span class="line">  <span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">    <span class="built_in">panic</span>(err)</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">defer</span> resp.Body.Close()</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 使用goquery解析HTML</span></span><br><span class="line">  doc, err := goquery.NewDocumentFromReader(resp.Body)</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 编写正则表达式,提取文本和图片URL</span></span><br><span class="line">  textRe := regexp.MustCompile(<span class="string">`&lt;p&gt;(.*?)&lt;/p&gt;`</span>)</span><br><span class="line">  imgRe := regexp.MustCompile(<span class="string">`&lt;img src=&quot;(.*?)&quot;`</span>)</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 使用goquery的Find方法查找元素</span></span><br><span class="line">  doc.Find(<span class="string">&quot;p&quot;</span>).Each(<span class="function"><span class="keyword">func</span><span class="params">(i <span class="keyword">int</span>, s *goquery.Selection)</span></span> &#123;</span><br><span class="line">    text := s.Text()</span><br><span class="line">    <span class="comment">// 使用正则表达式提取文本</span></span><br><span class="line">    match := textRe.FindStringSubmatch(text)</span><br><span class="line">    <span class="keyword">if</span> match != <span class="literal">nil</span> &#123;</span><br><span class="line">      <span class="built_in">println</span>(match[<span class="number">1</span>]) </span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line">  doc.Find(<span class="string">&quot;img&quot;</span>).Each(<span class="function"><span class="keyword">func</span><span class="params">(i <span class="keyword">int</span>, s *goquery.Selection)</span></span> &#123;</span><br><span class="line">    imgURL, _ := s.Attr(<span class="string">&quot;src&quot;</span>)</span><br><span class="line">    <span class="comment">// 使用正则表达式提取图片URL</span></span><br><span class="line">    match := imgRe.FindStringSubmatch(imgURL)</span><br><span class="line">    <span class="keyword">if</span> match != <span class="literal">nil</span> &#123;</span><br><span class="line">      <span class="built_in">println</span>(match[<span class="number">1</span>])</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这个简单的爬虫使用goquery库解析HTML,并使用正则表达式提取文本和图片URL。您可以根据需要继续扩展功能,如抓取更多页面、存储数据等。</p>
+]]></content>
+      <tags>
+        <tag>claude</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chatgpt网页版对接指南</title>
+    <url>/2023/08/01/claude3/</url>
+    <content><![CDATA[<h1 id="ChatGPT-for-Bot"><a href="#ChatGPT-for-Bot" class="headerlink" title="ChatGPT for Bot"></a>ChatGPT for Bot</h1><p>一款支持多平台和各种语言模型的强大对话机器人!</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/8984680/230702158-73967aa9-01be-44d6-bbd9-24437e333140.png" width="200" />
+</p>
+
+<p><strong>ChatGPT for Bot</strong> 是一个开源的对话机器人项目,它支持主流的对话AI模型,可以部署到多种聊天平台上,提供智能的自然语言交互。</p>
+<h2 id="🚀-特性"><a href="#🚀-特性" class="headerlink" title="🚀 特性"></a>🚀 特性</h2><ul>
+<li>💬 支持 <strong>OpenAI ChatGPT</strong> 对话模型</li>
+<li>🎙 支持文字转语音功能</li>
+<li>🖼 支持消息和代码自动转图片 </li>
+<li>⚡ 快速、稳定、易用</li>
+<li>🤖 支持 Mirai、OneBot(go-cqhttp)、Telegram、Discord、微信等主流平台</li>
+<li>🌈 提供预设系统,一键切换聊天风格</li>
+<li>🛠 内置丰富的管理和调试命令</li>
+<li>📦 一键安装包支持快速上手</li>
+</ul>
+<img src="https://user-images.githubusercontent.com/8984680/167273317-10ad3850-65ba-4812-97c2-de2cadc67a33.png" width="500" />
+
+<h2 id="📦-部署"><a href="#📦-部署" class="headerlink" title="📦 部署"></a>📦 部署</h2><p>我们提供多种方式帮助你快速部署,包括:</p>
+<ul>
+<li>🐳 基于 Docker 的一键安装 </li>
+<li>🖥 Windows 和 Mac 一键启动包</li>
+<li>🔧 使用 Docker Compose 进行组件化部署</li>
+<li>⚙ 手动安装和配置</li>
+</ul>
+<p>具体的安装方法请查看:<a href="https://github.com/lss233/chatgpt-mirai-qq-bot/blob/main/README.md#%EF%B8%8F-%E6%90%AD%E5%BB%BA">详细部署文档</a></p>
+<h2 id="💬-支持的平台"><a href="#💬-支持的平台" class="headerlink" title="💬 支持的平台"></a>💬 支持的平台</h2><table>
+<thead>
+<tr>
+<th>平台</th>
+<th>私聊</th>
+<th>群聊</th>
+<th>触发回复</th>
+<th>管理命令</th>
+<th>图片发送</th>
+<th>语音</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Mirai</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>OneBot</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Telegram</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>⚠️</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Discord</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>微信小程序</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+</tbody></table>
+<h2 id="🎨-预设系统"><a href="#🎨-预设系统" class="headerlink" title="🎨 预设系统"></a>🎨 预设系统</h2><p>内置的预设系统可以一键切换机器人的聊天风格,自带 <code>猫娘</code>、<code>正常</code> 等预设。</p>
+<p>可以在 <a href="https://github.com/lss233/awesome-chatgpt-qq-presets">这里</a> 获取更多大家分享的预设。</p>
+<img src="https://user-images.githubusercontent.com/8984680/167273954-37c855eb-e89a-4db5-9e8f-7cda4ccab56e.gif" width="300" />
+
+<h2 id="🏗-HTTP-API"><a href="#🏗-HTTP-API" class="headerlink" title="🏗 HTTP API"></a>🏗 HTTP API</h2><p>提供 HTTP API 可以轻松接入聊天机器人的能力:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">POST /v1/chat</span><br><span class="line">&#123;</span><br><span class="line">  &quot;session_id&quot;: &quot;test&quot;,</span><br><span class="line">  &quot;username&quot;: &quot;user&quot;, </span><br><span class="line">  &quot;message&quot;: &quot;你好&quot; </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">RESPONSE </span><br><span class="line">&#123;</span><br><span class="line">  &quot;result&quot;: &quot;DONE&quot;,</span><br><span class="line">  &quot;message&quot;: [&quot;你好,很高兴认识你&quot;],</span><br><span class="line">  &quot;voice&quot;: [],</span><br><span class="line">  &quot;image&quot;: []</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="🤝-社区支持"><a href="#🤝-社区支持" class="headerlink" title="🤝 社区支持"></a>🤝 社区支持</h2><p>加入我们的社区获取更多支持:</p>
+<ul>
+<li><a href="https://discord.gg/cc3S2R6RQV">用户社群</a></li>
+<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot/issues">问题反馈</a></li>
+<li><a href="https://space.bilibili.com/1576310330">视频教程</a></li>
+</ul>
+<h2 id="⭐️-参与贡献"><a href="#⭐️-参与贡献" class="headerlink" title="⭐️ 参与贡献"></a>⭐️ 参与贡献</h2><p>这个项目由社区驱动,欢迎提出问题和贡献代码!</p>
+<ul>
+<li>提交问题和建议</li>
+<li>在文档中修复错误</li>
+<li>添加新的功能和优化</li>
+</ul>
+<p>期待你的加入!</p>
+]]></content>
+      <tags>
+        <tag>chatgptweb</tag>
       </tags>
   </entry>
   <entry>
@@ -177,28 +365,6 @@
       </tags>
   </entry>
   <entry>
-    <title>butterfly-giter聊天室</title>
-    <url>/2022/01/26/pinglun/</url>
-    <content><![CDATA[<h2 id="Gitter-注册"><a href="#Gitter-注册" class="headerlink" title="Gitter 注册"></a>Gitter 注册</h2><p>先去 Gitter 注册一个账号，可以直接使用 GitHub 登录</p>
-<p><a href="https://gitter.im/" title="点这个">https://gitter.im/</a></p>
-<p>然后先创建一个 <code>Community</code> 社区，再创建一个 Room 聊天室（创建聊天室时 community 选择刚创建的即可）</p>
-<p>比如我创建了一个<code>community</code>叫<code>ednovas</code>, 然后创建了一个叫 ChatRoom 的聊天室。这个要记住，下一步用到。<br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="sadf.png"></p>
-<ol>
-<li>然后创建相应的<code>Create community</code><br><img src="https://s2.loli.net/2022/08/02/hZcALPrqNgzFjkp.png" alt="bffgr.png"></li>
-<li>在创建对应仓库的<code>Create room</code><br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="abfht.png"></li>
-<li>修改<code>主题配置文件</code><br><img src="https://s2.loli.net/2022/08/02/vXrCdIFjQ8G3oiM.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
-<h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://s2.loli.net/2022/08/02/ztLPRVZeNvjqXnD.png" alt="jjjjr.png"><br><img src="https://s2.loli.net/2022/08/02/b9aPuTFVU1jnYqB.png" alt="ffe123.png"></li>
-</ol>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>评论</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>咸鱼翻身计划</title>
     <url>/2023/06/16/xianyujihua/</url>
     <content><![CDATA[<h1 id="咸鱼翻身计划"><a href="#咸鱼翻身计划" class="headerlink" title="咸鱼翻身计划"></a>咸鱼翻身计划</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>高三读完，深知自己这么多年来困于学校，即对校外的世界不了解，也对自己的人生无规划，活脱脱的像一条咸鱼。</p>
@@ -236,6 +402,28 @@
 </li>
 </ol>
 ]]></content>
+  </entry>
+  <entry>
+    <title>butterfly-giter聊天室</title>
+    <url>/2022/01/26/pinglun/</url>
+    <content><![CDATA[<h2 id="Gitter-注册"><a href="#Gitter-注册" class="headerlink" title="Gitter 注册"></a>Gitter 注册</h2><p>先去 Gitter 注册一个账号，可以直接使用 GitHub 登录</p>
+<p><a href="https://gitter.im/" title="点这个">https://gitter.im/</a></p>
+<p>然后先创建一个 <code>Community</code> 社区，再创建一个 Room 聊天室（创建聊天室时 community 选择刚创建的即可）</p>
+<p>比如我创建了一个<code>community</code>叫<code>ednovas</code>, 然后创建了一个叫 ChatRoom 的聊天室。这个要记住，下一步用到。<br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="sadf.png"></p>
+<ol>
+<li>然后创建相应的<code>Create community</code><br><img src="https://s2.loli.net/2022/08/02/hZcALPrqNgzFjkp.png" alt="bffgr.png"></li>
+<li>在创建对应仓库的<code>Create room</code><br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="abfht.png"></li>
+<li>修改<code>主题配置文件</code><br><img src="https://s2.loli.net/2022/08/02/vXrCdIFjQ8G3oiM.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
+<h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://s2.loli.net/2022/08/02/ztLPRVZeNvjqXnD.png" alt="jjjjr.png"><br><img src="https://s2.loli.net/2022/08/02/b9aPuTFVU1jnYqB.png" alt="ffe123.png"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>评论</tag>
+      </tags>
   </entry>
   <entry>
     <title>疫情(结束了)</title>

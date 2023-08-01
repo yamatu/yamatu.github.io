@@ -1,0 +1,346 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Chatgpt网页版对接指南 | yamatublog</title><meta name="keywords" content="chatgptweb"><meta name="author" content="yamatu"><meta name="copyright" content="yamatu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="ChatGPT for Bot一款支持多平台和各种语言模型的强大对话机器人!       ChatGPT for Bot 是一个开源的对话机器人项目,它支持主流的对话AI模型,可以部署到多种聊天平台上,提供智能的自然语言交互。 🚀 特性 💬 支持 OpenAI ChatGPT 对话模型 🎙 支持文字转语音功能 🖼 支持消息和代码自动转图片  ⚡ 快速、稳定、易用 🤖 支持 Mirai、O">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Chatgpt网页版对接指南">
+<meta property="og:url" content="https://yamatu.gitee.io/2023/08/01/claude3/index.html">
+<meta property="og:site_name" content="yamatublog">
+<meta property="og:description" content="ChatGPT for Bot一款支持多平台和各种语言模型的强大对话机器人!       ChatGPT for Bot 是一个开源的对话机器人项目,它支持主流的对话AI模型,可以部署到多种聊天平台上,提供智能的自然语言交互。 🚀 特性 💬 支持 OpenAI ChatGPT 对话模型 🎙 支持文字转语音功能 🖼 支持消息和代码自动转图片  ⚡ 快速、稳定、易用 🤖 支持 Mirai、O">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s2.loli.net/2022/08/02/qLWFaG3TkyQ58hu.png">
+<meta property="article:published_time" content="2023-07-31T16:00:00.000Z">
+<meta property="article:modified_time" content="2023-08-01T03:16:30.073Z">
+<meta property="article:author" content="yamatu">
+<meta property="article:tag" content="chatgptweb">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2022/08/02/qLWFaG3TkyQ58hu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://yamatu.gitee.io/2023/08/01/claude3/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":30},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Chatgpt网页版对接指南',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-08-01 11:16:30'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/meihua.css" media="defer" onload="this.media='all'"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-swiper/swiper/swiper.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-swiper/swiper/swiperstyle.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/hexo-electric-clock@1.0.6/clock.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
+<style>#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {content:"\A";
+  white-space: pre;}#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags > .article-meta__separator{display:none}</style>
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.0.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/./img/tou.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">19</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">17</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s2.loli.net/2022/08/02/qLWFaG3TkyQ58hu.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">yamatublog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Chatgpt网页版对接指南</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-07-31T16:00:00.000Z" title="发表于 2023-08-01 00:00:00">2023-08-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-08-01T03:16:30.073Z" title="更新于 2023-08-01 11:16:30">2023-08-01</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Chatgpt网页版对接指南"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="ChatGPT-for-Bot"><a href="#ChatGPT-for-Bot" class="headerlink" title="ChatGPT for Bot"></a>ChatGPT for Bot</h1><p>一款支持多平台和各种语言模型的强大对话机器人!</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/8984680/230702158-73967aa9-01be-44d6-bbd9-24437e333140.png" width="200" />
+</p>
+
+<p><strong>ChatGPT for Bot</strong> 是一个开源的对话机器人项目,它支持主流的对话AI模型,可以部署到多种聊天平台上,提供智能的自然语言交互。</p>
+<h2 id="🚀-特性"><a href="#🚀-特性" class="headerlink" title="🚀 特性"></a>🚀 特性</h2><ul>
+<li>💬 支持 <strong>OpenAI ChatGPT</strong> 对话模型</li>
+<li>🎙 支持文字转语音功能</li>
+<li>🖼 支持消息和代码自动转图片 </li>
+<li>⚡ 快速、稳定、易用</li>
+<li>🤖 支持 Mirai、OneBot(go-cqhttp)、Telegram、Discord、微信等主流平台</li>
+<li>🌈 提供预设系统,一键切换聊天风格</li>
+<li>🛠 内置丰富的管理和调试命令</li>
+<li>📦 一键安装包支持快速上手</li>
+</ul>
+<img src="https://user-images.githubusercontent.com/8984680/167273317-10ad3850-65ba-4812-97c2-de2cadc67a33.png" width="500" />
+
+<h2 id="📦-部署"><a href="#📦-部署" class="headerlink" title="📦 部署"></a>📦 部署</h2><p>我们提供多种方式帮助你快速部署,包括:</p>
+<ul>
+<li>🐳 基于 Docker 的一键安装 </li>
+<li>🖥 Windows 和 Mac 一键启动包</li>
+<li>🔧 使用 Docker Compose 进行组件化部署</li>
+<li>⚙ 手动安装和配置</li>
+</ul>
+<p>具体的安装方法请查看:<a target="_blank" rel="noopener" href="https://github.com/lss233/chatgpt-mirai-qq-bot/blob/main/README.md#%EF%B8%8F-%E6%90%AD%E5%BB%BA">详细部署文档</a></p>
+<h2 id="💬-支持的平台"><a href="#💬-支持的平台" class="headerlink" title="💬 支持的平台"></a>💬 支持的平台</h2><table>
+<thead>
+<tr>
+<th>平台</th>
+<th>私聊</th>
+<th>群聊</th>
+<th>触发回复</th>
+<th>管理命令</th>
+<th>图片发送</th>
+<th>语音</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Mirai</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>OneBot</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Telegram</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>⚠️</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Discord</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>微信小程序</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+</tbody></table>
+<h2 id="🎨-预设系统"><a href="#🎨-预设系统" class="headerlink" title="🎨 预设系统"></a>🎨 预设系统</h2><p>内置的预设系统可以一键切换机器人的聊天风格,自带 <code>猫娘</code>、<code>正常</code> 等预设。</p>
+<p>可以在 <a target="_blank" rel="noopener" href="https://github.com/lss233/awesome-chatgpt-qq-presets">这里</a> 获取更多大家分享的预设。</p>
+<img src="https://user-images.githubusercontent.com/8984680/167273954-37c855eb-e89a-4db5-9e8f-7cda4ccab56e.gif" width="300" />
+
+<h2 id="🏗-HTTP-API"><a href="#🏗-HTTP-API" class="headerlink" title="🏗 HTTP API"></a>🏗 HTTP API</h2><p>提供 HTTP API 可以轻松接入聊天机器人的能力:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">POST /v1/chat</span><br><span class="line">&#123;</span><br><span class="line">  &quot;session_id&quot;: &quot;test&quot;,</span><br><span class="line">  &quot;username&quot;: &quot;user&quot;, </span><br><span class="line">  &quot;message&quot;: &quot;你好&quot; </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">RESPONSE </span><br><span class="line">&#123;</span><br><span class="line">  &quot;result&quot;: &quot;DONE&quot;,</span><br><span class="line">  &quot;message&quot;: [&quot;你好,很高兴认识你&quot;],</span><br><span class="line">  &quot;voice&quot;: [],</span><br><span class="line">  &quot;image&quot;: []</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="🤝-社区支持"><a href="#🤝-社区支持" class="headerlink" title="🤝 社区支持"></a>🤝 社区支持</h2><p>加入我们的社区获取更多支持:</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://discord.gg/cc3S2R6RQV">用户社群</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/lss233/chatgpt-mirai-qq-bot/issues">问题反馈</a></li>
+<li><a target="_blank" rel="noopener" href="https://space.bilibili.com/1576310330">视频教程</a></li>
+</ul>
+<h2 id="⭐️-参与贡献"><a href="#⭐️-参与贡献" class="headerlink" title="⭐️ 参与贡献"></a>⭐️ 参与贡献</h2><p>这个项目由社区驱动,欢迎提出问题和贡献代码!</p>
+<ul>
+<li>提交问题和建议</li>
+<li>在文档中修复错误</li>
+<li>添加新的功能和优化</li>
+</ul>
+<p>期待你的加入!</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">yamatu</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://yamatu.gitee.io/2023/08/01/claude3/">https://yamatu.gitee.io/2023/08/01/claude3/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://yamatu.gitee.io" target="_blank">yamatublog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/chatgptweb/">chatgptweb</a></div><div class="post_share"><div class="social-share" data-image="https://s2.loli.net/2022/08/02/qLWFaG3TkyQ58hu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/08/01/claude2/"><img class="prev-cover" src="https://s2.loli.net/2022/08/02/qLWFaG3TkyQ58hu.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Golang图文爬虫</div></div></a></div><div class="next-post pull-right"><a href="/2023/06/16/xianyujihua/"><img class="next-cover" src="https://s2.loli.net/2022/08/02/qLWFaG3TkyQ58hu.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">咸鱼翻身计划</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/./img/tou.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">yamatu</div><div class="author-info__description">yamatu的博客，欢迎访问</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">19</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">17</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://t.me/+TkH3SSbGNZ5hZTc1"><i class="fab fa-telegram"></i><span>telegram交流群</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://gitee.com/yamatu" target="_blank" title="Gitee"><i class="fab fa-github"></i></a><a class="social-icon" href="https://space.bilibili.com/13389793" target="_blank" title="B站"><i class="fas fas fa-tv"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">随缘更新</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#ChatGPT-for-Bot"><span class="toc-number">1.</span> <span class="toc-text">ChatGPT for Bot</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%9A%80-%E7%89%B9%E6%80%A7"><span class="toc-number">1.1.</span> <span class="toc-text">🚀 特性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%93%A6-%E9%83%A8%E7%BD%B2"><span class="toc-number">1.2.</span> <span class="toc-text">📦 部署</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%92%AC-%E6%94%AF%E6%8C%81%E7%9A%84%E5%B9%B3%E5%8F%B0"><span class="toc-number">1.3.</span> <span class="toc-text">💬 支持的平台</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8E%A8-%E9%A2%84%E8%AE%BE%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.4.</span> <span class="toc-text">🎨 预设系统</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8F%97-HTTP-API"><span class="toc-number">1.5.</span> <span class="toc-text">🏗 HTTP API</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%A4%9D-%E7%A4%BE%E5%8C%BA%E6%94%AF%E6%8C%81"><span class="toc-number">1.6.</span> <span class="toc-text">🤝 社区支持</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E2%AD%90%EF%B8%8F-%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE"><span class="toc-number">1.7.</span> <span class="toc-text">⭐️ 参与贡献</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/08/01/claude1/" title="Cookie逆向分析指南"><img src="https://s2.loli.net/2022/08/02/qLWFaG3TkyQ58hu.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Cookie逆向分析指南"/></a><div class="content"><a class="title" href="/2023/08/01/claude1/" title="Cookie逆向分析指南">Cookie逆向分析指南</a><time datetime="2023-07-31T16:00:00.000Z" title="发表于 2023-08-01 00:00:00">2023-08-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/08/01/claude2/" title="Golang图文爬虫"><img src="https://s2.loli.net/2022/08/02/qLWFaG3TkyQ58hu.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Golang图文爬虫"/></a><div class="content"><a class="title" href="/2023/08/01/claude2/" title="Golang图文爬虫">Golang图文爬虫</a><time datetime="2023-07-31T16:00:00.000Z" title="发表于 2023-08-01 00:00:00">2023-08-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/08/01/claude3/" title="Chatgpt网页版对接指南"><img src="https://s2.loli.net/2022/08/02/qLWFaG3TkyQ58hu.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Chatgpt网页版对接指南"/></a><div class="content"><a class="title" href="/2023/08/01/claude3/" title="Chatgpt网页版对接指南">Chatgpt网页版对接指南</a><time datetime="2023-07-31T16:00:00.000Z" title="发表于 2023-08-01 00:00:00">2023-08-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/06/16/xianyujihua/" title="咸鱼翻身计划"><img src="https://s2.loli.net/2022/08/02/qLWFaG3TkyQ58hu.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="咸鱼翻身计划"/></a><div class="content"><a class="title" href="/2023/06/16/xianyujihua/" title="咸鱼翻身计划">咸鱼翻身计划</a><time datetime="2023-06-15T16:00:00.000Z" title="发表于 2023-06-16 00:00:00">2023-06-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/04/23/chatgpt/" title="chatgpt网页版对接QQbot"><img src="https://s2.loli.net/2022/08/02/qLWFaG3TkyQ58hu.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="chatgpt网页版对接QQbot"/></a><div class="content"><a class="title" href="/2023/04/23/chatgpt/" title="chatgpt网页版对接QQbot">chatgpt网页版对接QQbot</a><time datetime="2023-04-22T16:00:00.000Z" title="发表于 2023-04-23 00:00:00">2023-04-23</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By yamatu</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a><br>
+<a href="https://icp.gov.moe/?keyword=20220050"  style="color:#f72b07" target="_blank">萌ICP备20220050号</a></div><div class="footer_custom_text">~~欢迎来到我的blog~~</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>function addGitalkSource () {
+  const ele = document.createElement('link')
+  ele.rel = 'stylesheet'
+  ele.href= 'https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css'
+  document.getElementsByTagName('head')[0].appendChild(ele)
+}
+
+function loadGitalk () {
+  function initGitalk () {
+    var gitalk = new Gitalk(Object.assign({
+      clientID: '138be6fe2a64c256820f',
+      clientSecret: 'e4228c1e618dd5e64e2ceebbc996bf883c428c16',
+      repo: 'yamatu.github.io',
+      owner: 'yamatu',
+      admin: ['yamatu'],
+      id: 'b7fc6bbb6b0d025d70082889f178af1d',
+      updateCountCallback: commentCount
+    },null))
+
+    gitalk.render('gitalk-container')
+  }
+
+  if (typeof Gitalk === 'function') initGitalk()
+  else {
+    addGitalkSource()
+    getScript('https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js').then(initGitalk)
+  }
+}
+
+function commentCount(n){
+  let isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+  if (isCommentCount) {
+    isCommentCount.innerHTML= n
+  }
+}
+
+if ('Gitalk' === 'Gitalk' || !true) {
+  if (true) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+  else loadGitalk()
+} else {
+  function loadOtherComment () {
+    loadGitalk()
+  }
+}</script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --> <script data-pjax>if(document.getElementById('recent-posts') && location.pathname =='/'){
+    
+    var parent = document.getElementById('recent-posts');
+    var child = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms"></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    console.log('已挂载swiper')
+    parent.insertAdjacentHTML("afterbegin",child)}
+     </script>
+<script data-pjax src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-swiper/swiper/swiper.min.js"></script>
+<script data-pjax src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-swiper@0.18/swiper/swiperindex.js"></script>
+<style></style>
+  <script data-pjax src="https://cdn.jsdelivr.net/gh/Zfour/hexo-github-calendar@1.21/hexo_githubcalendar.js"></script>
+  <script data-pjax>
+        function GithubCalendarConfig(){
+            var git_githubapiurl ="https://python-github-calendar-api.vercel.app/api?yamatu";
+            var git_color =['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f'];
+            var git_user ="yamatu";
+            var parent_div_git = document.getElementById('recent-posts');
+            var git_div_html = '<div class="recent-post-item" style="width:100%;height:auto;padding:10px;"><div id="github_loading" style="width:10%;height:100%;margin:0 auto;display: block"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animateTransform></path></svg></div><div id="github_container"></div></div>';
+            if(parent_div_git && location.pathname =='/'){
+                console.log('已挂载github calendar')
+                // parent_div_git.innerHTML=git_div_html+parent_div_git.innerHTML // 无报错，但不影响使用(支持pjax跳转)
+                parent_div_git.insertAdjacentHTML("afterbegin",git_div_html) // 有报错，但不影响使用(支持pjax跳转)
+            };
+            GithubCalendar(git_githubapiurl,git_color,git_user)
+        }
+        if(document.getElementById('recent-posts')){
+            GithubCalendarConfig()
+        }
+    </script>
+    <style>#github_container{min-height:280px}@media screen and (max-width:650px) {#github_container{background-image:;min-height:0px}}</style>
+    <style></style><script data-pjax>function electric_clock_injector_config(){
+                var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+                var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img id="card-clock-loading" src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-clock/clock/images/weather/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading" class="entered loading"></div></div></div></div></div>';
+                console.log('已挂载electric_clock')
+                // parent_div_git.innerHTML=item_html+parent_div_git.innerHTML // 无报错，但不影响使用(支持pjax跳转)
+                parent_div_git.insertAdjacentHTML("afterbegin",item_html) // 有报错，但不影响使用(支持pjax跳转)
+            }if( document.getElementsByClassName('sticky_layout')[0] && (location.pathname ==='all'|| 'all' ==='all')){
+
+            electric_clock_injector_config()
+        } </script><script src="https://pv.sohu.com/cityjson?ie=utf-8"></script><script data-pjax  src="https://cdn.jsdelivr.net/gh/Zfour/hexo-electric-clock@1.0.6/clock.js"></script><!-- hexo injector body_end end --></body></html>
