@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>DDNS动态解析教学（openwrt教程</title>
-    <url>/2022/12/17/DNSdongtaijiexi/</url>
-    <content><![CDATA[<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p><img src="https://s2.loli.net/2022/12/17/QqjdnL4Vacv3MuF.png" alt="SO_QFY_YK@C199MH~LRK@Y6.png"></p>
-<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p><img src="https://s2.loli.net/2022/12/17/di1sTWnfC3ABeqm.png" alt="4__SC~T3_9HZH6_E@QPJ5_0.png"></p>
-<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>![<del>M@9_Q2A__UOF_</del>K8U5ME`E.png](<a href="https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png">https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png</a>)<br>选完直接保存即可，这里配合cloudflare使用的。其他的请自行研究。</p>
-]]></content>
-      <categories>
-        <category>DDNS</category>
-      </categories>
-      <tags>
-        <tag>DDNS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Google云修改账号密码</title>
     <url>/2022/01/26/Google/</url>
     <content><![CDATA[<ol>
@@ -45,19 +31,28 @@
       </tags>
   </entry>
   <entry>
-    <title>除夕快乐！！</title>
-    <url>/2022/01/31/chuxi/</url>
-    <content><![CDATA[<h1 id="祝大家"><a href="#祝大家" class="headerlink" title="祝大家"></a>祝大家</h1><blockquote>
-<p>1、岁岁长欢愉，年年皆胜意。除夕快乐!<br>2、祝福好友，新年快乐，吉祥如意，幸福圆满。<br>3、除夕礼物初定版本已经到了!不够再定!各位除夕快乐!<br>4、除夕的祝福太多怕你看不到我的祝福，提前祝你除夕快乐。<br>5、除夕除夕除旧岁，祝你大富又大贵!除夕除夕除疲劳，祝你身体棒嗷嗷!除夕除夕除压力，祝你事业好运气!除夕除夕除烦恼，祝你心情天天好!除夕快乐!<br>6、往后的日子是崭新的，谁也别回头看了。除夕快乐!7、年年有我，岁岁有我。<br>8、对回不去的时光说再见，新的一年请你快乐一点。<br>9、想扔的东西扔了，想断的关系断了，新的一年，别再犹豫。10、除夕快乐，招财进你。<br>11、如果所有人都祝你新年快乐，那我便祝你遍历山河，仍然觉得人间值得。12、万物更新旧疾当愈，往事清零爱恨随意。<br>13、还在上班，还要加班!明天真的要过年了吗?14、春节，一想到加班，就兴奋的睡不着觉。<br>15、新的一年，不要万事胜意，万事如意就好。除夕快乐!</p>
-</blockquote>
+    <title>DDNS动态解析教学（openwrt教程</title>
+    <url>/2022/12/17/DNSdongtaijiexi/</url>
+    <content><![CDATA[<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p><img src="https://s2.loli.net/2022/12/17/QqjdnL4Vacv3MuF.png" alt="SO_QFY_YK@C199MH~LRK@Y6.png"></p>
+<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p><img src="https://s2.loli.net/2022/12/17/di1sTWnfC3ABeqm.png" alt="4__SC~T3_9HZH6_E@QPJ5_0.png"></p>
+<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>![<del>M@9_Q2A__UOF_</del>K8U5ME`E.png](<a href="https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png">https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png</a>)<br>选完直接保存即可，这里配合cloudflare使用的。其他的请自行研究。</p>
 ]]></content>
       <categories>
-        <category>节日</category>
+        <category>DDNS</category>
       </categories>
       <tags>
-        <tag>除夕快乐</tag>
-        <tag>节日</tag>
+        <tag>DDNS</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>chatgpt网页版对接QQbot</title>
+    <url>/2023/04/23/chatgpt/</url>
+    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
+<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
+<ul>
+<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
+</ul>
+]]></content>
   </entry>
   <entry>
     <title>静态hexoblog搭建教程</title>
@@ -105,14 +100,19 @@
       </tags>
   </entry>
   <entry>
-    <title>chatgpt网页版对接QQbot</title>
-    <url>/2023/04/23/chatgpt/</url>
-    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
-<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
-<ul>
-<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
-</ul>
+    <title>除夕快乐！！</title>
+    <url>/2022/01/31/chuxi/</url>
+    <content><![CDATA[<h1 id="祝大家"><a href="#祝大家" class="headerlink" title="祝大家"></a>祝大家</h1><blockquote>
+<p>1、岁岁长欢愉，年年皆胜意。除夕快乐!<br>2、祝福好友，新年快乐，吉祥如意，幸福圆满。<br>3、除夕礼物初定版本已经到了!不够再定!各位除夕快乐!<br>4、除夕的祝福太多怕你看不到我的祝福，提前祝你除夕快乐。<br>5、除夕除夕除旧岁，祝你大富又大贵!除夕除夕除疲劳，祝你身体棒嗷嗷!除夕除夕除压力，祝你事业好运气!除夕除夕除烦恼，祝你心情天天好!除夕快乐!<br>6、往后的日子是崭新的，谁也别回头看了。除夕快乐!7、年年有我，岁岁有我。<br>8、对回不去的时光说再见，新的一年请你快乐一点。<br>9、想扔的东西扔了，想断的关系断了，新的一年，别再犹豫。10、除夕快乐，招财进你。<br>11、如果所有人都祝你新年快乐，那我便祝你遍历山河，仍然觉得人间值得。12、万物更新旧疾当愈，往事清零爱恨随意。<br>13、还在上班，还要加班!明天真的要过年了吗?14、春节，一想到加班，就兴奋的睡不着觉。<br>15、新的一年，不要万事胜意，万事如意就好。除夕快乐!</p>
+</blockquote>
 ]]></content>
+      <categories>
+        <category>节日</category>
+      </categories>
+      <tags>
+        <tag>除夕快乐</tag>
+        <tag>节日</tag>
+      </tags>
   </entry>
   <entry>
     <title>Cookie逆向分析指南</title>
@@ -188,6 +188,16 @@
 ]]></content>
       <tags>
         <tag>claude</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BattleBit Remastered Playtest</title>
+    <url>/2022/01/28/game/</url>
+    <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://s2.loli.net/2022/01/28/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://s2.loli.net/2022/01/28/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
+<h2 id="体验心得"><a href="#体验心得" class="headerlink" title="体验心得"></a>体验心得</h2><p>距离开放正式服还有点时间，目前可以开自建房玩。<br>我体验了下来，射击手感很好。(和其他测评玩家一样吊打2042)</p>
+]]></content>
+      <tags>
+        <tag>steam</tag>
       </tags>
   </entry>
   <entry>
@@ -303,14 +313,18 @@
       </tags>
   </entry>
   <entry>
-    <title>BattleBit Remastered Playtest</title>
-    <url>/2022/01/28/game/</url>
-    <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://s2.loli.net/2022/01/28/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://s2.loli.net/2022/01/28/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
-<h2 id="体验心得"><a href="#体验心得" class="headerlink" title="体验心得"></a>体验心得</h2><p>距离开放正式服还有点时间，目前可以开自建房玩。<br>我体验了下来，射击手感很好。(和其他测评玩家一样吊打2042)</p>
+    <title>hexo blog文件移植到其他电脑</title>
+    <url>/2022/03/16/hexoyizhi/</url>
+    <content><![CDATA[<h1 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先把你的blog文件下载下来存在你觉得不错的网盘上</p>
+<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>然后将网盘文件下载下来<br>放到新的设备上</p>
+<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>在设备上安装</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
+<p>安装hexo框架<br>node.js检查</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
+<p>安装git后</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;用户邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<p>生成密钥<br>ssh文件打开后导出公钥<br>并且上传到gitee的密钥管理上面去。<br>然后就完成了</p>
 ]]></content>
-      <tags>
-        <tag>steam</tag>
-      </tags>
   </entry>
   <entry>
     <title>旅行日志</title>
@@ -324,20 +338,6 @@
         <tag>play</tag>
         <tag>旅行</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>hexo blog文件移植到其他电脑</title>
-    <url>/2022/03/16/hexoyizhi/</url>
-    <content><![CDATA[<h1 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先把你的blog文件下载下来存在你觉得不错的网盘上</p>
-<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>然后将网盘文件下载下来<br>放到新的设备上</p>
-<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>在设备上安装</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
-<p>安装hexo框架<br>node.js检查</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
-<p>安装git后</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;用户邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-<p>生成密钥<br>ssh文件打开后导出公钥<br>并且上传到gitee的密钥管理上面去。<br>然后就完成了</p>
-]]></content>
   </entry>
   <entry>
     <title>Minecraft红石向服(1.19.1)</title>
@@ -387,6 +387,12 @@
       </tags>
   </entry>
   <entry>
+    <title>疫情(结束了)</title>
+    <url>/2022/12/01/yiq/</url>
+    <content><![CDATA[<p>终于结束了，清晰认识病毒的可怕。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>咸鱼翻身计划</title>
     <url>/2023/06/16/xianyujihua/</url>
     <content><![CDATA[<h1 id="咸鱼翻身计划"><a href="#咸鱼翻身计划" class="headerlink" title="咸鱼翻身计划"></a>咸鱼翻身计划</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>高三读完，深知自己这么多年来困于学校，即对校外的世界不了解，也对自己的人生无规划，活脱脱的像一条咸鱼。</p>
@@ -426,10 +432,16 @@
 ]]></content>
   </entry>
   <entry>
-    <title>疫情(结束了)</title>
-    <url>/2022/12/01/yiq/</url>
-    <content><![CDATA[<p>终于结束了，清晰认识病毒的可怕。</p>
+    <title>原神CD翻录</title>
+    <url>/2022/02/06/yuansheng/</url>
+    <content><![CDATA[<p><a href="http://nbnb.yamatu.xyz:5212/s/G6Ug" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><img src="https://s2.loli.net/2022/02/06/jQ2noSAFVeW8vRO.jpg" alt="gggg.png"><br><img src="https://s2.loli.net/2022/02/06/1dN9M8ahreBfbOA.jpg" alt="gggg2.png"></p>
 ]]></content>
+      <categories>
+        <category>原神</category>
+      </categories>
+      <tags>
+        <tag>原神</tag>
+      </tags>
   </entry>
   <entry>
     <title>原神私服搭建教程(深渊版丢弃过期)</title>
@@ -457,18 +469,6 @@
 <li>地址转发.bat和启动服务.bat要保持开启状态</li>
 </ol>
 <h2 id="对好友使用代码"><a href="#对好友使用代码" class="headerlink" title="对好友使用代码"></a>对好友使用代码</h2><p>获取物品<br><code>/give uid 物品id 数量(这里uid也可以不要)</code><br>直接CTRL+F搜你要的物品</p>
-]]></content>
-      <categories>
-        <category>原神</category>
-      </categories>
-      <tags>
-        <tag>原神</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>原神CD翻录</title>
-    <url>/2022/02/06/yuansheng/</url>
-    <content><![CDATA[<p><a href="http://nbnb.yamatu.xyz:5212/s/G6Ug" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><img src="https://s2.loli.net/2022/02/06/jQ2noSAFVeW8vRO.jpg" alt="gggg.png"><br><img src="https://s2.loli.net/2022/02/06/1dN9M8ahreBfbOA.jpg" alt="gggg2.png"></p>
 ]]></content>
       <categories>
         <category>原神</category>
