@@ -90,6 +90,16 @@
       </tags>
   </entry>
   <entry>
+    <title>chatgpt网页版对接QQbot</title>
+    <url>/2023/04/23/chatgpt/</url>
+    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
+<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
+<ul>
+<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>除夕快乐！！</title>
     <url>/2022/01/31/chuxi/</url>
     <content><![CDATA[<h1 id="祝大家"><a href="#祝大家" class="headerlink" title="祝大家"></a>祝大家</h1><blockquote>
@@ -103,16 +113,6 @@
         <tag>除夕快乐</tag>
         <tag>节日</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>chatgpt网页版对接QQbot</title>
-    <url>/2023/04/23/chatgpt/</url>
-    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
-<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
-<ul>
-<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
-</ul>
-]]></content>
   </entry>
   <entry>
     <title>Cookie逆向分析指南</title>
@@ -365,6 +365,28 @@
       </tags>
   </entry>
   <entry>
+    <title>butterfly-giter聊天室</title>
+    <url>/2022/01/26/pinglun/</url>
+    <content><![CDATA[<h2 id="Gitter-注册"><a href="#Gitter-注册" class="headerlink" title="Gitter 注册"></a>Gitter 注册</h2><p>先去 Gitter 注册一个账号，可以直接使用 GitHub 登录</p>
+<p><a href="https://gitter.im/" title="点这个">https://gitter.im/</a></p>
+<p>然后先创建一个 <code>Community</code> 社区，再创建一个 Room 聊天室（创建聊天室时 community 选择刚创建的即可）</p>
+<p>比如我创建了一个<code>community</code>叫<code>ednovas</code>, 然后创建了一个叫 ChatRoom 的聊天室。这个要记住，下一步用到。<br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="sadf.png"></p>
+<ol>
+<li>然后创建相应的<code>Create community</code><br><img src="https://s2.loli.net/2022/08/02/hZcALPrqNgzFjkp.png" alt="bffgr.png"></li>
+<li>在创建对应仓库的<code>Create room</code><br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="abfht.png"></li>
+<li>修改<code>主题配置文件</code><br><img src="https://s2.loli.net/2022/08/02/vXrCdIFjQ8G3oiM.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
+<h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://s2.loli.net/2022/08/02/ztLPRVZeNvjqXnD.png" alt="jjjjr.png"><br><img src="https://s2.loli.net/2022/08/02/b9aPuTFVU1jnYqB.png" alt="ffe123.png"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>评论</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>咸鱼翻身计划</title>
     <url>/2023/06/16/xianyujihua/</url>
     <content><![CDATA[<h1 id="咸鱼翻身计划"><a href="#咸鱼翻身计划" class="headerlink" title="咸鱼翻身计划"></a>咸鱼翻身计划</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>高三读完，深知自己这么多年来困于学校，即对校外的世界不了解，也对自己的人生无规划，活脱脱的像一条咸鱼。</p>
@@ -402,28 +424,6 @@
 </li>
 </ol>
 ]]></content>
-  </entry>
-  <entry>
-    <title>butterfly-giter聊天室</title>
-    <url>/2022/01/26/pinglun/</url>
-    <content><![CDATA[<h2 id="Gitter-注册"><a href="#Gitter-注册" class="headerlink" title="Gitter 注册"></a>Gitter 注册</h2><p>先去 Gitter 注册一个账号，可以直接使用 GitHub 登录</p>
-<p><a href="https://gitter.im/" title="点这个">https://gitter.im/</a></p>
-<p>然后先创建一个 <code>Community</code> 社区，再创建一个 Room 聊天室（创建聊天室时 community 选择刚创建的即可）</p>
-<p>比如我创建了一个<code>community</code>叫<code>ednovas</code>, 然后创建了一个叫 ChatRoom 的聊天室。这个要记住，下一步用到。<br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="sadf.png"></p>
-<ol>
-<li>然后创建相应的<code>Create community</code><br><img src="https://s2.loli.net/2022/08/02/hZcALPrqNgzFjkp.png" alt="bffgr.png"></li>
-<li>在创建对应仓库的<code>Create room</code><br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="abfht.png"></li>
-<li>修改<code>主题配置文件</code><br><img src="https://s2.loli.net/2022/08/02/vXrCdIFjQ8G3oiM.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
-<h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://s2.loli.net/2022/08/02/ztLPRVZeNvjqXnD.png" alt="jjjjr.png"><br><img src="https://s2.loli.net/2022/08/02/b9aPuTFVU1jnYqB.png" alt="ffe123.png"></li>
-</ol>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>评论</tag>
-      </tags>
   </entry>
   <entry>
     <title>疫情(结束了)</title>
