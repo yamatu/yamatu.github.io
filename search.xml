@@ -191,6 +191,16 @@
       </tags>
   </entry>
   <entry>
+    <title>BattleBit Remastered Playtest</title>
+    <url>/2022/01/28/game/</url>
+    <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://s2.loli.net/2022/01/28/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://s2.loli.net/2022/01/28/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
+<h2 id="体验心得"><a href="#体验心得" class="headerlink" title="体验心得"></a>体验心得</h2><p>距离开放正式服还有点时间，目前可以开自建房玩。<br>我体验了下来，射击手感很好。(和其他测评玩家一样吊打2042)</p>
+]]></content>
+      <tags>
+        <tag>steam</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Chatgpt网页版对接指南</title>
     <url>/2023/08/01/claude3/</url>
     <content><![CDATA[<h1 id="ChatGPT-for-Bot"><a href="#ChatGPT-for-Bot" class="headerlink" title="ChatGPT for Bot"></a>ChatGPT for Bot</h1><p>一款支持多平台和各种语言模型的强大对话机器人!</p>
@@ -303,6 +313,15 @@
       </tags>
   </entry>
   <entry>
+    <title>Golang学习笔记(1)</title>
+    <url>/2023/08/04/golang1/</url>
+    <content><![CDATA[<h1 id="学习Golang语言中"><a href="#学习Golang语言中" class="headerlink" title="学习Golang语言中"></a>学习Golang语言中</h1><h2 id="什么是Golang语言？"><a href="#什么是Golang语言？" class="headerlink" title="什么是Golang语言？"></a>什么是Golang语言？</h2><p>Golang,也称Go语言,是Google开发的一种编译型、静态型、并发型,并具有垃圾回收功能的编程语言。Go语言的一些关键特征包括:<br>简单性 - Go语言的语法简单明了,容易上手,非常适合快速开发。<br>高效性 - Go语言的编译速度很快,执行效率也很高,适合进行服务端开发。<br>并发支持 - Go语言内置了强大的并发支持,使用goroutine和channel可以很方便地编写并发程序。<br>垃圾回收 - Go语言有自己的垃圾回收机制,不需要程序员自己管理内存。<br>编译迅速 - 使用Go命令一键就可以快速编译Go语言程序。<br>丰富的标准库 - Go语言标准库覆盖面广,内置了许多实用的包。<br>简单的部署 - 可以将Go语言编译成一个可执行文件,部署很简单。<br>跨平台 - 支持跨平台编译,一个Go语言程序可以运行在不同的系统上。<br>总体来说,Go语言简单高效,非常适合用于服务器后端开发、网络编程、云计算、分布式系统等领域。它的并发处理能力非常强大,可以充分利用多核CPU。</p>
+<h2 id="为啥要学？"><a href="#为啥要学？" class="headerlink" title="为啥要学？"></a>为啥要学？</h2><p>这门语言对我来说还是非常有吸引力的所以想去学习学习，人称Go语言是C语言和python的结合体。</p>
+<h3 id="运用switch-case-来判断是否是基数或者偶数"><a href="#运用switch-case-来判断是否是基数或者偶数" class="headerlink" title="运用switch case 来判断是否是基数或者偶数"></a>运用switch case 来判断是否是基数或者偶数</h3><figure class="highlight go"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	<span class="keyword">var</span> score = <span class="number">8</span></span><br><span class="line">	<span class="keyword">switch</span> score &#123;</span><br><span class="line">	<span class="keyword">case</span> <span class="number">1</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">7</span>, <span class="number">9</span>:</span><br><span class="line">		fmt.Println(<span class="string">&quot;是奇数&quot;</span>)</span><br><span class="line">		<span class="comment">//go语言中的break可以省略但是java中又不可以</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">case</span> <span class="number">2</span>, <span class="number">4</span>, <span class="number">6</span>, <span class="number">8</span>, <span class="number">10</span>:</span><br><span class="line">		fmt.Println(<span class="string">&quot;是偶数&quot;</span>)</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+]]></content>
+  </entry>
+  <entry>
     <title>hexo blog文件移植到其他电脑</title>
     <url>/2022/03/16/hexoyizhi/</url>
     <content><![CDATA[<h1 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先把你的blog文件下载下来存在你觉得不错的网盘上</p>
@@ -315,16 +334,6 @@
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;用户邮箱&quot;</span></span><br></pre></td></tr></table></figure>
 <p>生成密钥<br>ssh文件打开后导出公钥<br>并且上传到gitee的密钥管理上面去。<br>然后就完成了</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>BattleBit Remastered Playtest</title>
-    <url>/2022/01/28/game/</url>
-    <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://s2.loli.net/2022/01/28/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://s2.loli.net/2022/01/28/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
-<h2 id="体验心得"><a href="#体验心得" class="headerlink" title="体验心得"></a>体验心得</h2><p>距离开放正式服还有点时间，目前可以开自建房玩。<br>我体验了下来，射击手感很好。(和其他测评玩家一样吊打2042)</p>
-]]></content>
-      <tags>
-        <tag>steam</tag>
-      </tags>
   </entry>
   <entry>
     <title>旅行日志</title>
@@ -362,6 +371,28 @@
       </categories>
       <tags>
         <tag>生存服</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>butterfly-giter聊天室</title>
+    <url>/2022/01/26/pinglun/</url>
+    <content><![CDATA[<h2 id="Gitter-注册"><a href="#Gitter-注册" class="headerlink" title="Gitter 注册"></a>Gitter 注册</h2><p>先去 Gitter 注册一个账号，可以直接使用 GitHub 登录</p>
+<p><a href="https://gitter.im/" title="点这个">https://gitter.im/</a></p>
+<p>然后先创建一个 <code>Community</code> 社区，再创建一个 Room 聊天室（创建聊天室时 community 选择刚创建的即可）</p>
+<p>比如我创建了一个<code>community</code>叫<code>ednovas</code>, 然后创建了一个叫 ChatRoom 的聊天室。这个要记住，下一步用到。<br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="sadf.png"></p>
+<ol>
+<li>然后创建相应的<code>Create community</code><br><img src="https://s2.loli.net/2022/08/02/hZcALPrqNgzFjkp.png" alt="bffgr.png"></li>
+<li>在创建对应仓库的<code>Create room</code><br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="abfht.png"></li>
+<li>修改<code>主题配置文件</code><br><img src="https://s2.loli.net/2022/08/02/vXrCdIFjQ8G3oiM.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
+<h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://s2.loli.net/2022/08/02/ztLPRVZeNvjqXnD.png" alt="jjjjr.png"><br><img src="https://s2.loli.net/2022/08/02/b9aPuTFVU1jnYqB.png" alt="ffe123.png"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>评论</tag>
       </tags>
   </entry>
   <entry>
@@ -404,56 +435,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>butterfly-giter聊天室</title>
-    <url>/2022/01/26/pinglun/</url>
-    <content><![CDATA[<h2 id="Gitter-注册"><a href="#Gitter-注册" class="headerlink" title="Gitter 注册"></a>Gitter 注册</h2><p>先去 Gitter 注册一个账号，可以直接使用 GitHub 登录</p>
-<p><a href="https://gitter.im/" title="点这个">https://gitter.im/</a></p>
-<p>然后先创建一个 <code>Community</code> 社区，再创建一个 Room 聊天室（创建聊天室时 community 选择刚创建的即可）</p>
-<p>比如我创建了一个<code>community</code>叫<code>ednovas</code>, 然后创建了一个叫 ChatRoom 的聊天室。这个要记住，下一步用到。<br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="sadf.png"></p>
-<ol>
-<li>然后创建相应的<code>Create community</code><br><img src="https://s2.loli.net/2022/08/02/hZcALPrqNgzFjkp.png" alt="bffgr.png"></li>
-<li>在创建对应仓库的<code>Create room</code><br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="abfht.png"></li>
-<li>修改<code>主题配置文件</code><br><img src="https://s2.loli.net/2022/08/02/vXrCdIFjQ8G3oiM.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
-<h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://s2.loli.net/2022/08/02/ztLPRVZeNvjqXnD.png" alt="jjjjr.png"><br><img src="https://s2.loli.net/2022/08/02/b9aPuTFVU1jnYqB.png" alt="ffe123.png"></li>
-</ol>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>评论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>疫情(结束了)</title>
-    <url>/2022/12/01/yiq/</url>
-    <content><![CDATA[<p>终于结束了，清晰认识病毒的可怕。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>hexo常用语法</title>
-    <url>/2022/01/27/yufa/</url>
-    <content><![CDATA[<h1 id="一、Markdown基础语法"><a href="#一、Markdown基础语法" class="headerlink" title="一、Markdown基础语法"></a>一、Markdown基础语法</h1><h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
-<h2 id="2-字体"><a href="#2-字体" class="headerlink" title="2.字体"></a>2.字体</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*倾斜字体*  </span><br><span class="line">**加粗字体**  </span><br><span class="line">***加粗倾斜字***    </span><br><span class="line">~~这是加删除线的文字~~  </span><br></pre></td></tr></table></figure>
-<h2 id="3-引用"><a href="#3-引用" class="headerlink" title="3.引用"></a>3.引用</h2><figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&gt;引用</span><br><span class="line">&gt;&gt;引用</span><br><span class="line">&gt;&gt;&gt;引用 </span><br></pre></td></tr></table></figure>
-<h2 id="4-分割线"><a href="#4-分割线" class="headerlink" title="4.分割线"></a>4.分割线</h2><p>三个或者三个以上的<code>-</code>或者<code>*</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">***</span><br></pre></td></tr></table></figure>
-<h2 id="5-引用图片"><a href="#5-引用图片" class="headerlink" title="5.引用图片"></a>5.引用图片</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![tianqi.png图片名字](https://s2.loli.net/2022/01/27/ObDleJL1CUgoPHx.png图片链接)</span><br></pre></td></tr></table></figure>
-<h2 id="6-超链接"><a href="#6-超链接" class="headerlink" title="6.超链接"></a>6.超链接</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[超链接名字](超链接地址 &quot;超链接title&quot;)   title可加可不加  </span><br></pre></td></tr></table></figure>
-<h2 id="7-列表"><a href="#7-列表" class="headerlink" title="7.列表"></a>7.列表</h2><h2 id="7-1-无序列表"><a href="#7-1-无序列表" class="headerlink" title="7.1 无序列表"></a>7.1 无序列表</h2><figure class="highlight plaintext"><figcaption><span>+ * ```都可以使用</span></figcaption><table><tr><td class="code"><pre><span class="line">```json</span><br><span class="line">- 列表内容  </span><br><span class="line">+ 列表内容</span><br><span class="line">* 列表内容  </span><br><span class="line">注意：- + * 跟内容之间都要有一个空格  </span><br></pre></td></tr></table></figure>
-<h2 id="7-2-有序列表"><a href="#7-2-有序列表" class="headerlink" title="7.2 有序列表"></a>7.2 有序列表</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 列表内容  </span><br><span class="line">2. 列表内容  </span><br><span class="line">3. 列表内容   </span><br><span class="line">   注意空格</span><br></pre></td></tr></table></figure>
-<h2 id="7-3-列表嵌套"><a href="#7-3-列表嵌套" class="headerlink" title="7.3 列表嵌套"></a>7.3 列表嵌套</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* 嵌套   </span><br><span class="line">    * 嵌套</span><br><span class="line">        * 嵌套</span><br><span class="line">            1. 嵌套</span><br><span class="line">            2. 嵌套</span><br><span class="line">            3. 嵌套</span><br></pre></td></tr></table></figure>
-<h2 id="8-表格"><a href="#8-表格" class="headerlink" title="8. 表格"></a>8. 表格</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">表头|表头|表头</span><br><span class="line">---|:--:|---:</span><br><span class="line">内容|内容|内容</span><br><span class="line">内容|内容|内容</span><br><span class="line">第二行分割表头和内容。</span><br><span class="line">-有一个就行，为了对齐,可以多加几个;</span><br><span class="line">文字默认居左</span><br><span class="line">-两边加：表示文字居中;</span><br><span class="line">-右边加：表示文字居右。  </span><br></pre></td></tr></table></figure>
-<h2 id="9-代码"><a href="#9-代码" class="headerlink" title="9.代码"></a>9.代码</h2><h2 id="单行代码"><a href="#单行代码" class="headerlink" title="单行代码"></a>单行代码</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">``` 代码内容 ```</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo语法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>原神CD翻录</title>
     <url>/2022/02/06/yuansheng/</url>
     <content><![CDATA[<p><a href="http://nbnb.yamatu.xyz:5212/s/G6Ug" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><img src="https://s2.loli.net/2022/02/06/jQ2noSAFVeW8vRO.jpg" alt="gggg.png"><br><img src="https://s2.loli.net/2022/02/06/1dN9M8ahreBfbOA.jpg" alt="gggg2.png"></p>
@@ -464,6 +445,12 @@
       <tags>
         <tag>原神</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>疫情(结束了)</title>
+    <url>/2022/12/01/yiq/</url>
+    <content><![CDATA[<p>终于结束了，清晰认识病毒的可怕。</p>
+]]></content>
   </entry>
   <entry>
     <title>原神私服搭建教程(深渊版丢弃过期)</title>
@@ -497,6 +484,28 @@
       </categories>
       <tags>
         <tag>原神</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo常用语法</title>
+    <url>/2022/01/27/yufa/</url>
+    <content><![CDATA[<h1 id="一、Markdown基础语法"><a href="#一、Markdown基础语法" class="headerlink" title="一、Markdown基础语法"></a>一、Markdown基础语法</h1><h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
+<h2 id="2-字体"><a href="#2-字体" class="headerlink" title="2.字体"></a>2.字体</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*倾斜字体*  </span><br><span class="line">**加粗字体**  </span><br><span class="line">***加粗倾斜字***    </span><br><span class="line">~~这是加删除线的文字~~  </span><br></pre></td></tr></table></figure>
+<h2 id="3-引用"><a href="#3-引用" class="headerlink" title="3.引用"></a>3.引用</h2><figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&gt;引用</span><br><span class="line">&gt;&gt;引用</span><br><span class="line">&gt;&gt;&gt;引用 </span><br></pre></td></tr></table></figure>
+<h2 id="4-分割线"><a href="#4-分割线" class="headerlink" title="4.分割线"></a>4.分割线</h2><p>三个或者三个以上的<code>-</code>或者<code>*</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">***</span><br></pre></td></tr></table></figure>
+<h2 id="5-引用图片"><a href="#5-引用图片" class="headerlink" title="5.引用图片"></a>5.引用图片</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![tianqi.png图片名字](https://s2.loli.net/2022/01/27/ObDleJL1CUgoPHx.png图片链接)</span><br></pre></td></tr></table></figure>
+<h2 id="6-超链接"><a href="#6-超链接" class="headerlink" title="6.超链接"></a>6.超链接</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[超链接名字](超链接地址 &quot;超链接title&quot;)   title可加可不加  </span><br></pre></td></tr></table></figure>
+<h2 id="7-列表"><a href="#7-列表" class="headerlink" title="7.列表"></a>7.列表</h2><h2 id="7-1-无序列表"><a href="#7-1-无序列表" class="headerlink" title="7.1 无序列表"></a>7.1 无序列表</h2><figure class="highlight plaintext"><figcaption><span>+ * ```都可以使用</span></figcaption><table><tr><td class="code"><pre><span class="line">```json</span><br><span class="line">- 列表内容  </span><br><span class="line">+ 列表内容</span><br><span class="line">* 列表内容  </span><br><span class="line">注意：- + * 跟内容之间都要有一个空格  </span><br></pre></td></tr></table></figure>
+<h2 id="7-2-有序列表"><a href="#7-2-有序列表" class="headerlink" title="7.2 有序列表"></a>7.2 有序列表</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 列表内容  </span><br><span class="line">2. 列表内容  </span><br><span class="line">3. 列表内容   </span><br><span class="line">   注意空格</span><br></pre></td></tr></table></figure>
+<h2 id="7-3-列表嵌套"><a href="#7-3-列表嵌套" class="headerlink" title="7.3 列表嵌套"></a>7.3 列表嵌套</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* 嵌套   </span><br><span class="line">    * 嵌套</span><br><span class="line">        * 嵌套</span><br><span class="line">            1. 嵌套</span><br><span class="line">            2. 嵌套</span><br><span class="line">            3. 嵌套</span><br></pre></td></tr></table></figure>
+<h2 id="8-表格"><a href="#8-表格" class="headerlink" title="8. 表格"></a>8. 表格</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">表头|表头|表头</span><br><span class="line">---|:--:|---:</span><br><span class="line">内容|内容|内容</span><br><span class="line">内容|内容|内容</span><br><span class="line">第二行分割表头和内容。</span><br><span class="line">-有一个就行，为了对齐,可以多加几个;</span><br><span class="line">文字默认居左</span><br><span class="line">-两边加：表示文字居中;</span><br><span class="line">-右边加：表示文字居右。  </span><br></pre></td></tr></table></figure>
+<h2 id="9-代码"><a href="#9-代码" class="headerlink" title="9.代码"></a>9.代码</h2><h2 id="单行代码"><a href="#单行代码" class="headerlink" title="单行代码"></a>单行代码</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">``` 代码内容 ```</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo语法</tag>
       </tags>
   </entry>
 </search>
