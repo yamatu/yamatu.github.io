@@ -1,50 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>DDNS动态解析教学（openwrt教程</title>
-    <url>/2022/12/17/DNSdongtaijiexi/</url>
-    <content><![CDATA[<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p><img src="https://s2.loli.net/2022/12/17/QqjdnL4Vacv3MuF.png" alt="SO_QFY_YK@C199MH~LRK@Y6.png"></p>
-<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p><img src="https://s2.loli.net/2022/12/17/di1sTWnfC3ABeqm.png" alt="4__SC~T3_9HZH6_E@QPJ5_0.png"></p>
-<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>![<del>M@9_Q2A__UOF_</del>K8U5ME`E.png](<a href="https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png">https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png</a>)<br>选完直接保存即可，这里配合cloudflare使用的。其他的请自行研究。</p>
-]]></content>
-      <categories>
-        <category>DDNS</category>
-      </categories>
-      <tags>
-        <tag>DDNS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Google云修改账号密码</title>
-    <url>/2022/01/26/Google/</url>
-    <content><![CDATA[<ol>
-<li><p>使用命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
-<p>编辑配置文件，按一下<code>i</code>即可进入编辑模式</p>
-</li>
-<li><p>找到<code>PermitRootLogin</code>并修改参数值为<code>yes</code>,如果前面有<code>#</code>删除掉</p>
-</li>
-<li><p>找到<code>PasswordAuthentication</code>同样是修改参数值为<code>yes</code>,如果前面有<code>#</code>也删除掉</p>
-</li>
-<li><p>接着按<code>Esc</code>键，再输入<code>:wq</code>后回车保存退出</p>
-</li>
-<li><p>重启SSH服务<br>使用</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
-<p>或者</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
-<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>GC</category>
-      </categories>
-      <tags>
-        <tag>GC</tag>
-        <tag>密码</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>静态hexoblog搭建教程</title>
     <url>/2022/01/26/blogdajian/</url>
     <content><![CDATA[<h2 id="需要工具"><a href="#需要工具" class="headerlink" title="需要工具"></a>需要工具</h2><ol>
@@ -90,16 +46,6 @@
       </tags>
   </entry>
   <entry>
-    <title>chatgpt网页版对接QQbot</title>
-    <url>/2023/04/23/chatgpt/</url>
-    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
-<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
-<ul>
-<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>除夕快乐！！</title>
     <url>/2022/01/31/chuxi/</url>
     <content><![CDATA[<h1 id="祝大家"><a href="#祝大家" class="headerlink" title="祝大家"></a>祝大家</h1><blockquote>
@@ -115,40 +61,77 @@
       </tags>
   </entry>
   <entry>
-    <title>Cookie逆向分析指南</title>
-    <url>/2023/08/01/claude1/</url>
-    <content><![CDATA[<p>好的,我给您写一篇Cookie逆向的教程:</p>
-<h1 id="Cookie逆向分析指南"><a href="#Cookie逆向分析指南" class="headerlink" title="Cookie逆向分析指南"></a>Cookie逆向分析指南</h1><p>Cookie是web应用中常用的身份认证和状态保持机制。通过逆向分析Cookie,我们可以了解web应用的认证流程和状态管理逻辑。</p>
-<h2 id="Cookie基础知识"><a href="#Cookie基础知识" class="headerlink" title="Cookie基础知识"></a>Cookie基础知识</h2><ul>
-<li>Cookie存储在客户端浏览器中</li>
-<li>由服务器设置,客户端发送给服务器端</li>
-<li>包含会话状态、认证token等信息</li>
+    <title>Google云修改账号密码</title>
+    <url>/2022/01/26/Google/</url>
+    <content><![CDATA[<ol>
+<li><p>使用命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+<p>编辑配置文件，按一下<code>i</code>即可进入编辑模式</p>
+</li>
+<li><p>找到<code>PermitRootLogin</code>并修改参数值为<code>yes</code>,如果前面有<code>#</code>删除掉</p>
+</li>
+<li><p>找到<code>PasswordAuthentication</code>同样是修改参数值为<code>yes</code>,如果前面有<code>#</code>也删除掉</p>
+</li>
+<li><p>接着按<code>Esc</code>键，再输入<code>:wq</code>后回车保存退出</p>
+</li>
+<li><p>重启SSH服务<br>使用</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/etc/initd.d/sshd restart</span><br></pre></td></tr></table></figure>
+<p>即可重启SSH服务之后，你就可以用你刚刚设置的密码连接SSH了</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>GC</category>
+      </categories>
+      <tags>
+        <tag>GC</tag>
+        <tag>密码</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>DDNS动态解析教学（openwrt教程</title>
+    <url>/2022/12/17/DNSdongtaijiexi/</url>
+    <content><![CDATA[<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p><img src="https://s2.loli.net/2022/12/17/QqjdnL4Vacv3MuF.png" alt="SO_QFY_YK@C199MH~LRK@Y6.png"></p>
+<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p><img src="https://s2.loli.net/2022/12/17/di1sTWnfC3ABeqm.png" alt="4__SC~T3_9HZH6_E@QPJ5_0.png"></p>
+<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>![<del>M@9_Q2A__UOF_</del>K8U5ME`E.png](<a href="https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png">https://s2.loli.net/2022/12/17/JCNhVsMO5Fpq7HQ.png</a>)<br>选完直接保存即可，这里配合cloudflare使用的。其他的请自行研究。</p>
+]]></content>
+      <categories>
+        <category>DDNS</category>
+      </categories>
+      <tags>
+        <tag>DDNS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>chatgpt网页版对接QQbot</title>
+    <url>/2023/04/23/chatgpt/</url>
+    <content><![CDATA[<h1 id="想想21世纪的人会用AI玩出什么新花样呢。"><a href="#想想21世纪的人会用AI玩出什么新花样呢。" class="headerlink" title="想想21世纪的人会用AI玩出什么新花样呢。"></a>想想21世纪的人会用AI玩出什么新花样呢。</h1><p>本人使用一个大佬的项目目前可以对接的项目还是很多的<br>支持ChatGPT、文心一言、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord 等平台</p>
+<p>我主要图一个对接QQbot，这里不推荐mirai，我用的gocqhttp<br>下面是仓库地址</p>
+<ul>
+<li><a href="https://github.com/lss233/chatgpt-mirai-qq-bot">chatgpt-mirai-qq-bot</a><h1 id="这里就不放图片了不方便放"><a href="#这里就不放图片了不方便放" class="headerlink" title="这里就不放图片了不方便放"></a>这里就不放图片了不方便放</h1></li>
 </ul>
-<h2 id="Cookie逆向分析步骤"><a href="#Cookie逆向分析步骤" class="headerlink" title="Cookie逆向分析步骤"></a>Cookie逆向分析步骤</h2><ol>
-<li>利用浏览器开发者工具查看站点Cookie</li>
-</ol>
-<p>在Network面板中查看站点请求,找到Cookie信息。</p>
-<ol start="2">
-<li>分析Cookie内容和格式</li>
-</ol>
-<p>Cookie通常由名称、值、过期时间等组成。需要分析每个字段的作用。</p>
-<ol start="3">
-<li>修改Cookie测试站点变化</li>
-</ol>
-<p>可以尝试修改Cookie的值,观察站点行为变化。例如修改认证token来测试认证流程。</p>
-<ol start="4">
-<li>重放Cookie到其他浏览器/设备</li>
-</ol>
-<p>将获取的Cookie复制到其他浏览器/设备,测试其可移植性。</p>
-<ol start="5">
-<li>尝试伪造Cookie</li>
-</ol>
-<p>根据分析,尝试构造伪造的Cookie来访问被保护资源。</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>通过逆向分析Cookie,我们可以找到站点认证、授权、状态管理的薄弱点,了解其内部机制,辅助开展渗透测试。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>BattleBit Remastered Playtest</title>
+    <url>/2022/01/28/game/</url>
+    <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://s2.loli.net/2022/01/28/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://s2.loli.net/2022/01/28/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
+<h2 id="体验心得"><a href="#体验心得" class="headerlink" title="体验心得"></a>体验心得</h2><p>距离开放正式服还有点时间，目前可以开自建房玩。<br>我体验了下来，射击手感很好。(和其他测评玩家一样吊打2042)</p>
 ]]></content>
       <tags>
-        <tag>claude</tag>
+        <tag>steam</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Golang学习笔记(1)</title>
+    <url>/2023/08/04/golang1/</url>
+    <content><![CDATA[<h1 id="学习Golang语言中"><a href="#学习Golang语言中" class="headerlink" title="学习Golang语言中"></a>学习Golang语言中</h1><h2 id="什么是Golang语言？"><a href="#什么是Golang语言？" class="headerlink" title="什么是Golang语言？"></a>什么是Golang语言？</h2><p>Golang,也称Go语言,是Google开发的一种编译型、静态型、并发型,并具有垃圾回收功能的编程语言。Go语言的一些关键特征包括:<br>简单性 - Go语言的语法简单明了,容易上手,非常适合快速开发。<br>高效性 - Go语言的编译速度很快,执行效率也很高,适合进行服务端开发。<br>并发支持 - Go语言内置了强大的并发支持,使用goroutine和channel可以很方便地编写并发程序。<br>垃圾回收 - Go语言有自己的垃圾回收机制,不需要程序员自己管理内存。<br>编译迅速 - 使用Go命令一键就可以快速编译Go语言程序。<br>丰富的标准库 - Go语言标准库覆盖面广,内置了许多实用的包。<br>简单的部署 - 可以将Go语言编译成一个可执行文件,部署很简单。<br>跨平台 - 支持跨平台编译,一个Go语言程序可以运行在不同的系统上。<br>总体来说,Go语言简单高效,非常适合用于服务器后端开发、网络编程、云计算、分布式系统等领域。它的并发处理能力非常强大,可以充分利用多核CPU。</p>
+<h2 id="为啥要学？"><a href="#为啥要学？" class="headerlink" title="为啥要学？"></a>为啥要学？</h2><p>这门语言对我来说还是非常有吸引力的所以想去学习学习，人称Go语言是C语言和python的结合体。</p>
+<h3 id="运用switch-case-来判断是否是基数或者偶数"><a href="#运用switch-case-来判断是否是基数或者偶数" class="headerlink" title="运用switch case 来判断是否是基数或者偶数"></a>运用switch case 来判断是否是基数或者偶数</h3><figure class="highlight go"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	<span class="keyword">var</span> score = <span class="number">8</span></span><br><span class="line">	<span class="keyword">switch</span> score &#123;</span><br><span class="line">	<span class="keyword">case</span> <span class="number">1</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">7</span>, <span class="number">9</span>:</span><br><span class="line">		fmt.Println(<span class="string">&quot;是奇数&quot;</span>)</span><br><span class="line">		<span class="comment">//go语言中的break可以省略但是java中又不可以</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">case</span> <span class="number">2</span>, <span class="number">4</span>, <span class="number">6</span>, <span class="number">8</span>, <span class="number">10</span>:</span><br><span class="line">		fmt.Println(<span class="string">&quot;是偶数&quot;</span>)</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+]]></content>
   </entry>
   <entry>
     <title>Golang图文爬虫</title>
@@ -191,13 +174,365 @@
       </tags>
   </entry>
   <entry>
-    <title>BattleBit Remastered Playtest</title>
-    <url>/2022/01/28/game/</url>
-    <content><![CDATA[<h1 id="推荐游戏"><a href="#推荐游戏" class="headerlink" title="推荐游戏"></a>推荐游戏</h1><h2 id="BattleBit演示"><a href="#BattleBit演示" class="headerlink" title="BattleBit演示"></a>BattleBit演示</h2><p>这个游戏据我知道以后我就下来玩了下。<br><img src="https://s2.loli.net/2022/01/28/Y2p8ZiLoshVHMNy.png" alt="gsfgee.png"><br>这个游戏基本对配置没啥要求，开发是基于<code>unity</code><br><img src="https://s2.loli.net/2022/01/28/YPqFcQeb43hsoOy.png" alt="gafejc.png"></p>
-<h2 id="体验心得"><a href="#体验心得" class="headerlink" title="体验心得"></a>体验心得</h2><p>距离开放正式服还有点时间，目前可以开自建房玩。<br>我体验了下来，射击手感很好。(和其他测评玩家一样吊打2042)</p>
+    <title>iPv4网络运营商骨干网测评</title>
+    <url>/2022/01/27/isp/</url>
+    <content><![CDATA[<p> 友情提示,原文涉及的部分专业知识点比较复杂,我尽力优化排版,但无法全面验证内容的准确性。下面是用Markdown语法调整格式后的文章:</p>
+<h1 id="IPv4网络运营商骨干网测评"><a href="#IPv4网络运营商骨干网测评" class="headerlink" title="IPv4网络运营商骨干网测评"></a>IPv4网络运营商骨干网测评</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文主要探讨的是IPv4网络,对于IPv6网络,那就是另一个故事了~ 我想在整理完此文后,对几条重要的线路单独拿出来说一说,我会直接拿接入该线路的VPS来做测试,来最大化给读者可视化线路质量。</p>
+<p>此文采用CC BY-NC-SA 4.0协议,可自由摘取片段用于非商业用途分享。</p>
+<h2 id="国内几大骨干网介绍"><a href="#国内几大骨干网介绍" class="headerlink" title="国内几大骨干网介绍"></a>国内几大骨干网介绍</h2><p>目前国内有三大ISP,电信、联通、移动,电信有2大骨干网——163和CN2,联通有2大骨干网——169和A网,移动只有1个骨干网CMNET,一共有5大骨干网,这些骨干网都有自己的独立国际出口,和国外ISP有直接Peer或Transit。</p>
+<p>另外有用于科研和教育用途的2个小型骨干网,CERNET(教育网,主用于高校)和CSTNET(科技网),这2个骨干网也有自己的独立国际出口,但是总体规模远小于电信、联通、移动,故能承载的出国带宽有限。</p>
+<ul>
+<li><p>电信的163骨干网自治系统编号 AS4134</p>
+</li>
+<li><p>电信的CN2骨干网自治系统编号 AS4809 </p>
+</li>
+<li><p>联通的169骨干网自治系统编号 AS4837</p>
+</li>
+<li><p>联通的A网骨干网自治系统编号 AS9929</p>
+</li>
+<li><p>移动的CMNET境内骨干网自治系统编号 AS9808</p>
+</li>
+<li><p>移动的CMI境外骨干网自治系统编号 AS58453</p>
+</li>
+<li><p>CERNET骨干网自治系统编号 AS4538</p>
+</li>
+<li><p>CSTNET骨干网自治系统编号 AS7497</p>
+</li>
+</ul>
+<p>要注意一点的是,CMNET并没有和国外ISP有直接Peer,而是借助其境外骨干网CMI进行互联的。</p>
+<p>显然,如果我们只是了解到这里,对于后文的很多内容,读者还是无法理解,所以我们还需要知道这些骨干网更详细的信息,让我们一个个来看。</p>
+<p>以下的各AS BGP互联图来自 bgp.he.net ,版权归Hurricane Electric所有。</p>
+<p>如果对此已经完全熟悉的朋友建议直接跳过下面这段介绍</p>
+<h3 id="AS4134-CHINANET-中国电信163骨干网"><a href="#AS4134-CHINANET-中国电信163骨干网" class="headerlink" title="AS4134 CHINANET 中国电信163骨干网"></a>AS4134 CHINANET 中国电信163骨干网</h3><p>宽带业务范围:普通家用宽带、商用宽带、政企宽带</p>
+<p>海外加速的专有业务:163精品网套餐(上海地区)</p>
+<p>已知出口:北京、上海、广州</p>
+<p>全国规模最大的骨干网,享有最大的国际出口,如果读者办理的是一般性的电信宽带又或者是商宽,访问境外网站,如果对方ISP没有购买电信的CN2 Transit,那么就走这个骨干网。</p>
+<h3 id="AS4809-CNCN-CN2-中国电信第二代骨干网"><a href="#AS4809-CNCN-CN2-中国电信第二代骨干网" class="headerlink" title="AS4809 CNCN(CN2) 中国电信第二代骨干网"></a>AS4809 CNCN(CN2) 中国电信第二代骨干网</h3><p>宽带业务范围:家用游戏及海外加速宽带、商用跨国优化宽带、政企宽带</p>
+<p>海外加速的专有业务:CN2国际精品网套餐(覆盖几乎全国)</p>
+<p>已知出口:北京、上海、广州、乌鲁木齐</p>
+<p>技术先进,一般到一个ISP有不止一个Policy可以到达,灵活性非常高,因此可以提供稳定快速的国际互联服务,一般对海外聊天、游戏有较高需求的都会使用该网。目前该网是国内到国际网络高峰期能提供最好速率和体验的骨干网之一。</p>
+<h3 id="AS4837-China-Unicom-BackBone-中国联通骨干网"><a href="#AS4837-China-Unicom-BackBone-中国联通骨干网" class="headerlink" title="AS4837 China Unicom BackBone 中国联通骨干网"></a>AS4837 China Unicom BackBone 中国联通骨干网</h3><p>宽带业务范围:家宽、商宽、政企宽带</p>
+<p>海外加速业务:尚不明确,或当前未推出</p>
+<p>已知出口:北京、上海、广州</p>
+<p>如果是联通用户,除非访问的对方ISP购买了电信CN2 Transit/联通的CU Premiun,否则一律走169骨干网。该网目前出国拥堵程度小于电信163,但是总体速度和延时可靠性不如CN2。因价格便宜实惠,一般被很多游戏爱好者(国际服玩家)以及对普通外教课程有需求的首选宽带。</p>
+<p>通常我们这些Player也会更多倾向的考虑联通宽带,因为目前到国际网络普遍较好的就是联通的169骨干网。</p>
+<h3 id="AS9929-CHINA-UNICOM-Industrial-Internet-Backbone-中国联通工业互联骨干网"><a href="#AS9929-CHINA-UNICOM-Industrial-Internet-Backbone-中国联通工业互联骨干网" class="headerlink" title="AS9929 CHINA UNICOM Industrial Internet Backbone 中国联通工业互联骨干网"></a>AS9929 CHINA UNICOM Industrial Internet Backbone 中国联通工业互联骨干网</h3><p>宽带业务范围:商业宽带、政企宽带</p>
+<p>海外加速服务:本网专做海外加速服务</p>
+<p>已知出口:北京、上海、广州</p>
+<p>本网前身为网通的骨干网,后与联通合并后改为联通A网,联通将该骨干网用于国际互联加速服务,价格昂贵,主要是跨国企业在使用,该网已无家宽业务。</p>
+<h3 id="AS9808-China-Mobile-中国移动骨干网"><a href="#AS9808-China-Mobile-中国移动骨干网" class="headerlink" title="AS9808 China Mobile 中国移动骨干网"></a>AS9808 China Mobile 中国移动骨干网</h3><p>宽带业务范围:家宽、商宽、政企宽带</p>
+<p>海外加速业务:尚不明确,或为高Qos商宽/机房宽带</p>
+<p>已知出口:北京、上海、广州</p>
+<p>AS9808为移动境内的骨干网,未设与国际ISP Peer,故所有出境流量通过AS58453(CMI)与外网互联。</p>
+<p>又被称之为CMI,是移动的国际段骨干网,最早只在香港建网,并接入HKIX,后逐渐扩大至全球。</p>
+<p>移动骨干网现如今已经不再具有国际出口优势,目前三网中只略好于电信163。只有高Qos的宽带才可以体验到17年前移动最初的乐趣。</p>
+<h3 id="AS4538-CERNET-China-Education-and-Research-Network-中国教育研究网络"><a href="#AS4538-CERNET-China-Education-and-Research-Network-中国教育研究网络" class="headerlink" title="AS4538 CERNET China Education and Research Network 中国教育研究网络"></a>AS4538 CERNET China Education and Research Network 中国教育研究网络</h3><p>宽带业务范围:各大高校的校园网和部分大型国内云服务提供商</p>
+<p>已知出口:北京清华大学</p>
+<p>该网不服务于家宽、商宽、政企,一般来说,只有大学生和大学教授才会经常接触到这个网络。</p>
+<p><img src="images/4538.png"></p>
+<h2 id="国内ISP与国际ISP的互联详情-亚太地区"><a href="#国内ISP与国际ISP的互联详情-亚太地区" class="headerlink" title="国内ISP与国际ISP的互联详情 亚太地区"></a>国内ISP与国际ISP的互联详情 亚太地区</h2><h3 id="中国香港"><a href="#中国香港" class="headerlink" title="中国香港"></a>中国香港</h3><p>常见ISP:CMI、CUG、NTT、PCCW、Telia、Telstra、CHT、HKBN、HKT、WTT、HGC、GTT、TaTa、HE、Cogentco、SingTel</p>
+<h3 id="中国台湾"><a href="#中国台湾" class="headerlink" title="中国台湾"></a>中国台湾</h3><h4 id="HiNet"><a href="#HiNet" class="headerlink" title="HiNet"></a>HiNet</h4><p>可直连国内骨干网:AS4134、AS58453、AS4837</p>
+<p>其中 AS4134 和 AS4837 延迟都明显要比 AS58453 高一些。广州移动延迟大约 40ms,武汉电信家宽环境中延迟大约 50ms~60ms,北京电信商宽大约 70ms,上海联通商宽延迟大约170ms,长沙联通商宽延迟大约140ms。  </p>
+<p>HiNet是中华电信(CHT)的一个品牌,也是全台湾最大的宽带提供商。目前台湾地区的主流流媒体解锁都是用了HiNet动态IP(家宽)以及静态IP(商宽、IDC)来解锁的。HiNet拥有整个台湾地区最大的电信骨干网,也是国内出口流量最大的ISP。CHT另拥有一张TWGate的网络,专注国际互联,其性质相当于中国电信的CN2。</p>
+<h4 id="TFN"><a href="#TFN" class="headerlink" title="TFN"></a>TFN</h4><p>台湾固网</p>
+<h4 id="SeedNet"><a href="#SeedNet" class="headerlink" title="SeedNet"></a>SeedNet</h4><h4 id="TaNet"><a href="#TaNet" class="headerlink" title="TaNet"></a>TaNet</h4><p>台湾学术网络</p>
+<h4 id="HomePlus"><a href="#HomePlus" class="headerlink" title="HomePlus"></a>HomePlus</h4><p>中嘉宽频</p>
+<h3 id="日本"><a href="#日本" class="headerlink" title="日本"></a>日本</h3><p>常见ISP:NTT、IIJ、KDDI、BBTEC、Telstra、PCCW、BGP.NET</p>
+<p>常见IX:JPIX、BBIX、EIEHND(Equinix Internet Exchange Tokyo)</p>
+<p>常见下游:Cloudflare、Amazon、Azure、Google、M427、xTom</p>
+<p>日本的宽带业务竞争激烈,导致ISP提供商不得不杀出更低的价格来吸引客户,但是往往事与愿违——用户的口碑却更糟糕了。比如,和阿里巴巴合资的SoftBank(软银)公司创立的ISP服务商——BBTEC,看起来是一个不错的选择,实际晚高峰网络拥堵,体验很差劲,试想如果发条消息都要卡半天的话,真的是一件很让人抓狂的事情呢。</p>
+<p>不仅是家宽,商宽乃至服务器机房,接入一条ISP线路的成本价格都不菲,况且很多日本IDC只对日本本国居民提供服务,所以催生了很多代办业务,最有名的就是樱花机房的服务器代办服务。往往只有这些对本土开放的IDC才有可能是原生IP(可以解锁当地的众多流媒体、游戏和网站,很有意义),所以哪怕要被代办收取高额的代办费,也会有很多有需求的人士会前去购买。</p>
+<h4 id="NTT"><a href="#NTT" class="headerlink" title="NTT"></a>NTT</h4><p>可直连国内骨干网:AS4134、AS4809、AS4837、AS9929、AS58423</p>
+<p>日本作为NTT的大本营,几乎全国的宽带服务提供商都有NTT的踪迹。因为NTT的骨干网覆盖了日本几乎所有能够覆盖到的地区。</p>
+<p>关于日本NTT,我想在文中说明的实在太多了,限于篇幅,我还是精简一下 - -…</p>
+<p>NTT和国内ISP互联时间很早,在2000年后,NTT和当时的网通互联,互联出口设在上海和北京,并在上海和北京分别建设NTT的PoP节点(少数国外ISP将PoP设在国内的案例)。</p>
+<p>值得一提的是,但是这是目前国内直连日本NTT延时很低且很稳定的渠道,CN2到日本NTT都干不过它,根据实测,目前NTT-9929的速度基本取决于用户接入的9929的带宽速度。</p>
+<p>中国电信163和日本NTT之间的扩容就勤快多了,电信还在日本东京设立了PoP方便和日本本土ISP快速互联。听起来很美好是吗?但是这不妨碍电信163和日本NTT之间日常大爆炸(里面大部分都是被巨量的DDOS流量打崩的)。</p>
+<p>绝大多数情况下,163-东京NTT、163-新加坡NTT两线是163网络所有互联线路中质量最差的网络,没有之一。</p>
+<p>根据近一个月的监测记录,上海电信到东京NTT之间的平均延时(周期为半小时)在48~295ms之间抖动,高峰一小时平均丢包率峰值可达40%,高峰一分钟平均丢包率极限情况下达到了惊人的99%,这就导致了高峰哪怕绕美的体验都要强于直连。</p>
+<p>联通的169网络早期有2条路线可以前往日本NTT,一条是从北京-大阪,另外一条是上海-东京。虽然联通169一直普遍被用户认为国际出口质量很高,但是这2条NTT的线路也并非各位读者想的那么美好。</p>
+<p>北京联通169 - 日本大阪NTT该线其实最早是网通搭建的。联通收购网通后,便把网通的PoP拨给自己使用,直至今日,我们都可以在NTT在北京PoP IP的rDNS上找到来自历史的证明——</p>
+<p>129.250.8.26(xe-0.cnc-g.osakjp02.jp.bb.gin.ntt.net)</p>
+<p>这里的CNC,就是曾经的China NetCom(中国网通)的缩写,osakjp,指的就是日本大阪。xe是指骨干网路由使用的是Juniper公司研发的路由,每条线为10Gbps端口。</p>
+<p>但是到了现在,由于联通也在不断开拓自己的国际市场,目前联通也在东京和大阪分别设立了PoP,只是目前往北京方向回程依旧在走NTT的北京PoP,往上海直接走的是联通在日本自己的PoP了。</p>
+<p>经过了最近的一番扩容和优化,北方联通169往日本NTT方向也有很大的改善(目前暂时停止北京-大阪该线路由,走上海),延时显著降低。虽然去程多绕了一点,但是延时下降了很多,还是可以接受的。</p>
+<p>移动作为后来者,前往日本NTT最早都是借助香港CMI出国,近两年才开通了日本东京的PoP,并用上了全新的NCP海缆才得以能够不绕港直连。</p>
+<p>但是目前移动到日本NTT都不走NCP,而是继续绕香港CMI,估计在不久的未来直连后会有更低的延时体验。</p>
+<h4 id="IIJ"><a href="#IIJ" class="headerlink" title="IIJ"></a>IIJ</h4><p>可直连骨干网:AS4134、AS4837、AS58423</p>
+<p>中国电信的163与IIJ的互联是通过电信在东京的PoP实现的,国内可以通过三大汇聚层轻松访问PoP节点。互联的网络质量远好于和NTT的质量。IIJ是电信163用户造访日本网站最好的</p>
+<h3 id="欧洲-北美地区"><a href="#欧洲-北美地区" class="headerlink" title="欧洲/北美地区"></a>欧洲/北美地区</h3><p>欧洲/北美的网络情况跟亚太差异比较大。欧美的中小ISP大部分依靠的是IX互联或者机房托管的混合网络接入。<br>虽然商业网络的价格比亚洲地区便宜,但至少对中国用户来说,很少再回程路由中遇见欧美的Regional T1或者高质量T1 ISP。</p>
+<p>比如说在欧洲的Orange(前身法国电信France Télécom,AS Rank 11),Vodafone (总部在英国,AS Rank 12),Deutsche Telekom(德国电信AS Rank 24),北美的ATT(AS Rank 20) ,Verzion(AS Rank 21) ,Sprint(AS Rank 26)。题外话,BT(英国电信)反而是Regional T1,AS Rank比中国电信还低。</p>
+<h4 id="欧洲德国"><a href="#欧洲德国" class="headerlink" title="欧洲德国"></a>欧洲德国</h4><h5 id="DTAG"><a href="#DTAG" class="headerlink" title="DTAG"></a>DTAG</h5><p>可直连骨干网: AS4134、AS4837、AS9929</p>
+<p>Deutsche Telekom AG ,德国电信,德国第一大ISP,T1级。旗下移动运营商T-mobile相比于DTAG更加知名。 </p>
+<p>DTAG于AS4134和AS4837均有peer。同时也是AS9929上游。但延迟均200+起跳。</p>
+<p>电信163普通家宽会被强制丢包,而163plus能保证相对稳定延迟与相对较低的丢包</p>
+<p>联通169则取决于汇聚层是否拥塞。非拥塞状态则能保证网络质量。但是只限于北方地区的联通(如河南/山东等)。<br>南方地区的联通(如上海)将会被无慈悲的绕美,由DTAG转发Level3。</p>
+<p>AS9929依旧稳定发挥,甚至延迟优于AS4134 AS4837,但速度很勉强,几乎稳定80Mbps。</p>
+<h5 id="Cogent-Communications"><a href="#Cogent-Communications" class="headerlink" title="Cogent Communications"></a>Cogent Communications</h5><p>可直连骨干网:AS4134、AS4837、AS9929、AS58453。</p>
+<p>Cogentco,联通9929真正的互联主力……几乎绝大部分的欧美线路到9929都会被Cogentco宣告。以至于在欧洲会出现回程不走DTAG硬是跑Cogentco<br>外加联通9929的NOC基本不会主动调整欧美路由。速度十分玄学,单线程在50Mbps摇摆,多线程却接近跑满。</p>
+<h4 id="美国洛杉矶-amp-圣何塞"><a href="#美国洛杉矶-amp-圣何塞" class="headerlink" title="美国洛杉矶&amp;圣何塞"></a>美国洛杉矶&amp;圣何塞</h4><p>洛杉矶和圣何塞是美西重要的面向亚太地区的互联网PoP中心,TPE海缆多从此处2点接入。中美之间的互联占据了出境流量很大的一部分,也是电信163出国的主要路径。</p>
+<h5 id="HE"><a href="#HE" class="headerlink" title="HE"></a>HE</h5><p>HE,全称为 Hurricane Electric(飓风电气),目前是坐拥全球以Peer数量计算的最大IPv6骨干网的ISP,骨干网自治编号为AS6939。HE也提供免费的IPv6 Tunnel,以方便IPv4单栈的用户能够无障碍地访问IPv6网络。</p>
+<p>HE的发展思路一直是竭尽全力和世界上更多的ISP Peer,尽管获得了非常多的本地互联,但是因自身前期在亚太骨干网投入不足,导致和一些ISP对等宽带过小、跨洋传输场景下的宽带传输速率有限,HE也一直在努力扩容,可惜仍旧有较大缺口。</p>
+<p>我们看到的亚太地区(香港、新加坡)的低价VPS产品线,几乎都一致地选择了HE作为唯一的互联网接入,而且接入的宽带并不大,平均1Gbps。但是哪怕是HE这样的ISP,在亚太地区的BGP Transit也颇为昂贵,这些商家为了能够有所盈利,在超低的VPS价格上,宽带上面必须大幅超售,这些反而给低端用户群体带来了十分糟糕的用户体验,很多时候,这些VPS访问外网速度慢不是HE的问题,而是IDC没有购买足够的宽带导致。</p>
+<p>作为对等节点极多的HE来说,IPv6网络下和中国大三ISP均有直接互联,也是当下国内IPv6网络跨国的主要对等ISP,为推动全球IPv6互联中扮演着非常重要的角色。</p>
+<p>可直连骨干网:AS4134、AS4837、AS58453</p>
+<p>电信163和HE在洛杉矶有10~20G的互联,平时鲜有出现较大的延时抖动,但是速度限制较为严重。</p>
+<p>联通169和HE的洛杉矶互联通常被视为在廉价互联里面很具有性价比的,相比于联通169和GTT的互联,和HE的互联质量就要好很多,很多用户也在尽可能选择更价廉物美的选择。</p>
+<p>CMI与美西的互联一向较差,并不具有较好的连通性,再加上HE和CMI的互联本身就炸的比较厉害,此条线路不推荐移动去尝试。</p>
+<h5 id="GTT"><a href="#GTT" class="headerlink" title="GTT"></a>GTT</h5><p>GTT,前身为Global Telecom and Technology,自1998年成立以来,在跨国电信业务上耕作至今。</p>
+<p>可直连骨干网:AS4134、AS4837、AS58453</p>
+<p>联通169在美西较大地依赖GTT的互联,导致延时相比正常美西延时高很多,速度并不乐观。</p>
+<p>电信163和GTT的互联却是出乎意料的好,根据SmokePing的结果,电信163和GTT的互联全天几乎不丢包,完全受限于汇聚层是否通畅。这就意味着只要使用高Qos的电信宽带就可以获得较好的速度。</p>
+<h5 id="Telia"><a href="#Telia" class="headerlink" title="Telia"></a>Telia</h5><p>Telia是瑞典最大的电话和电信通讯公司,前身为瑞典电报局及芬兰电讯。现更名为Arelion,但目前在路由上的名称依旧是Telia。</p>
+<p>可直连骨干网:AS4134、AS4809、AS4837、AS58453</p>
+<p>Telia在美国、欧洲都有和电信163互联,总体来说是很中规中矩的线路,</p>
+<h5 id="Cogent-Communications-1"><a href="#Cogent-Communications-1" class="headerlink" title="Cogent Communications"></a>Cogent Communications</h5><p>可直连骨干网:AS4134、AS4837、AS9929、AS58453</p>
+<p>跟欧洲情况差不多。</p>
+<p>电信163在美西较大程度上依赖Cogentco的互联,爆炸的几率较高。</p>
+<h5 id="Verizon"><a href="#Verizon" class="headerlink" title="Verizon"></a>Verizon</h5><p>可直连骨干网:AS9929</p>
+<p>联通9929与Verizon的互联一言难尽,延迟不是最优,单线程速度也不是最优。高峰期单线程速度在50-70Mbps震荡。而多线程速度倒是能跑满,非常的玄学。<br>有时候其他北美ISP到联通9929需要经Verizon转发,而被转发的速度就很难保证了。</p>
+]]></content>
+      <categories>
+        <category>ipv4</category>
+      </categories>
+      <tags>
+        <tag>isp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>旅行日志</title>
+    <url>/2022/02/04/lvxing/</url>
+    <content><![CDATA[<div class="fj-gallery"><p><img src="https://s2.loli.net/2022/02/04/qaYoQOxzlNucKEJ.png"><br><img src="https://s2.loli.net/2022/02/04/flAimT6dLvjSbPO.png"><br><img src="https://s2.loli.net/2022/02/04/42lMtvT93Vk1PDh.png"><br><img src="https://s2.loli.net/2022/02/04/of5Yd3K8xQpChS2.png"></p>
+          </div>]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>play</tag>
+        <tag>旅行</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Minecraft红石向服(1.19.1)</title>
+    <url>/2022/01/27/mc1.19/</url>
+    <content><![CDATA[<h1 id="服务器介绍"><a href="#服务器介绍" class="headerlink" title="服务器介绍"></a>服务器介绍</h1><h2 id="本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。"><a href="#本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。" class="headerlink" title="本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:421953860 虽然本服务器没有开启白名单，但是还是希望你能加入该群。"></a>本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:<code>421953860</code> 虽然本服务器没有开启白名单，但是还是希望你能加入该群。</h2><p><a href="https://sm.ms/image/2knqpPOAVQtr96I" target="_blank"><img src="https://s2.loli.net/2022/08/16/2knqpPOAVQtr96I.png" ></a><br>出生点附件<br><a href="https://sm.ms/image/WIbZacGXjgzvwPt" target="_blank"><img src="https://s2.loli.net/2022/08/16/WIbZacGXjgzvwPt.png" ></a><br>yamatu的家<br><a href="https://sm.ms/image/R95NhgTaroCZxeu" target="_blank"><img src="https://s2.loli.net/2022/08/16/R95NhgTaroCZxeu.png" ></a><br>刷铁机<br><a href="https://sm.ms/image/UVM59Di36bJajwC" target="_blank"><img src="https://s2.loli.net/2022/08/16/UVM59Di36bJajwC.png" ></a><br>刷石机<br><a href="https://sm.ms/image/TQy4a35pv6efiOI" target="_blank"><img src="https://s2.loli.net/2022/08/16/TQy4a35pv6efiOI.png" ></a><br>山洞仓库<br><a href="https://sm.ms/image/dYTOnpuZc42Fo5h" target="_blank"><img src="https://s2.loli.net/2022/08/16/dYTOnpuZc42Fo5h.png" ></a><br>农场<br>服务器地址：</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>mc服</category>
+      </categories>
+      <tags>
+        <tag>生存服</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Minecraft红石向生存服(1.16.5已停止该存档)</title>
+    <url>/2022/01/27/mcvps/</url>
+    <content><![CDATA[<p><a href="https://www.fansmc.com/xuanchuan/1284/5809"><img src="https://www.fansmc.com/banner/1284/default/FFFFFF/FFFFFF/medium" /></a></p>
+<h1 id="服务器介绍"><a href="#服务器介绍" class="headerlink" title="服务器介绍"></a>服务器介绍</h1><h2 id="本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。"><a href="#本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。" class="headerlink" title="本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:421953860 虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。 "></a>本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:<code>421953860</code> 虽然本服务器没有开启白名单，但是还是希望你能加入该群。<code>没有正版验证，欢迎你的到来。</code> <img src="https://s2.loli.net/2022/04/05/5p3b6Maz1SodZCs.png" alt="SLD_G6DA_TSH74IYQ_S9_T.png"></h2><h3 id="在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了-你在本服务器的存档都会定时备份下来"><a href="#在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了-你在本服务器的存档都会定时备份下来" class="headerlink" title="在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了(你在本服务器的存档都会定时备份下来)"></a>在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了(你在本服务器的存档都会定时备份下来)</h3><h3 id="现阶段我们缺少会建筑的大佬，-o-￣▽￣-o你懂我意思的。（还不快进来！！！说的就是你！！！）"><a href="#现阶段我们缺少会建筑的大佬，-o-￣▽￣-o你懂我意思的。（还不快进来！！！说的就是你！！！）" class="headerlink" title="现阶段我们缺少会建筑的大佬，~ o(￣▽￣)o你懂我意思的。（还不快进来！！！说的就是你！！！）"></a>现阶段我们缺少会建筑的大佬，~ o(<em>￣▽￣</em>)o你懂我意思的。（还不快进来！！！说的就是你！！！）</h3><p>出生点场景，以及正在设计的红石电子钟。<br><img src="https://s2.loli.net/2022/04/05/ZKbRmvH7iVqft2C.png" alt="_D8B2E___3X3M2OJ@~R.png"><br><img src="https://s2.loli.net/2022/04/05/4d9IrUo6SkuCle5.png" alt="_D8B2DJO5E.png"><br><img src="https://s2.loli.net/2022/04/05/JfP2KVyGowabgYT.png" alt="_D8B2DJO5E_.png"><br>刷怪塔（上空加树场）<br><img src="https://s2.loli.net/2022/04/05/hYvujX849FNaESI.png" alt="B192_~~O_SWX_K_B76P7XFK.png"><br>猪人塔<br><img src="https://s2.loli.net/2022/04/05/oOLwpAUXa4K5TfF.png" alt="X9XWVSN___7@PWFQ6FF7_K.png"><br>女巫塔</p>
+<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><h2 id="还有更多的景观没有展示出来"><a href="#还有更多的景观没有展示出来" class="headerlink" title="还有更多的景观没有展示出来"></a>还有更多的景观没有展示出来</h2><h2 id="版本1-16-5"><a href="#版本1-16-5" class="headerlink" title="版本1.16.5"></a>版本<code>1.16.5</code></h2><h2 id="以下是服务器地址"><a href="#以下是服务器地址" class="headerlink" title="以下是服务器地址"></a>以下是服务器地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>mc服</category>
+      </categories>
+      <tags>
+        <tag>生存服</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>butterfly-giter聊天室</title>
+    <url>/2022/01/26/pinglun/</url>
+    <content><![CDATA[<h2 id="Gitter-注册"><a href="#Gitter-注册" class="headerlink" title="Gitter 注册"></a>Gitter 注册</h2><p>先去 Gitter 注册一个账号，可以直接使用 GitHub 登录</p>
+<p><a href="https://gitter.im/" title="点这个">https://gitter.im/</a></p>
+<p>然后先创建一个 <code>Community</code> 社区，再创建一个 Room 聊天室（创建聊天室时 community 选择刚创建的即可）</p>
+<p>比如我创建了一个<code>community</code>叫<code>ednovas</code>, 然后创建了一个叫 ChatRoom 的聊天室。这个要记住，下一步用到。<br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="sadf.png"></p>
+<ol>
+<li>然后创建相应的<code>Create community</code><br><img src="https://s2.loli.net/2022/08/02/hZcALPrqNgzFjkp.png" alt="bffgr.png"></li>
+<li>在创建对应仓库的<code>Create room</code><br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="abfht.png"></li>
+<li>修改<code>主题配置文件</code><br><img src="https://s2.loli.net/2022/08/02/vXrCdIFjQ8G3oiM.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
+<h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://s2.loli.net/2022/08/02/ztLPRVZeNvjqXnD.png" alt="jjjjr.png"><br><img src="https://s2.loli.net/2022/08/02/b9aPuTFVU1jnYqB.png" alt="ffe123.png"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>评论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python学习历程</title>
+    <url>/2022/12/26/python/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>hexo搭建</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>butterfly</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>咸鱼翻身计划</title>
+    <url>/2023/06/16/xianyujihua/</url>
+    <content><![CDATA[<h1 id="咸鱼翻身计划"><a href="#咸鱼翻身计划" class="headerlink" title="咸鱼翻身计划"></a>咸鱼翻身计划</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>高三读完，深知自己这么多年来困于学校，即对校外的世界不了解，也对自己的人生无规划，活脱脱的像一条咸鱼。</p>
+<p>这个暑假有将近三个月时间，是虚度这三个月，还是充分利用这三个月时间提升自己、拓展视野呢？我想后者还是好于前者。未来飘忽不定，前路茫茫未知。我需要知识武装自己，急需技能拥抱未来。</p>
+<p>于是，在借鉴逐日计划后，我和哥哥制定了咸鱼翻身计划。希望这项计划能将我们洗刷，让我们成长！</p>
+<p>2023年6月16日     高考已过，未来在即</p>
+<h2 id="计划内容"><a href="#计划内容" class="headerlink" title="计划内容"></a>计划内容</h2><ol>
+<li>剪辑</li>
+<li>表格</li>
+<li>拍摄</li>
+<li>健身<ul>
+<li>am 起床 <ul>
+<li>在家无氧</li>
+<li>6:30am 出去无氧</li>
+</ul>
+</li>
+<li>am 买菜回家</li>
+</ul>
+</li>
+<li>乐器<ul>
+<li>博：重拾吉他 </li>
+<li>炜：初见吉他</li>
+</ul>
+</li>
+<li>前端，网站</li>
+<li>车</li>
+<li>画图，设计<ul>
+<li>平面设计</li>
+<li>3D设计</li>
+</ul>
+</li>
+<li>适度游戏，练字人生<ul>
+<li>把字写的像人写的，把人能写出来的字写出来</li>
+</ul>
+</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>hexo blog文件移植到其他电脑</title>
+    <url>/2022/03/16/hexoyizhi/</url>
+    <content><![CDATA[<h1 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先把你的blog文件下载下来存在你觉得不错的网盘上</p>
+<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>然后将网盘文件下载下来<br>放到新的设备上</p>
+<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>在设备上安装</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
+<p>安装hexo框架<br>node.js检查</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
+<p>安装git后</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;用户邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<p>生成密钥<br>ssh文件打开后导出公钥<br>并且上传到gitee的密钥管理上面去。<br>然后就完成了</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Cookie逆向分析指南</title>
+    <url>/2023/08/01/claude1/</url>
+    <content><![CDATA[<p>好的,我给您写一篇Cookie逆向的教程:</p>
+<h1 id="Cookie逆向分析指南"><a href="#Cookie逆向分析指南" class="headerlink" title="Cookie逆向分析指南"></a>Cookie逆向分析指南</h1><p>Cookie是web应用中常用的身份认证和状态保持机制。通过逆向分析Cookie,我们可以了解web应用的认证流程和状态管理逻辑。</p>
+<h2 id="Cookie基础知识"><a href="#Cookie基础知识" class="headerlink" title="Cookie基础知识"></a>Cookie基础知识</h2><ul>
+<li>Cookie存储在客户端浏览器中</li>
+<li>由服务器设置,客户端发送给服务器端</li>
+<li>包含会话状态、认证token等信息</li>
+</ul>
+<h2 id="Cookie逆向分析步骤"><a href="#Cookie逆向分析步骤" class="headerlink" title="Cookie逆向分析步骤"></a>Cookie逆向分析步骤</h2><ol>
+<li>利用浏览器开发者工具查看站点Cookie</li>
+</ol>
+<p>在Network面板中查看站点请求,找到Cookie信息。</p>
+<ol start="2">
+<li>分析Cookie内容和格式</li>
+</ol>
+<p>Cookie通常由名称、值、过期时间等组成。需要分析每个字段的作用。</p>
+<ol start="3">
+<li>修改Cookie测试站点变化</li>
+</ol>
+<p>可以尝试修改Cookie的值,观察站点行为变化。例如修改认证token来测试认证流程。</p>
+<ol start="4">
+<li>重放Cookie到其他浏览器/设备</li>
+</ol>
+<p>将获取的Cookie复制到其他浏览器/设备,测试其可移植性。</p>
+<ol start="5">
+<li>尝试伪造Cookie</li>
+</ol>
+<p>根据分析,尝试构造伪造的Cookie来访问被保护资源。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>通过逆向分析Cookie,我们可以找到站点认证、授权、状态管理的薄弱点,了解其内部机制,辅助开展渗透测试。</p>
 ]]></content>
       <tags>
-        <tag>steam</tag>
+        <tag>claude</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>原神CD翻录</title>
+    <url>/2022/02/06/yuansheng/</url>
+    <content><![CDATA[<p><a href="http://nbnb.yamatu.xyz:5212/s/G6Ug" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><img src="https://s2.loli.net/2022/02/06/jQ2noSAFVeW8vRO.jpg" alt="gggg.png"><br><img src="https://s2.loli.net/2022/02/06/1dN9M8ahreBfbOA.jpg" alt="gggg2.png"></p>
+]]></content>
+      <categories>
+        <category>原神</category>
+      </categories>
+      <tags>
+        <tag>原神</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo常用语法</title>
+    <url>/2022/01/27/yufa/</url>
+    <content><![CDATA[<h1 id="一、Markdown基础语法"><a href="#一、Markdown基础语法" class="headerlink" title="一、Markdown基础语法"></a>一、Markdown基础语法</h1><h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
+<h2 id="2-字体"><a href="#2-字体" class="headerlink" title="2.字体"></a>2.字体</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*倾斜字体*  </span><br><span class="line">**加粗字体**  </span><br><span class="line">***加粗倾斜字***    </span><br><span class="line">~~这是加删除线的文字~~  </span><br></pre></td></tr></table></figure>
+<h2 id="3-引用"><a href="#3-引用" class="headerlink" title="3.引用"></a>3.引用</h2><figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&gt;引用</span><br><span class="line">&gt;&gt;引用</span><br><span class="line">&gt;&gt;&gt;引用 </span><br></pre></td></tr></table></figure>
+<h2 id="4-分割线"><a href="#4-分割线" class="headerlink" title="4.分割线"></a>4.分割线</h2><p>三个或者三个以上的<code>-</code>或者<code>*</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">***</span><br></pre></td></tr></table></figure>
+<h2 id="5-引用图片"><a href="#5-引用图片" class="headerlink" title="5.引用图片"></a>5.引用图片</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![tianqi.png图片名字](https://s2.loli.net/2022/01/27/ObDleJL1CUgoPHx.png图片链接)</span><br></pre></td></tr></table></figure>
+<h2 id="6-超链接"><a href="#6-超链接" class="headerlink" title="6.超链接"></a>6.超链接</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[超链接名字](超链接地址 &quot;超链接title&quot;)   title可加可不加  </span><br></pre></td></tr></table></figure>
+<h2 id="7-列表"><a href="#7-列表" class="headerlink" title="7.列表"></a>7.列表</h2><h2 id="7-1-无序列表"><a href="#7-1-无序列表" class="headerlink" title="7.1 无序列表"></a>7.1 无序列表</h2><figure class="highlight plaintext"><figcaption><span>+ * ```都可以使用</span></figcaption><table><tr><td class="code"><pre><span class="line">```json</span><br><span class="line">- 列表内容  </span><br><span class="line">+ 列表内容</span><br><span class="line">* 列表内容  </span><br><span class="line">注意：- + * 跟内容之间都要有一个空格  </span><br></pre></td></tr></table></figure>
+<h2 id="7-2-有序列表"><a href="#7-2-有序列表" class="headerlink" title="7.2 有序列表"></a>7.2 有序列表</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 列表内容  </span><br><span class="line">2. 列表内容  </span><br><span class="line">3. 列表内容   </span><br><span class="line">   注意空格</span><br></pre></td></tr></table></figure>
+<h2 id="7-3-列表嵌套"><a href="#7-3-列表嵌套" class="headerlink" title="7.3 列表嵌套"></a>7.3 列表嵌套</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* 嵌套   </span><br><span class="line">    * 嵌套</span><br><span class="line">        * 嵌套</span><br><span class="line">            1. 嵌套</span><br><span class="line">            2. 嵌套</span><br><span class="line">            3. 嵌套</span><br></pre></td></tr></table></figure>
+<h2 id="8-表格"><a href="#8-表格" class="headerlink" title="8. 表格"></a>8. 表格</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">表头|表头|表头</span><br><span class="line">---|:--:|---:</span><br><span class="line">内容|内容|内容</span><br><span class="line">内容|内容|内容</span><br><span class="line">第二行分割表头和内容。</span><br><span class="line">-有一个就行，为了对齐,可以多加几个;</span><br><span class="line">文字默认居左</span><br><span class="line">-两边加：表示文字居中;</span><br><span class="line">-右边加：表示文字居右。  </span><br></pre></td></tr></table></figure>
+<h2 id="9-代码"><a href="#9-代码" class="headerlink" title="9.代码"></a>9.代码</h2><h2 id="单行代码"><a href="#单行代码" class="headerlink" title="单行代码"></a>单行代码</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">``` 代码内容 ```</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>疫情(结束了)</title>
+    <url>/2022/12/01/yiq/</url>
+    <content><![CDATA[<p>终于结束了，清晰认识病毒的可怕。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>原神私服搭建教程(深渊版丢弃过期)</title>
+    <url>/2022/05/01/yuanshen/</url>
+    <content><![CDATA[<h1 id="原神私服搭建（成果演示）"><a href="#原神私服搭建（成果演示）" class="headerlink" title="原神私服搭建（成果演示）"></a>原神私服搭建（成果演示）</h1><p><img src="https://s2.loli.net/2022/05/01/mKMbQYEZtp4aC21.png" alt="123123.png"><br><img src="https://s2.loli.net/2022/08/02/snGTy4L2YtOSgDm.png" alt="2342632414.png"></p>
+<h2 id="步骤一"><a href="#步骤一" class="headerlink" title="步骤一"></a>步骤一</h2><p><a href="http://nbnb.yamatu.xyz:5212/s/0Ds7" target="_blank">JAVA8下载注意这里是老版本jdk1.8.0_202</a>:<br>密码：6666<br><a href="http://nbnb.yamatu.xyz:5212/s/XDfx" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><a href="https://blog.csdn.net/sun_junkai/article/details/85635039/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.pc_relevant_default&spm=1001.2101.3001.4242.1&utm_relevant_index=3" target="_blank">配置环境变量</a>:</p>
+<blockquote>
+<blockquote>
+<p>注意这里配置环境变量时候要删除以前版本和与其冲突的jre</p>
+</blockquote>
+</blockquote>
+<h2 id="步骤二"><a href="#步骤二" class="headerlink" title="步骤二"></a>步骤二</h2><p>部分详细操作在压缩包中，请自行体会。</p>
+<h2 id="步骤三"><a href="#步骤三" class="headerlink" title="步骤三"></a>步骤三</h2><blockquote>
+<blockquote>
+<p>你需要做的是打开地址转发在地址转发中输入,运行说明文档里面有的文件，那行代码不全替换为下面的。Genshin EMU（最新服务端包含自动刷怪 修复卡池 修复部分副本）</p>
+</blockquote>
+</blockquote>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* Original script by NicknameGG, modified for Grasscutter by contributors. */</span></span><br><span class="line">import System;</span><br><span class="line">import System.Windows.Forms;</span><br><span class="line">import Fiddler;</span><br><span class="line">import System.Text.RegularExpressions;</span><br><span class="line">var list = [</span><br><span class="line">    <span class="string">&quot;https://api-os-takumi.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-api-os-static.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk-os.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://dispatchosglobal.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://osusadispatch.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://account.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://log-upload-os.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://dispatchcntest.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://devlog-upload.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://webstatic.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://log-upload.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://api-beta-sdk.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://api-beta-sdk-os.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://cnbeta01dispatch.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://dispatchcnglobal.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://cnbeta02dispatch.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://sdk-os-static.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://webstatic-sea.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://webstatic-sea.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk-os-static.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://sdk-os-static.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://api-account-os.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk-os.hoyoverse.com/&quot;</span> <span class="comment">// Line 24</span></span><br><span class="line">    ];</span><br><span class="line">class Handlers</span><br><span class="line">&#123;</span><br><span class="line">    static function OnBeforeRequest(oS: Session) &#123;</span><br><span class="line">        var active = true;</span><br><span class="line">        if(active) &#123;</span><br><span class="line">            if(oS.uriContains(<span class="attr">&quot;http://overseauspider.yuanshen.com:8181/log&quot;</span>))&#123;</span><br><span class="line">                oS.oRequest.FailSession(404, <span class="attr">&quot;Blocked&quot;</span>, <span class="attr">&quot;yourmom&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            for(var i = <span class="number">0</span>; i &lt; <span class="number">24</span> ;i++) &#123;</span><br><span class="line">                if(oS.uriContains(list[i])) &#123;</span><br><span class="line">                    oS.host = <span class="attr">&quot;localhost&quot;</span>; <span class="comment">// This can also be replaced with another IP address.</span></span><br><span class="line">                    break;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>替换好了后直接打开你这个文件下下的原神，<code>E:\Genshin Impact\Genshin Impact Game</code> 直接启动后就可以了<br>登录界面密码随便乱输入就行了</p>
+<h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><ol>
+<li>地址转发.bat保持开启状态</li>
+<li>启动服务.bat后如果出现报错八九不离十是java版本问题，治理建议直接翻一下报错代码。</li>
+<li>登录界面密码随便乱输入就行了</li>
+<li>地址转发.bat和启动服务.bat要保持开启状态</li>
+</ol>
+<h2 id="对好友使用代码"><a href="#对好友使用代码" class="headerlink" title="对好友使用代码"></a>对好友使用代码</h2><p>获取物品<br><code>/give uid 物品id 数量(这里uid也可以不要)</code><br>直接CTRL+F搜你要的物品</p>
+]]></content>
+      <categories>
+        <category>原神</category>
+      </categories>
+      <tags>
+        <tag>原神</tag>
       </tags>
   </entry>
   <entry>
@@ -310,202 +645,6 @@
 ]]></content>
       <tags>
         <tag>chatgptweb</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Golang学习笔记(1)</title>
-    <url>/2023/08/04/golang1/</url>
-    <content><![CDATA[<h1 id="学习Golang语言中"><a href="#学习Golang语言中" class="headerlink" title="学习Golang语言中"></a>学习Golang语言中</h1><h2 id="什么是Golang语言？"><a href="#什么是Golang语言？" class="headerlink" title="什么是Golang语言？"></a>什么是Golang语言？</h2><p>Golang,也称Go语言,是Google开发的一种编译型、静态型、并发型,并具有垃圾回收功能的编程语言。Go语言的一些关键特征包括:<br>简单性 - Go语言的语法简单明了,容易上手,非常适合快速开发。<br>高效性 - Go语言的编译速度很快,执行效率也很高,适合进行服务端开发。<br>并发支持 - Go语言内置了强大的并发支持,使用goroutine和channel可以很方便地编写并发程序。<br>垃圾回收 - Go语言有自己的垃圾回收机制,不需要程序员自己管理内存。<br>编译迅速 - 使用Go命令一键就可以快速编译Go语言程序。<br>丰富的标准库 - Go语言标准库覆盖面广,内置了许多实用的包。<br>简单的部署 - 可以将Go语言编译成一个可执行文件,部署很简单。<br>跨平台 - 支持跨平台编译,一个Go语言程序可以运行在不同的系统上。<br>总体来说,Go语言简单高效,非常适合用于服务器后端开发、网络编程、云计算、分布式系统等领域。它的并发处理能力非常强大,可以充分利用多核CPU。</p>
-<h2 id="为啥要学？"><a href="#为啥要学？" class="headerlink" title="为啥要学？"></a>为啥要学？</h2><p>这门语言对我来说还是非常有吸引力的所以想去学习学习，人称Go语言是C语言和python的结合体。</p>
-<h3 id="运用switch-case-来判断是否是基数或者偶数"><a href="#运用switch-case-来判断是否是基数或者偶数" class="headerlink" title="运用switch case 来判断是否是基数或者偶数"></a>运用switch case 来判断是否是基数或者偶数</h3><figure class="highlight go"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	<span class="keyword">var</span> score = <span class="number">8</span></span><br><span class="line">	<span class="keyword">switch</span> score &#123;</span><br><span class="line">	<span class="keyword">case</span> <span class="number">1</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">7</span>, <span class="number">9</span>:</span><br><span class="line">		fmt.Println(<span class="string">&quot;是奇数&quot;</span>)</span><br><span class="line">		<span class="comment">//go语言中的break可以省略但是java中又不可以</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">case</span> <span class="number">2</span>, <span class="number">4</span>, <span class="number">6</span>, <span class="number">8</span>, <span class="number">10</span>:</span><br><span class="line">		fmt.Println(<span class="string">&quot;是偶数&quot;</span>)</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-]]></content>
-  </entry>
-  <entry>
-    <title>hexo blog文件移植到其他电脑</title>
-    <url>/2022/03/16/hexoyizhi/</url>
-    <content><![CDATA[<h1 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先把你的blog文件下载下来存在你觉得不错的网盘上</p>
-<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>然后将网盘文件下载下来<br>放到新的设备上</p>
-<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>在设备上安装</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
-<p>安装hexo框架<br>node.js检查</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
-<p>安装git后</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;用户邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-<p>生成密钥<br>ssh文件打开后导出公钥<br>并且上传到gitee的密钥管理上面去。<br>然后就完成了</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>旅行日志</title>
-    <url>/2022/02/04/lvxing/</url>
-    <content><![CDATA[<div class="fj-gallery"><p><img src="https://s2.loli.net/2022/02/04/qaYoQOxzlNucKEJ.png"><br><img src="https://s2.loli.net/2022/02/04/flAimT6dLvjSbPO.png"><br><img src="https://s2.loli.net/2022/02/04/42lMtvT93Vk1PDh.png"><br><img src="https://s2.loli.net/2022/02/04/of5Yd3K8xQpChS2.png"></p>
-          </div>]]></content>
-      <categories>
-        <category>旅行</category>
-      </categories>
-      <tags>
-        <tag>play</tag>
-        <tag>旅行</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Minecraft红石向服(1.19.1)</title>
-    <url>/2022/01/27/mc1.19/</url>
-    <content><![CDATA[<h1 id="服务器介绍"><a href="#服务器介绍" class="headerlink" title="服务器介绍"></a>服务器介绍</h1><h2 id="本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。"><a href="#本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。" class="headerlink" title="本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:421953860 虽然本服务器没有开启白名单，但是还是希望你能加入该群。"></a>本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:<code>421953860</code> 虽然本服务器没有开启白名单，但是还是希望你能加入该群。</h2><p><a href="https://sm.ms/image/2knqpPOAVQtr96I" target="_blank"><img src="https://s2.loli.net/2022/08/16/2knqpPOAVQtr96I.png" ></a><br>出生点附件<br><a href="https://sm.ms/image/WIbZacGXjgzvwPt" target="_blank"><img src="https://s2.loli.net/2022/08/16/WIbZacGXjgzvwPt.png" ></a><br>yamatu的家<br><a href="https://sm.ms/image/R95NhgTaroCZxeu" target="_blank"><img src="https://s2.loli.net/2022/08/16/R95NhgTaroCZxeu.png" ></a><br>刷铁机<br><a href="https://sm.ms/image/UVM59Di36bJajwC" target="_blank"><img src="https://s2.loli.net/2022/08/16/UVM59Di36bJajwC.png" ></a><br>刷石机<br><a href="https://sm.ms/image/TQy4a35pv6efiOI" target="_blank"><img src="https://s2.loli.net/2022/08/16/TQy4a35pv6efiOI.png" ></a><br>山洞仓库<br><a href="https://sm.ms/image/dYTOnpuZc42Fo5h" target="_blank"><img src="https://s2.loli.net/2022/08/16/dYTOnpuZc42Fo5h.png" ></a><br>农场<br>服务器地址：</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>mc服</category>
-      </categories>
-      <tags>
-        <tag>生存服</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Minecraft红石向生存服(1.16.5已停止该存档)</title>
-    <url>/2022/01/27/mcvps/</url>
-    <content><![CDATA[<p><a href="https://www.fansmc.com/xuanchuan/1284/5809"><img src="https://www.fansmc.com/banner/1284/default/FFFFFF/FFFFFF/medium" /></a></p>
-<h1 id="服务器介绍"><a href="#服务器介绍" class="headerlink" title="服务器介绍"></a>服务器介绍</h1><h2 id="本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。"><a href="#本服务器使用E3配置，使用ddns动态解析公网IP地址。-ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。-如果你想加入我们的服务器，请加QQ群-421953860-虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。" class="headerlink" title="本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:421953860 虽然本服务器没有开启白名单，但是还是希望你能加入该群。没有正版验证，欢迎你的到来。 "></a>本服务器使用E3配置，使用ddns动态解析公网IP地址。(ping延迟大概40ms，不过有些时间会显示很高但也只是显示而已。)如果你想加入我们的服务器，请加QQ群:<code>421953860</code> 虽然本服务器没有开启白名单，但是还是希望你能加入该群。<code>没有正版验证，欢迎你的到来。</code> <img src="https://s2.loli.net/2022/04/05/5p3b6Maz1SodZCs.png" alt="SLD_G6DA_TSH74IYQ_S9_T.png"></h2><h3 id="在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了-你在本服务器的存档都会定时备份下来"><a href="#在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了-你在本服务器的存档都会定时备份下来" class="headerlink" title="在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了(你在本服务器的存档都会定时备份下来)"></a>在这个服务器里面你根本不需要担心腐竹跑路，除非机械硬盘坏掉了(你在本服务器的存档都会定时备份下来)</h3><h3 id="现阶段我们缺少会建筑的大佬，-o-￣▽￣-o你懂我意思的。（还不快进来！！！说的就是你！！！）"><a href="#现阶段我们缺少会建筑的大佬，-o-￣▽￣-o你懂我意思的。（还不快进来！！！说的就是你！！！）" class="headerlink" title="现阶段我们缺少会建筑的大佬，~ o(￣▽￣)o你懂我意思的。（还不快进来！！！说的就是你！！！）"></a>现阶段我们缺少会建筑的大佬，~ o(<em>￣▽￣</em>)o你懂我意思的。（还不快进来！！！说的就是你！！！）</h3><p>出生点场景，以及正在设计的红石电子钟。<br><img src="https://s2.loli.net/2022/04/05/ZKbRmvH7iVqft2C.png" alt="_D8B2E___3X3M2OJ@~R.png"><br><img src="https://s2.loli.net/2022/04/05/4d9IrUo6SkuCle5.png" alt="_D8B2DJO5E.png"><br><img src="https://s2.loli.net/2022/04/05/JfP2KVyGowabgYT.png" alt="_D8B2DJO5E_.png"><br>刷怪塔（上空加树场）<br><img src="https://s2.loli.net/2022/04/05/hYvujX849FNaESI.png" alt="B192_~~O_SWX_K_B76P7XFK.png"><br>猪人塔<br><img src="https://s2.loli.net/2022/04/05/oOLwpAUXa4K5TfF.png" alt="X9XWVSN___7@PWFQ6FF7_K.png"><br>女巫塔</p>
-<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><h2 id="还有更多的景观没有展示出来"><a href="#还有更多的景观没有展示出来" class="headerlink" title="还有更多的景观没有展示出来"></a>还有更多的景观没有展示出来</h2><h2 id="版本1-16-5"><a href="#版本1-16-5" class="headerlink" title="版本1.16.5"></a>版本<code>1.16.5</code></h2><h2 id="以下是服务器地址"><a href="#以下是服务器地址" class="headerlink" title="以下是服务器地址"></a>以下是服务器地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nbnb.yamatu.xyz</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>mc服</category>
-      </categories>
-      <tags>
-        <tag>生存服</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>butterfly-giter聊天室</title>
-    <url>/2022/01/26/pinglun/</url>
-    <content><![CDATA[<h2 id="Gitter-注册"><a href="#Gitter-注册" class="headerlink" title="Gitter 注册"></a>Gitter 注册</h2><p>先去 Gitter 注册一个账号，可以直接使用 GitHub 登录</p>
-<p><a href="https://gitter.im/" title="点这个">https://gitter.im/</a></p>
-<p>然后先创建一个 <code>Community</code> 社区，再创建一个 Room 聊天室（创建聊天室时 community 选择刚创建的即可）</p>
-<p>比如我创建了一个<code>community</code>叫<code>ednovas</code>, 然后创建了一个叫 ChatRoom 的聊天室。这个要记住，下一步用到。<br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="sadf.png"></p>
-<ol>
-<li>然后创建相应的<code>Create community</code><br><img src="https://s2.loli.net/2022/08/02/hZcALPrqNgzFjkp.png" alt="bffgr.png"></li>
-<li>在创建对应仓库的<code>Create room</code><br><img src="https://s2.loli.net/2022/08/02/MfDrZqtA2UjdBwW.png" alt="abfht.png"></li>
-<li>修改<code>主题配置文件</code><br><img src="https://s2.loli.net/2022/08/02/vXrCdIFjQ8G3oiM.png" alt="adsfc.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitter</span><br><span class="line"># https://gitter.im/</span><br><span class="line">gitter:</span><br><span class="line">  enable: true</span><br><span class="line">  room: #填写你创建的community或者room名称</span><br></pre></td></tr></table></figure>
-<h2 id="其他选择"><a href="#其他选择" class="headerlink" title="其他选择"></a>其他选择</h2>本博客为了方便选择了 Gitter 在线聊天工具，界面简洁但是不太美观。如果想要好看的话，推荐选择 tidio 在线聊天工具。它可以自行配置样式，如图：<br><img src="https://s2.loli.net/2022/08/02/ztLPRVZeNvjqXnD.png" alt="jjjjr.png"><br><img src="https://s2.loli.net/2022/08/02/b9aPuTFVU1jnYqB.png" alt="ffe123.png"></li>
-</ol>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>评论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>咸鱼翻身计划</title>
-    <url>/2023/06/16/xianyujihua/</url>
-    <content><![CDATA[<h1 id="咸鱼翻身计划"><a href="#咸鱼翻身计划" class="headerlink" title="咸鱼翻身计划"></a>咸鱼翻身计划</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>高三读完，深知自己这么多年来困于学校，即对校外的世界不了解，也对自己的人生无规划，活脱脱的像一条咸鱼。</p>
-<p>这个暑假有将近三个月时间，是虚度这三个月，还是充分利用这三个月时间提升自己、拓展视野呢？我想后者还是好于前者。未来飘忽不定，前路茫茫未知。我需要知识武装自己，急需技能拥抱未来。</p>
-<p>于是，在借鉴逐日计划后，我和哥哥制定了咸鱼翻身计划。希望这项计划能将我们洗刷，让我们成长！</p>
-<p>2023年6月16日     高考已过，未来在即</p>
-<h2 id="计划内容"><a href="#计划内容" class="headerlink" title="计划内容"></a>计划内容</h2><ol>
-<li>剪辑</li>
-<li>表格</li>
-<li>拍摄</li>
-<li>健身<ul>
-<li>am 起床 <ul>
-<li>在家无氧</li>
-<li>6:30am 出去无氧</li>
-</ul>
-</li>
-<li>am 买菜回家</li>
-</ul>
-</li>
-<li>乐器<ul>
-<li>博：重拾吉他 </li>
-<li>炜：初见吉他</li>
-</ul>
-</li>
-<li>前端，网站</li>
-<li>车</li>
-<li>画图，设计<ul>
-<li>平面设计</li>
-<li>3D设计</li>
-</ul>
-</li>
-<li>适度游戏，练字人生<ul>
-<li>把字写的像人写的，把人能写出来的字写出来</li>
-</ul>
-</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>原神CD翻录</title>
-    <url>/2022/02/06/yuansheng/</url>
-    <content><![CDATA[<p><a href="http://nbnb.yamatu.xyz:5212/s/G6Ug" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><img src="https://s2.loli.net/2022/02/06/jQ2noSAFVeW8vRO.jpg" alt="gggg.png"><br><img src="https://s2.loli.net/2022/02/06/1dN9M8ahreBfbOA.jpg" alt="gggg2.png"></p>
-]]></content>
-      <categories>
-        <category>原神</category>
-      </categories>
-      <tags>
-        <tag>原神</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>疫情(结束了)</title>
-    <url>/2022/12/01/yiq/</url>
-    <content><![CDATA[<p>终于结束了，清晰认识病毒的可怕。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>原神私服搭建教程(深渊版丢弃过期)</title>
-    <url>/2022/05/01/yuanshen/</url>
-    <content><![CDATA[<h1 id="原神私服搭建（成果演示）"><a href="#原神私服搭建（成果演示）" class="headerlink" title="原神私服搭建（成果演示）"></a>原神私服搭建（成果演示）</h1><p><img src="https://s2.loli.net/2022/05/01/mKMbQYEZtp4aC21.png" alt="123123.png"><br><img src="https://s2.loli.net/2022/08/02/snGTy4L2YtOSgDm.png" alt="2342632414.png"></p>
-<h2 id="步骤一"><a href="#步骤一" class="headerlink" title="步骤一"></a>步骤一</h2><p><a href="http://nbnb.yamatu.xyz:5212/s/0Ds7" target="_blank">JAVA8下载注意这里是老版本jdk1.8.0_202</a>:<br>密码：6666<br><a href="http://nbnb.yamatu.xyz:5212/s/XDfx" target="_blank">这里是原神私服下载</a>:<br>密码：6666<br><a href="https://blog.csdn.net/sun_junkai/article/details/85635039/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.pc_relevant_default&spm=1001.2101.3001.4242.1&utm_relevant_index=3" target="_blank">配置环境变量</a>:</p>
-<blockquote>
-<blockquote>
-<p>注意这里配置环境变量时候要删除以前版本和与其冲突的jre</p>
-</blockquote>
-</blockquote>
-<h2 id="步骤二"><a href="#步骤二" class="headerlink" title="步骤二"></a>步骤二</h2><p>部分详细操作在压缩包中，请自行体会。</p>
-<h2 id="步骤三"><a href="#步骤三" class="headerlink" title="步骤三"></a>步骤三</h2><blockquote>
-<blockquote>
-<p>你需要做的是打开地址转发在地址转发中输入,运行说明文档里面有的文件，那行代码不全替换为下面的。Genshin EMU（最新服务端包含自动刷怪 修复卡池 修复部分副本）</p>
-</blockquote>
-</blockquote>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* Original script by NicknameGG, modified for Grasscutter by contributors. */</span></span><br><span class="line">import System;</span><br><span class="line">import System.Windows.Forms;</span><br><span class="line">import Fiddler;</span><br><span class="line">import System.Text.RegularExpressions;</span><br><span class="line">var list = [</span><br><span class="line">    <span class="string">&quot;https://api-os-takumi.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-api-os-static.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk-os.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://dispatchosglobal.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://osusadispatch.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://account.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://log-upload-os.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://dispatchcntest.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://devlog-upload.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://webstatic.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://log-upload.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://api-beta-sdk.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://api-beta-sdk-os.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://cnbeta01dispatch.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://dispatchcnglobal.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://cnbeta02dispatch.yuanshen.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://sdk-os-static.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://webstatic-sea.mihoyo.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://webstatic-sea.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk-os-static.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://sdk-os-static.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://api-account-os.hoyoverse.com/&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://hk4e-sdk-os.hoyoverse.com/&quot;</span> <span class="comment">// Line 24</span></span><br><span class="line">    ];</span><br><span class="line">class Handlers</span><br><span class="line">&#123;</span><br><span class="line">    static function OnBeforeRequest(oS: Session) &#123;</span><br><span class="line">        var active = true;</span><br><span class="line">        if(active) &#123;</span><br><span class="line">            if(oS.uriContains(<span class="attr">&quot;http://overseauspider.yuanshen.com:8181/log&quot;</span>))&#123;</span><br><span class="line">                oS.oRequest.FailSession(404, <span class="attr">&quot;Blocked&quot;</span>, <span class="attr">&quot;yourmom&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            for(var i = <span class="number">0</span>; i &lt; <span class="number">24</span> ;i++) &#123;</span><br><span class="line">                if(oS.uriContains(list[i])) &#123;</span><br><span class="line">                    oS.host = <span class="attr">&quot;localhost&quot;</span>; <span class="comment">// This can also be replaced with another IP address.</span></span><br><span class="line">                    break;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<p>替换好了后直接打开你这个文件下下的原神，<code>E:\Genshin Impact\Genshin Impact Game</code> 直接启动后就可以了<br>登录界面密码随便乱输入就行了</p>
-<h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><ol>
-<li>地址转发.bat保持开启状态</li>
-<li>启动服务.bat后如果出现报错八九不离十是java版本问题，治理建议直接翻一下报错代码。</li>
-<li>登录界面密码随便乱输入就行了</li>
-<li>地址转发.bat和启动服务.bat要保持开启状态</li>
-</ol>
-<h2 id="对好友使用代码"><a href="#对好友使用代码" class="headerlink" title="对好友使用代码"></a>对好友使用代码</h2><p>获取物品<br><code>/give uid 物品id 数量(这里uid也可以不要)</code><br>直接CTRL+F搜你要的物品</p>
-]]></content>
-      <categories>
-        <category>原神</category>
-      </categories>
-      <tags>
-        <tag>原神</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo常用语法</title>
-    <url>/2022/01/27/yufa/</url>
-    <content><![CDATA[<h1 id="一、Markdown基础语法"><a href="#一、Markdown基础语法" class="headerlink" title="一、Markdown基础语法"></a>一、Markdown基础语法</h1><h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
-<h2 id="2-字体"><a href="#2-字体" class="headerlink" title="2.字体"></a>2.字体</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*倾斜字体*  </span><br><span class="line">**加粗字体**  </span><br><span class="line">***加粗倾斜字***    </span><br><span class="line">~~这是加删除线的文字~~  </span><br></pre></td></tr></table></figure>
-<h2 id="3-引用"><a href="#3-引用" class="headerlink" title="3.引用"></a>3.引用</h2><figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&gt;引用</span><br><span class="line">&gt;&gt;引用</span><br><span class="line">&gt;&gt;&gt;引用 </span><br></pre></td></tr></table></figure>
-<h2 id="4-分割线"><a href="#4-分割线" class="headerlink" title="4.分割线"></a>4.分割线</h2><p>三个或者三个以上的<code>-</code>或者<code>*</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">***</span><br></pre></td></tr></table></figure>
-<h2 id="5-引用图片"><a href="#5-引用图片" class="headerlink" title="5.引用图片"></a>5.引用图片</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![tianqi.png图片名字](https://s2.loli.net/2022/01/27/ObDleJL1CUgoPHx.png图片链接)</span><br></pre></td></tr></table></figure>
-<h2 id="6-超链接"><a href="#6-超链接" class="headerlink" title="6.超链接"></a>6.超链接</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[超链接名字](超链接地址 &quot;超链接title&quot;)   title可加可不加  </span><br></pre></td></tr></table></figure>
-<h2 id="7-列表"><a href="#7-列表" class="headerlink" title="7.列表"></a>7.列表</h2><h2 id="7-1-无序列表"><a href="#7-1-无序列表" class="headerlink" title="7.1 无序列表"></a>7.1 无序列表</h2><figure class="highlight plaintext"><figcaption><span>+ * ```都可以使用</span></figcaption><table><tr><td class="code"><pre><span class="line">```json</span><br><span class="line">- 列表内容  </span><br><span class="line">+ 列表内容</span><br><span class="line">* 列表内容  </span><br><span class="line">注意：- + * 跟内容之间都要有一个空格  </span><br></pre></td></tr></table></figure>
-<h2 id="7-2-有序列表"><a href="#7-2-有序列表" class="headerlink" title="7.2 有序列表"></a>7.2 有序列表</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 列表内容  </span><br><span class="line">2. 列表内容  </span><br><span class="line">3. 列表内容   </span><br><span class="line">   注意空格</span><br></pre></td></tr></table></figure>
-<h2 id="7-3-列表嵌套"><a href="#7-3-列表嵌套" class="headerlink" title="7.3 列表嵌套"></a>7.3 列表嵌套</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* 嵌套   </span><br><span class="line">    * 嵌套</span><br><span class="line">        * 嵌套</span><br><span class="line">            1. 嵌套</span><br><span class="line">            2. 嵌套</span><br><span class="line">            3. 嵌套</span><br></pre></td></tr></table></figure>
-<h2 id="8-表格"><a href="#8-表格" class="headerlink" title="8. 表格"></a>8. 表格</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">表头|表头|表头</span><br><span class="line">---|:--:|---:</span><br><span class="line">内容|内容|内容</span><br><span class="line">内容|内容|内容</span><br><span class="line">第二行分割表头和内容。</span><br><span class="line">-有一个就行，为了对齐,可以多加几个;</span><br><span class="line">文字默认居左</span><br><span class="line">-两边加：表示文字居中;</span><br><span class="line">-右边加：表示文字居右。  </span><br></pre></td></tr></table></figure>
-<h2 id="9-代码"><a href="#9-代码" class="headerlink" title="9.代码"></a>9.代码</h2><h2 id="单行代码"><a href="#单行代码" class="headerlink" title="单行代码"></a>单行代码</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">``` 代码内容 ```</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo语法</tag>
       </tags>
   </entry>
 </search>
